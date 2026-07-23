@@ -53,21 +53,6 @@ def evaluate_scgpt_predictions(pred_dir, data_dir, dataset):
     return results
 
 
-def interface_ablation(pred_dir_original, pred_dir_global_emb, data_dir, dataset):
-    """Compare original scGPT vs global-embedding-swap ablation.
-
-    The global embedding swap replaces per-gene flags with a single
-    global perturbation embedding shared across all genes. If pref
-    is similar, the per-gene flags carry no perturbation-specific info.
-    """
-    log.info("\n=== Interface ablation: per-gene flags vs global embedding ===")
-
-    for label, path in [("Original", pred_dir_original),
-                        ("Global swap", pred_dir_global_emb)]:
-        if path and Path(path).exists():
-            res = evaluate_scgpt_predictions(path, data_dir, dataset)
-            if res:
-                log.info(f"  {label}: pref={np.mean([r['pref'] for r in res]):.4f}")
 
 
 def main():
