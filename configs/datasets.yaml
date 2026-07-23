@@ -1,0 +1,103 @@
+# Dataset and model configuration for perturbation-benchmark.
+# Override paths via command-line args or environment variables.
+
+datasets:
+  replogle_k562:
+    name: K562
+    source: Replogle et al. 2022
+    raw_url: https://plus.figshare.com/articles/dataset/Replogle_K562/21999546
+    n_hvgs: 2000
+    ctrl_label: non-targeting
+    gene_col: gene
+
+  replogle_rpe1:
+    name: RPE1
+    source: Replogle et al. 2022
+    raw_url: https://plus.figshare.com/articles/dataset/Replogle_RPE1/21999546
+    n_hvgs: 2000
+    ctrl_label: non-targeting
+    gene_col: gene
+
+  nadig_hepg2:
+  name: HepG2
+  source: Nadig et al. 2024
+  geo_accession: GSE264667
+  raw_filename: GSE264667_hepg2_raw_singlecell_01.h5ad
+  raw_url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE264nnn/GSE264667/suppl/GSE264667%5Fhepg2%5Fraw%5Fsinglecell%5F01.h5ad
+  n_hvgs: 2000
+  ctrl_label: non-targeting
+  gene_col: gene
+
+  nadig_jurkat:
+    name: Jurkat
+    source: Nadig et al. 2024
+    geo_accession: GSE264667
+    raw_filename: GSE264667_jurkat_raw_singlecell_01.h5ad
+    raw_url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE264nnn/GSE264667/suppl/GSE264667%5Fjurkat%5Fraw%5Fsinglecell%5F01.h5ad
+    n_hvgs: 2000
+    ctrl_label: non-targeting
+    gene_col: gene
+
+  norman:
+    name: Norman K562
+    source: Norman et al. 2019
+    geo_accession: GSE133344
+    filename: NormanWeissman2019_filtered.h5ad
+    raw_url: https://zenodo.org/records/13350497/files/NormanWeissman2019_filtered.h5ad?download=1
+    n_hvgs: 2000
+    ctrl_label: control
+    gene_col: perturbation
+    has_doubles: true
+    double_delimiter: "+"
+
+  tahoe:
+    name: Tahoe-100M
+    source: Lotfollahi et al. 2025
+    n_hvgs: 2000
+    ctrl_label: DMSO_TF
+    cell_lines: [C32, HOP62, HepG2/C3A, Hs 766T, PANC-1]
+    n_doses: 3
+
+depmap:
+  source: DepMap 2024Q2
+  raw_url: https://depmap.org/portal/download/
+  file: CRISPRGeneEffect.csv
+  n_cell_lines: 1208
+
+models:
+  ridge:
+    alpha: 10
+    pca_components: 50
+
+  mlp:
+    hidden_dims: [256, 256]
+    lr: 0.0005
+    weight_decay: 0.00001
+    epochs: 400
+    batch_size: 64
+    scheduler: cosine
+    n_seeds: 3
+    dropout: 0.0
+
+  morph:
+    repo: https://github.com/uhlerlab/MORPH
+    epochs: 100
+    batch_size: 32
+    MMD_sigma: 1500
+    Gamma1: 1.0
+    reconstruction_loss: mse
+    tolerance_epochs: 20
+
+  state:
+    repo: https://https://github.com/ArcInstitute/state
+    n_seeds: 5
+
+  scgpt:
+    repo: https://github.com/bowang-lab/scGPT
+    checkpoint: scGPT_human
+
+evaluation:
+  primary_metric: pref
+  secondary_metrics: [std_r, centroid_accuracy, median_rank]
+  n_folds: 5
+  min_cells_per_pert: 5

@@ -1,0 +1,33 @@
+# Data (downloaded, not committed)
+data/raw/
+data/processed/
+*.h5ad
+*.pkl
+CRISPRGeneEffect.csv
+
+# Results (generated)
+results/
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Figures (generated)
+figures/figure*/
+*.svg
+*.pdf
+
+# SLURM
+slurm/*.out
+slurm/*.err
+
+# External repos
+external/
+
+# System
+.DS_Store
+*.swp

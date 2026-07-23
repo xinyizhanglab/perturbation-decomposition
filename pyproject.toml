@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "perturbation-decomposition"
+version = "0.1.0"
+description = "Benchmark for perturbation response prediction methods"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.12",
+    "scikit-learn>=1.4",
+    "pandas>=2.1",
+    "anndata>=0.10",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+gpu = ["torch>=2.2"]
+full = ["torch>=2.2", "scanpy>=1.10", "mygene", "rdkit"]
