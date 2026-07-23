@@ -2,7 +2,7 @@
 
 This repository contains code for analyzing single-cell perturbation prediction as a response component identification problem.
 
-The analyses decompose perturbation responses into shared templates, perturbation-specific residuals, conserved perturbation components, and cell-line-by-perturbation interactions. The repository also includes code for DepMap-based prediction, cross-cell-line transfer, combinatorial perturbation prediction on Norman et al., chemical perturbation transfer in Tahoe-100M, pathway-level evaluation, and prediction component attribution.
+The analyses decompose perturbation responses into shared templates, perturbation-specific residuals, conserved perturbation components, and cell-line-by-perturbation interactions. The repository also includes code for DepMap-based prediction, cross-cell-line transfer, combinatorial perturbation prediction, chemical perturbation transfer in Tahoe-100M, pathway-level evaluation, and prediction component attribution.
 
 This repository is under active development for manuscript reproducibility.
 
