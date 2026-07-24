@@ -1,15 +1,15 @@
-#  Response component identification for perturbation prediction
+#  Response decomposition enables biologically aligned generalization to unseen perturbations and cellular contexts
 
-This repository contains code for analyzing single-cell perturbation prediction as a response component identification problem.
+This repository contains code for analyzing single-cell perturbation prediction as a response component prediction problem.
 
-The analyses decompose perturbation responses into shared templates, perturbation-specific residuals, conserved perturbation components, and cell-line-by-perturbation interactions. The repository also includes code for DepMap-based prediction, cross-cell-line transfer, combinatorial perturbation prediction, chemical perturbation transfer in Tahoe-100M, pathway-level evaluation, and prediction component attribution.
+The analyses decompose perturbation responses into shared effects, perturbation-specific residuals, conserved perturbation components, and cell-line-by-perturbation interactions. The repository also includes code for DepMap-based prediction, cross-cell-line transfer, combinatorial perturbation prediction, chemical perturbation transfer in Tahoe-100M, pathway-level evaluation, and prediction component attribution.
 
 This repository is under active development for manuscript reproducibility.
 
 
-> **Want the full story?**
+> **Check out the preprint**
 >
-> This repository contains the reproducibility code. For the biological motivation, full results and interpretation, read the paper:  
+> This repository contains the reproducibility code. For the biological motivation, full results and interpretation, you can read the paper here:  
 > TBD
 
 ## Main analyses
@@ -138,14 +138,14 @@ python3 -m benchmarks.pathway_prediction \
 |-------|------|----------|-----------|----------|------|
 | Ridge | Linear | DepMap PCA | Yes | Yes | `models/ridge.py` |
 | MLP | Neural (2 hidden) | DepMap PCA | Yes | Yes | `models/ridge.py` |
-| MORPH | Conditional VAE | DepMap (encoder) | Yes | Yes | `models/morph/` |
-| STATE | Set-attention | One-hot | No | Yes | `models/state/` |
-| scGPT | Transformer | Pretrained embeddings | Yes | No | `models/scgpt/` |
+| MORPH | Conditional VAE | DepMap (encoder) | Yes | Yes | `models/model_scripts/` |
+| STATE | Set-attention | One-hot | No | Yes | `models/model_scripts/` |
+| scGPT | Transformer | Pretrained embeddings | Yes | No | `models/model_scripts/` |
 
 
 ### External model setup
 
-MORPH, STATE, and scGPT require their original codebases.
+MORPH, STATE, and scGPT require their original codebases. Training and evaluation code is provided.
 
 
 ## Metrics

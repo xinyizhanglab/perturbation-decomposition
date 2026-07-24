@@ -34,34 +34,6 @@ def pref(true_deltas, pred_deltas, train_centroid):
     ]))
 
 
-def centroid_accuracy(true_deltas, pred_deltas, pert_names):
-    """Fraction of perturbations whose predicted centroid is closest
-    to the correct true centroid (1-NN classification)."""
-    n = len(pert_names)
-    if n < 2:
-        return 0.0
-    correct = 0
-    for i in range(n):
-        dists = [np.linalg.norm(pred_deltas[i] - true_deltas[j]) for j in range(n)]
-        if np.argmin(dists) == i:
-            correct += 1
-    return correct / n
-
-
-def median_rank(true_deltas, pred_deltas, pert_names):
-    """Median rank of the correct perturbation when sorting by distance
-    to the predicted centroid."""
-    n = len(pert_names)
-    if n < 2:
-        return n
-    ranks = []
-    for i in range(n):
-        dists = [np.linalg.norm(pred_deltas[i] - true_deltas[j]) for j in range(n)]
-        rank = np.argsort(dists).tolist().index(i) + 1
-        ranks.append(rank)
-    return float(np.median(ranks))
-
-
 def evaluate_predictions(npz_path):
     """Load a predictions.npz and compute all metrics."""
     d = np.load(npz_path, allow_pickle=True)
