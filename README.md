@@ -199,8 +199,6 @@ perturbation-decomposition/
 
 ## Citation
 
-## Citation
-
 If you use this work, please cite:
 
 Molina, Alexis, and Xinyi Zhang. “Perturbation response decomposition enables biologically aligned generalization to unseen perturbations and cellular contexts.” *bioRxiv* (2026): 2026-07.
