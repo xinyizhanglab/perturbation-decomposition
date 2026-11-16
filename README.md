@@ -10,7 +10,7 @@ This repository is under active development for manuscript reproducibility.
 > **Check out the preprint**
 >
 > This repository contains the reproducibility code. For the biological motivation, full results and interpretation, you can read the paper here:  
-> TBD
+> https://www.biorxiv.org/content/10.64898/2026.07.24.740459v1
 
 ## Main analyses
 
@@ -27,7 +27,7 @@ This repository is under active development for manuscript reproducibility.
 
 ```bash
 # 1. Install
-git clone https://github.com/<org>/perturbation-decomposition
+git clone https://github.com/xinyizhanglab/perturbation-decomposition
 cd perturbation-decomposition
 conda env create -f environment.yml
 conda activate pertdecomp
@@ -49,7 +49,7 @@ print(evaluate_predictions('results/within_cl/ridge/k562/fold0/predictions.npz')
 
 ## Pre-computed results
 
-All predictions are included in `results/`. No retraining needed to reproduce figures or tables.
+All predictions are included in `results/`. No retraining needed to reproduce figures or tables. These can be run in any desktop computer.
 
 | Directory | Models | Seeds/Folds |
 |-----------|--------|-------------|
@@ -145,7 +145,7 @@ python3 -m benchmarks.pathway_prediction \
 
 ### External model setup
 
-MORPH, STATE, and scGPT require their original codebases. Training and evaluation code is provided.
+MORPH, STATE, and scGPT require their original codebases. Training and evaluation code is provided. Retraining these models can take up between 2 to 48 hours in a single Nvidia Blackwell GPU.
 
 
 ## Metrics
@@ -199,7 +199,21 @@ perturbation-decomposition/
 
 ## Citation
 
-TBD
+## Citation
+
+If you use this work, please cite:
+
+Molina, Alexis, and Xinyi Zhang. “Perturbation response decomposition enables biologically aligned generalization to unseen perturbations and cellular contexts.” *bioRxiv* (2026): 2026-07.
+
+```bibtex
+@article{Molina2026Perturbation,
+  author  = {Molina, Alexis and Zhang, Xinyi},
+  title   = {Perturbation response decomposition enables biologically aligned generalization to unseen perturbations and cellular contexts},
+  journal = {bioRxiv},
+  year    = {2026},
+  note    = {Preprint}
+}
+```
 
 ## License
 
