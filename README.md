@@ -36,7 +36,9 @@ DATA_DOWNLOADS=reproduction_files
 
 No separate data download is needed for the supported saved-figure commands.
 Large prediction, weight, and native-training files are optional and are not
-included in the source checkout.
+included in the source checkout. They are available in the
+[`rep4rev-v1` release](https://github.com/xinyizhanglab/perturbation-decomposition/releases/tag/rep4rev-v1).
+Download and usage instructions are provided below.
 
 Install the processed response data, DepMap features, and Hallmark gene sets.
 No model is needed. To regenerate figures from saved plotting data, skip this
