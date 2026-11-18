@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "repository": "xinyizhanglab/perturbation-decomposition",
+  "tag": "rep4rev-v1",
+  "split_part_bytes": 1992294400,
+  "assets": {
+    "analysis-v1.tar.gz": {
+      "size": 111382582,
+      "kind": "archive",
+      "sha256": "728caf22fdffed3d4646303845fa3031b275437053c24e57f7acfa24d0756cb4"
+    },
+    "analysis-v1.tar.gz.json": {
+      "size": 294,
+      "kind": "index",
+      "sha256": "b4837a8f52192f8f73bd3fa580203c912c044f957b530d3fe2e2c771d22054d1"
+    },
+    "inputs-biolord-v1.tar.gz": {
+      "size": 137213827,
+      "kind": "archive",
+      "sha256": "e35ff2f1b0257d00112e5dff180525322889175f31debad0977beb27b8e404b2"
+    },
+    "inputs-biolord-v1.tar.gz.json": {
+      "size": 306,
+      "kind": "index",
+      "sha256": "33e9499b3c4ae3635121fee068653616b3a61a533aff1cdc461e5c00ca9bf3c9"
+    },
+    "inputs-calibration-v1.tar.gz": {
+      "size": 1088134128,
+      "kind": "archive",
+      "sha256": "6daddbfb4681e3c2f36651f22d6ce298894bb836b3529a31f2a5c9c3a1681d8c"
+    },
+    "inputs-calibration-v1.tar.gz.json": {
+      "size": 315,
+      "kind": "index",
+      "sha256": "910eb67d70f03058e6e804bcee296cae2af4a000acc4d7aa2c677e7901e0ad10"
+    },
+    "inputs-genetic-v1.tar.gz.json": {
+      "size": 307,
+      "kind": "index",
+      "sha256": "6860d3f6a35a391ae5dc99647067966b374b88831b463cf3b9a1699867bf9bf9"
+    },
+    "inputs-genetic-v1.tar.gz.part-aaa": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "inputs-genetic-v1.tar.gz.part-aab": {
+      "size": 1080278893,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "inputs-morph-v1.tar.gz": {
+      "size": 941230944,
+      "kind": "archive",
+      "sha256": "1fbd5f76b8fc6f517f2738d0ee83c0ea3e6b601314f9bf901e2631d4b829cd05"
+    },
+    "inputs-morph-v1.tar.gz.json": {
+      "size": 302,
+      "kind": "index",
+      "sha256": "9a57fd1c706684e505ba4144f781ab62b63b5af2d5cfd6037e77a302b0e364fd"
+    },
+    "inputs-references-v1.tar.gz.json": {
+      "size": 313,
+      "kind": "index",
+      "sha256": "4b11e81dccc9ac1911e101750de7edb4b2ab29103946f253fb095284061619df"
+    },
+    "inputs-references-v1.tar.gz.part-aaa": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "inputs-references-v1.tar.gz.part-aab": {
+      "size": 431377907,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "inputs-scgpt-hepg2-v1.tar.gz": {
+      "size": 1343164381,
+      "kind": "archive",
+      "sha256": "471a94482c53ecd2b914842bfdffae15c2bb88a3c7821e2d3dec9c7d6b567132"
+    },
+    "inputs-scgpt-hepg2-v1.tar.gz.json": {
+      "size": 315,
+      "kind": "index",
+      "sha256": "fd1a693f1628aed73e1eb89ed4e1f5e3d3e0f0fed4bf574c3b3df0bb6cb8e1c0"
+    },
+    "inputs-scgpt-jurkat-v1.tar.gz.json": {
+      "size": 317,
+      "kind": "index",
+      "sha256": "7997df18a4fe63af978b7e35d65bd9c0ad61da115cf68b0a6dc0ff511f30726a"
+    },
+    "inputs-scgpt-jurkat-v1.tar.gz.part-aaa": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "inputs-scgpt-jurkat-v1.tar.gz.part-aab": {
+      "size": 291136082,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "inputs-scgpt-k562-v1.tar.gz.json": {
+      "size": 313,
+      "kind": "index",
+      "sha256": "46096e8d9ff03f82caa3660798bf1a940454b739f76303f8cccfb63df8e877d2"
+    },
+    "inputs-scgpt-k562-v1.tar.gz.part-aaa": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "inputs-scgpt-k562-v1.tar.gz.part-aab": {
+      "size": 457235902,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "inputs-scgpt-pretrained-v1.tar.gz": {
+      "size": 190488770,
+      "kind": "archive",
+      "sha256": "759a97b033a3c04ddd794aa28a97964e1fc124759706390687a04e33bd72358a"
+    },
+    "inputs-scgpt-pretrained-v1.tar.gz.json": {
+      "size": 324,
+      "kind": "index",
+      "sha256": "048dfdb2d7892c5481c16a0ff3cb09dbaaacd8fff29ab9c7c50257ff4ab49d77"
+    },
+    "inputs-scgpt-rpe1-v1.tar.gz.json": {
+      "size": 313,
+      "kind": "index",
+      "sha256": "bad237bca66e3c788eebeed94fb60d7ff1acd4b001c695a90d16957f4eee21bf"
+    },
+    "inputs-scgpt-rpe1-v1.tar.gz.part-aaa": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "inputs-scgpt-rpe1-v1.tar.gz.part-aab": {
+      "size": 200533256,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "inputs.json": {
+      "size": 7181,
+      "kind": "catalog",
+      "sha256": "4ad5780ecaf1c42ced12127ddeff5b418814317ef0b34cbbc8bc85a29d00027b"
+    },
+    "models-v1.tar.gz.json": {
+      "size": 292,
+      "kind": "index",
+      "sha256": "e869750a539db40f0bcf5ca1f4b22ef233e7c8f18cf3badc845adc3b92759e1c"
+    },
+    "models-v1.tar.gz.part-aaa": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "models-v1.tar.gz.part-aab": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "models-v1.tar.gz.part-aac": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "models-v1.tar.gz.part-aad": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "models-v1.tar.gz.part-aae": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "models-v1.tar.gz.part-aaf": {
+      "size": 1528461150,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "predictions-v1.tar.gz.json": {
+      "size": 301,
+      "kind": "index",
+      "sha256": "9f61dc3401584e2e5d2b23eb4086d32dc904b9ab60fc7ec264f252ddffd08cde"
+    },
+    "predictions-v1.tar.gz.part-aaa": {
+      "size": 1992294400,
+      "kind": "archive_part",
+      "sha256": null
+    },
+    "predictions-v1.tar.gz.part-aab": {
+      "size": 1950520953,
+      "kind": "archive_part",
+      "sha256": null
+    }
+  }
+}

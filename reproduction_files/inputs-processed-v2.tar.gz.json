@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "version": "inputs-processed-v2",
+  "archive": "inputs-processed-v2.tar.gz",
+  "url": null,
+  "sha256": "d655c72f8817282fb693cf6cbbb82bff5835b1ae9ef70b4a39f1efca4fabf821",
+  "size": 79788854,
+  "manifest_sha256": "fbfef6b45dc35e69800cc86ddd09059d35f7c2ab6574a2aa45cfbfa373a7a350"
+}

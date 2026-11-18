@@ -1,15 +1,4 @@
-"""MORPH inference and evaluation.
-
-Loads a trained MORPH checkpoint, runs inference on test perturbations,
-saves predictions in the standard npz format.
-
-Usage:
-    python -m models.morph.predict \
-        --checkpoint results/morph/k562/model.pt \
-        --data_dir data/processed/genetic \
-        --dataset k562 \
-        --out_dir results/morph/k562/predictions
-"""
+"""morph checkpoint inference and saved-prediction access."""
 import argparse, sys, pickle, logging
 from pathlib import Path
 import numpy as np
@@ -100,4 +89,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    from models.predict import main as predict_main
+    predict_main(["--model", "morph", *sys.argv[1:]])

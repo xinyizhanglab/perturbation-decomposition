@@ -4,7 +4,7 @@ Run ON THE CLUSTER to generate the small data files that ship with the repo.
 These are pseudobulk deltas (dict of mean vectors), not raw h5ad.
 
 Usage (on cluster):
-    python -m data.prepare_release --cluster_dir /mnt/storage01/home/amolina/benchmark_2026
+    python -m data.prepare_release --cluster_dir /path/to/research-artifacts
 
 Outputs to data/processed/:
     genetic/{k562,rpe1,hepg2,jurkat}.pkl     (~2 MB each)
@@ -186,12 +186,13 @@ def export_depmap_raw(cluster_dir, out_dir):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--cluster_dir", type=Path,
-                        default=Path("/mnt/storage01/home/amolina/benchmark_2026"))
+    parser.add_argument("--cluster_dir", type=Path, required=True)
     parser.add_argument("--out_dir", type=Path, default=Path("data/processed"))
     parser.add_argument("--include_depmap_csv", action="store_true",
                         help="Include raw CRISPRGeneEffect.csv (~100 MB)")
     args = parser.parse_args()
+    from benchmarks._runtime import require_compute
+    require_compute("Release-data preparation")
 
     log.info("=== Preparing release data ===")
     export_genetic(args.cluster_dir, args.out_dir)

@@ -10,8 +10,6 @@ Usage:
 import argparse, json, pickle, logging
 from pathlib import Path
 import numpy as np
-from sklearn.linear_model import Ridge
-from sklearn.decomposition import PCA
 
 from evaluation.metrics import pearson as corr
 
@@ -57,8 +55,10 @@ def build_pathway_vectors(gene_sets, hvg_symbols, G):
     return pvecs
 
 
-def pathway_prediction_crosscl(data_dir, depmap_path, out_dir, gmt_path):
+def pathway_prediction_crosscl(data_dir, depmap_path, out_dir, gmt_path, save_checkpoints=False):
     """Cross-CL pathway prediction: Ridge/MLP trained on sources, predict target."""
+    from sklearn.linear_model import Ridge
+    from sklearn.decomposition import PCA
     log.info("\n=== Cross-CL pathway prediction ===")
 
     # Load data
@@ -118,6 +118,15 @@ def pathway_prediction_crosscl(data_dir, depmap_path, out_dir, gmt_path):
         pca = PCA(50).fit(sV)
         ridge = Ridge(alpha=10).fit(pca.transform(sV), sD)
         yp_ridge = ridge.predict(pca.transform(tV))
+        if save_checkpoints:
+            if hvg_names is None or len(hvg_names) != G or len(set(hvg_names)) != G:
+                raise ValueError("Checkpoint export requires verified ordered hvg_names")
+            from models.checkpoints import save_estimator, save_predictions_with_axes
+            from reproduction.io import sha256
+            directory = Path(out_dir) / "checkpoints" / tgt
+            save_estimator(pca, ridge, directory, hvg_names, "sha256:" + sha256(depmap_path),
+                           {"experiment": "pathway_cross_cl", "target": tgt, "sources": srcs})
+            save_predictions_with_axes(directory / "predictions.npz", tgt_perts, yp_ridge, tD, T_tgt, hvg_names)
 
         # Direct transfer
         yp_direct = []
@@ -166,12 +175,20 @@ def main():
     parser.add_argument("--out_dir", type=Path, default=Path("results/pathway"))
     parser.add_argument("--gmt", type=Path, default=Path("data/processed/hallmark.gmt"))
     parser.add_argument("--setting", default="cross_cl", choices=["cross_cl", "within_cl"])
+    parser.add_argument("--dry_run", action="store_true", help="Print inputs/settings without running")
+    parser.add_argument("--save_checkpoints", action="store_true")
     args = parser.parse_args()
-
-    args.out_dir.mkdir(parents=True, exist_ok=True)
+    if args.setting != "cross_cl":
+        parser.error("within_cl pathway analysis is not implemented; use --setting cross_cl")
+    from benchmarks._runtime import prepare_run
+    try:
+        if not prepare_run(args, [args.data_dir / f"{cl}.pkl" for cl in CLS] + [args.depmap, args.gmt]):
+            return
+    except (OSError, RuntimeError) as exc:
+        parser.exit(2, f"ERROR: {exc}\n")
 
     if args.setting == "cross_cl":
-        pathway_prediction_crosscl(args.data_dir, args.depmap, args.out_dir, args.gmt)
+        pathway_prediction_crosscl(args.data_dir, args.depmap, args.out_dir, args.gmt, args.save_checkpoints)
 
 
 if __name__ == "__main__":

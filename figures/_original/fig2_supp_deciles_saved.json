@@ -1,0 +1,636 @@
+{
+  "captured": {
+    "k562": {
+      "bin_centers": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.14276827275753023
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.7552629590034485
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.7983729541301727
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8257104218006134
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.848524272441864
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8690023243427276
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8887474894523621
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.9084760665893554
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.927661234140396
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.9618257939815521
+        }
+      ],
+      "full_means": [
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.06462324410676956
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.04479946196079254
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.045346152037382126
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.05110472813248634
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.05528881773352623
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.06335794180631638
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.07389069348573685
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.09515712410211563
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.12336865067481995
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.18458250164985657
+        }
+      ],
+      "resid_means": [
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0001780452876118943
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0017045941203832626
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0005457701627165079
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.0012181729543954134
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.001994112739339471
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.002068418310955167
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.0028752097859978676
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.0033143830951303244
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.0014309509424492717
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.016848528757691383
+        }
+      ]
+    },
+    "rpe1": {
+      "bin_centers": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": -0.18575412034988403
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.5100202262401581
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.6854647099971771
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.7582430839538574
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.7985242307186127
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8285133838653564
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8560106158256531
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8830763697624207
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.9114321768283844
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.9571020305156708
+        }
+      ],
+      "full_means": [
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.23892073333263397
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.23665659129619598
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.14650121331214905
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.15994420647621155
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.181877002120018
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.2313554286956787
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.2702077031135559
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.34273359179496765
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.48157066106796265
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.6347295045852661
+        }
+      ],
+      "resid_means": [
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0021501292940229177
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0018553019035607576
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0022020640317350626
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0026602689176797867
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.001504011219367385
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0019582200329750776
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0018507749773561954
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0024864282459020615
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.00019970817083958536
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.00970542337745428
+        }
+      ]
+    },
+    "hepg2": {
+      "bin_centers": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": -0.2561863660812378
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.498617947101593
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.6861744523048401
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.7659740746021271
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.809601366519928
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8431710600852966
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8733328580856323
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.9004420042037964
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.9253678321838379
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.9625808596611023
+        }
+      ],
+      "full_means": [
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0935385599732399
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.13538241386413574
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.08675868809223175
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.09455416351556778
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.10992416739463806
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.13586300611495972
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.18080420792102814
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.2462357133626938
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.3136591613292694
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.40718021988868713
+        }
+      ],
+      "resid_means": [
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0010526834521442652
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.0003534028073772788
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0019602414686232805
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0001337905996479094
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.002252316800877452
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.0032895610202103853
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.002184736542403698
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.003220920218154788
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.0012303321855142713
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.015179340727627277
+        }
+      ]
+    },
+    "jurkat": {
+      "bin_centers": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": -0.2674566060304642
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.47921575605869293
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.670846164226532
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.7501041889190674
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.7916641235351562
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8225476145744324
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8499335944652557
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.8769597113132477
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.9055013358592987
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.954157143831253
+        }
+      ],
+      "full_means": [
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.09865546971559525
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.09121450036764145
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.058026496320962906
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.07012802362442017
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.06688808649778366
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.07961230725049973
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.09088447690010071
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.1113918274641037
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.1574971228837967
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.22984586656093597
+        }
+      ],
+      "resid_means": [
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.0005853215116076171
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.00027008430333808064
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.0009224272798746824
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.000306602829368785
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.0015705102123320103
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.0029579855035990477
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.004034535028040409
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.004523774143308401
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": -0.003759325947612524
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f4",
+          "value": 0.015717843547463417
+        }
+      ]
+    }
+  }
+}

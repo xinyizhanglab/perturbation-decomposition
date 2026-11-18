@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68.0"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "perturbation-decomposition"
@@ -11,14 +11,26 @@ requires-python = ">=3.10"
 license = {text = "MIT"}
 
 dependencies = [
-    "numpy>=1.26",
-    "scipy>=1.12",
-    "scikit-learn>=1.4",
-    "pandas>=2.1",
-    "anndata>=0.10",
-    "matplotlib>=3.8",
+    "numpy>=1.26,<3",
+    "matplotlib>=3.8,<4",
+    "PyYAML>=6,<7",
 ]
 
 [project.optional-dependencies]
-gpu = ["torch>=2.2"]
-full = ["torch>=2.2", "scanpy>=1.10", "mygene", "rdkit"]
+analysis = ["scipy>=1.12", "scikit-learn>=1.4", "pandas>=2.1", "anndata>=0.10"]
+gpu = ["torch>=2.2", "scikit-learn>=1.4"]
+full = ["torch>=2.2", "scipy>=1.12", "scikit-learn>=1.4", "pandas>=2.1", "anndata>=0.10", "scanpy>=1.10", "mygene", "rdkit"]
+
+[project.scripts]
+perturbation-reproduce = "reproduction.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["reproduction*", "benchmarks*", "decomposition*", "evaluation*", "models*", "figures*", "data*"]
+exclude = ["data.inputs*", "data.raw*", "data.processed*", "reproduction_files*"]
+
+[tool.setuptools.package-data]
+reproduction = ["*.json"]
+"models.morph" = ["*.json"]
+"figures._original" = ["*.json", "*.json.gz"]
+"models.state._recorded" = ["*.json", "LICENSE"]
+"models._context_generalization" = ["*.json"]

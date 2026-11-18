@@ -1,0 +1,807 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "fig1_dsup.py": {
+      "sha256": "1319dac1ec090c0c7d4df09d8be0be89581ff26e991943066c53065009e15c1b",
+      "origin": "agop/scripts/paper_figures_june/fig1_dsup.py",
+      "origin_sha256": "d2cca7099a7bccde8f801a84c8a20b51da5d1d5fd566cd0cdd44213b5ea471cb",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig1_e.py": {
+      "sha256": "de2e6f1eee10f9551dd2bf79ddf4f6314a71d4969f2d8487ee84dd47248c60dc",
+      "origin": "agop/scripts/paper_figures_june/fig1_e.py",
+      "origin_sha256": "a22a6d6f1365ba85af50600270f3830ca4104d9d20b9aaa2fa07a4f273aaf587",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig1_f.py": {
+      "sha256": "a0e695797828b38df5cd5f7051292dd372f997555c95653ddbfc52e2469c0866",
+      "origin": "agop/scripts/paper_figures_june/fig1_f.py",
+      "origin_sha256": "f6497b24d4c3f017b490ef07b4e1f7418104ed55f1bb212f95b6960f652559c0",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig2_a.py": {
+      "sha256": "ae209567ce96d4c6e2afffc2713041619eac13317b5bc4e7ec98393bab00722a",
+      "origin": "agop/scripts/paper_figures_june/fig2_a.py",
+      "origin_sha256": "8ce775f6204368ee7e24794ff10e6ca97dd347b5ce00d9729f72e9d73f119d6e",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig2_b.py": {
+      "sha256": "daf297aa133a7ec98b3bf4a0620d14d09ed31f44783f0c90e4138347163811fa",
+      "origin": "agop/scripts/paper_figures_june/fig2_b.py",
+      "origin_sha256": "2187fee7d29aef5a81562f4ce652de0f8893b3e7771b88ccce1970236b5ba155",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig2_c.py": {
+      "sha256": "09a054632b3f04d6563821eb7412b70b083d44bf029940171f29b1d7d77388e3",
+      "origin": "agop/scripts/paper_figures_june/fig2_c.py",
+      "origin_sha256": "ae3e6635524500d324a15ffcf7f81d16abcb44e207ba365fcdd9675cf05b816c",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig2_d2.py": {
+      "sha256": "324a1d09e8f49ea5445a154c4fcbddfd0ee8ae003f590ab712b5cfc002168ab0",
+      "origin": "agop/scripts/paper_figures_june/fig2_d2.py",
+      "origin_sha256": "d9283ec5972888be8767756a0743e6ac2404af79909e235315649281c7353fb4",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig2_e.py": {
+      "sha256": "3d75f0bc75c75829d4934cbdafb404c12765e3b2cf19d7d3c0130b4ab709d03b",
+      "origin": "agop/scripts/paper_figures_june/fig2_e.py",
+      "origin_sha256": "23148b1313d0f1bd9eeef7ca6f14ac92b3aec87f0def3253dd0ade57a61a72a8",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig3_c.py": {
+      "sha256": "74e347e8d1b594f44721f198727f80f1e9891b629d899d9cfb72faead3201c9d",
+      "origin": "agop/scripts/paper_figures_june/fig3_c.py",
+      "origin_sha256": "c72bc2e687ac2464b85a92ca28c6ec55b248bef0dbfaf0c1b34f0e22403a0307",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig3_d.py": {
+      "sha256": "ad59728b4ddbbc5265b44ede344294297b9f845724c1b9db280132d90dde6b91",
+      "origin": "agop/scripts/paper_figures_june/fig3_d.py",
+      "origin_sha256": "0faa7c4ea7e34637b634cc0afbb5b36f19bb0ce1964f62a16a532d198e96b569",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig3_e.py": {
+      "sha256": "4f315860c909dbdd0b3d3da016fe7ba23339ec01bfd4df4ac549dce411961607",
+      "origin": "agop/scripts/paper_figures_june/fig3_e.py",
+      "origin_sha256": "6a44e0627ff1d9f303fc0132673b0c911f97e451ce59a045a709f996a52533da",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig4_a.py": {
+      "sha256": "da463c9569ee3b72a91c65dfa1f696109f85c7f9fc904d560cd7015f6ed07d87",
+      "origin": "agop/scripts/paper_figures_june/fig4_a.py",
+      "origin_sha256": "2cd7201d58a9aaa82324da42ce5b64bd0d8dc5591e7f891daf6b5a7c09d14a6f",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig4_crosscl_decomp.py": {
+      "sha256": "4c719ce4ad41727a9f54f0bc1c60c3176225605b5562c02db630a6375f875124",
+      "origin": "agop/scripts/paper_figures_june/fig4_crosscl_decomp.py",
+      "origin_sha256": "784725b7119b696c477faed548999eada1dbab718ff82f77e59e40b3d839fcdd",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig4_d.py": {
+      "sha256": "8b91faae06dbbe5558d0cb5b76a291e4182ddb7aeadf2c2f7093fc7b138c68e8",
+      "origin": "agop/scripts/paper_figures_june/fig4_d.py",
+      "origin_sha256": "338880702edc06d3487005d9e3c82d82fdcc57e9643c2b75818884e25bb7d37c",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig1_d.py": {
+      "sha256": "efcc25fdd7d3154653e0b8a05c4e14d649c8b88f7eb9a8e516df06208d47e3c7",
+      "origin": "agop/scripts/paper_figures_june/fig1_d.py",
+      "origin_sha256": "a19e60b0e5d820dae2cd77f0d67d16ca69ec7a573e71a47a7b37a47285bfbdfa",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig1_suppl_decomp.py": {
+      "sha256": "559b9025f9cf88a01b78d465d11c489d16e118e63d08588f3c0b91ac45a83c0a",
+      "origin": "agop/scripts/paper_figures_june/fig1_suppl_decomp.py",
+      "origin_sha256": "5594466fbb80fbb4ff1ddaf0eeb99cc9b9c5cb1a1d00f3b1fe86a4d774c47060",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig2_supp2_2.py": {
+      "sha256": "f45435df46cf5bd407c0fcb153dea56de190db728fa2fa27ac3d5b1d02ad5a12",
+      "origin": "agop/scripts/paper_figures_june/fig2_supp2_2.py",
+      "origin_sha256": "834532c1eb6df12b0967cbcc57f899c8048d83b4a56a86bc15c8b1eb42d8a38d",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig_pathway_crosscl.py": {
+      "sha256": "865bdaaed2dcd7910e5532cf93356800aee09ee956b6508625709d16edd76efa",
+      "origin": "agop/scripts/paper_figures_june/fig_pathway_crosscl.py",
+      "origin_sha256": "6fbdfae59494d13d0a56f5d57ad1131a966e60a307b210c7c751e9b565657b55",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig3_source_vs_depmap.py": {
+      "sha256": "a3701aa692136c0f82158104425e07cd169fcbd029b23522fa1ac29191f3f56b",
+      "origin": "agop/scripts/paper_figures_june/fig3_source_vs_depmap.py",
+      "origin_sha256": "0ccab5c9c04cd0d2b0812dc0211d611b839412d0733334b3ee5d76dfa5154ef7",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig3_morph_double_unseen_combo.py": {
+      "sha256": "d4adc47dff817d34c2d2b0163fab855ed22aa930ec5bf83774c67d9c87bf4513",
+      "origin": "release/figures/fig3_morph_double_unseen_combo.py",
+      "origin_sha256": "dd58c13b13d81da4fcbfbc66404e2ee5e4327214b7845f4d709dc77d6110a3d0",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig3_crosscl_transfer.py": {
+      "sha256": "6a2f610638f091468131046d8dc2bb88edf8f766a4c7f1d90e0186b6331b5964",
+      "origin": "agop/benchmarks/context_generalization/scripts/report_biolord_cellline_go_v1.py",
+      "origin_sha256": "eaec9c6b9e587e2048d1e1e6230c67241d6f32114570401163bdc10dd2c5f851",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting.",
+      "companion_origin": {
+        "origin": "agop/scripts/paper_figures_june/fig3_crosscl_with_biolord_scgen.py",
+        "origin_sha256": "000eff102e6d1230121c77654366cd92b50b3787f2a050c054549001c24a8c0a",
+        "constants": [
+          "CELL_LINES",
+          "CELL_LABELS",
+          "MODEL_STYLE"
+        ]
+      }
+    },
+    "fig4_c.py": {
+      "sha256": "c6ec6dd8b4e97aacd91558503d0872e074af6bc00b14fc8250c0126125136153",
+      "origin": "agop/benchmarks/context_generalization/scripts/report_figure4c_author_v2.py",
+      "origin_sha256": "ba57f99c3754f14a8ff814384c28ccd44bd9a8d10fe0a31414132c5bda9814b8",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig4_calibration.py": {
+      "sha256": "c6ec6dd8b4e97aacd91558503d0872e074af6bc00b14fc8250c0126125136153",
+      "origin": "agop/benchmarks/context_generalization/scripts/report_figure4c_author_v2.py",
+      "origin_sha256": "ba57f99c3754f14a8ff814384c28ccd44bd9a8d10fe0a31414132c5bda9814b8",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "component_base.py": {
+      "sha256": "e05fc2acd7c41a0cdbde0748ef4fdc1d0d71ad25c5b03d5b0ee378ce27eac2fd",
+      "origin": "agop/benchmarks/context_generalization/scripts/component_alignment_v1.py",
+      "origin_sha256": "6c68b5c6e02a05255ec62fb8e88d28e43f87ab0d916968297252755939015cce",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "component_references.py": {
+      "sha256": "f8861cdae9686f2aff52fb267965f5ac8b3d804078be33243b06350e88b1d618",
+      "origin": "agop/benchmarks/context_generalization/scripts/plot_component_alignment_perfect_reference_v1.py",
+      "origin_sha256": "59ca25c40946b95b0ff156afbf08d39cfaedc6fe6ddcb54f6f0ba5993c593137",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig4_b.py": {
+      "sha256": "0cfefe9ec605ef086c8f8cba7709806e6984ec3d6fa46808b0f03742619ce857",
+      "origin": "agop/benchmarks/context_generalization/scripts/component_matching_assembled_v1.py",
+      "origin_sha256": "c7460a926ff6133caf64f58c3112799eb24c968574c6117060c17f00940ba94f",
+      "extraction": "Plotting statements and constants only; no raw-data analysis or fitting."
+    },
+    "fig3_b_saved.json": {
+      "sha256": "fc301e6d9e3e3c1fd386f73f6cde6009b8b61f2c1c1f770dcc1aefe43ad776ea",
+      "origin": "agop/scripts/paper_figures_june/figure3/fig3b_3to1_transfer_results.json",
+      "origin_sha256": "a47b954b1a345294081b285747917fe7cec209df25f9f68a231b5d74a98ea165",
+      "extraction": "Saved numerical results copied unchanged; author-local run-path metadata omitted."
+    },
+    "fig3_b.py": {
+      "sha256": "460421b2e2649e157ee3f877c8449b374cc3741d419992cc953f91425009b728",
+      "origin": "agop/scripts/paper_figures_june/fig3_b.py",
+      "origin_sha256": "1ce4fc6dfac22816a2baa182d0deb8986db1bdedd3a958c0c6ac31fb39c5587d",
+      "extraction": "Original plotting function, without native-result loading or cached-report writing."
+    },
+    "tahoe_testing_battery_saved.json": {
+      "sha256": "9189c1746cfc307e10671a282daaec2c07459de021dbd872046ae34e1a95395e",
+      "origin": "benchmark/data/tahoe_cc/testing_battery_results.json",
+      "origin_sha256": "9189c1746cfc307e10671a282daaec2c07459de021dbd872046ae34e1a95395e",
+      "extraction": "Byte-for-byte copy of the existing saved results; no score recomputation."
+    },
+    "fig_tahoe_b_saturation.py": {
+      "sha256": "afde151b1fb9bff0b58f216babd07105f0937ade54c5a20b6f132c651ec6ba6d",
+      "origin": "agop/scripts/paper_figures_june/fig_tahoe_panels.py",
+      "origin_sha256": "acb81370865ffccfacfb63c7d1f2827d9b82f86485c5d754680561fe7255b7bb",
+      "extraction": "Plotting statements and constants only; no pseudobulk loading, PCA, Ridge fitting, or score calculation."
+    },
+    "fig_tahoe_c_controls.py": {
+      "sha256": "624529596f9349ae8a47c8ea68143df486bb38a0f388659f425af80331084788",
+      "origin": "agop/scripts/paper_figures_june/fig_tahoe_panels.py",
+      "origin_sha256": "acb81370865ffccfacfb63c7d1f2827d9b82f86485c5d754680561fe7255b7bb",
+      "extraction": "Plotting statements and constants only; no pseudobulk loading, PCA, Ridge fitting, or score calculation."
+    },
+    "fig1_b.py": {
+      "sha256": "f3b9a1e880281a2407648700f1207e49338c738a912e0977a0daa2a63a31c92d",
+      "origin": "agop/scripts/paper_figures_june/fig1_b.py",
+      "origin_sha256": "652dc1dd735c9387b2b6efff5772498eaf2d4a5a8b1497ae1d18275fb9c3272a",
+      "extraction": "Plotting statements and constants only; no response loading or analysis."
+    },
+    "fig1_b_saved.json": {
+      "sha256": "a9da4972acbdad8d2241d314d9cdc35e34c29a33e3e0c75f46d0f5bc5e671693",
+      "origin": "recovery/fig1b_template_variance_results.json",
+      "origin_sha256": "681ac4e3da48fef5f2ac1f579659776788e8602f9e824c896de217127b56f5c9",
+      "extraction": "Recovered original template-projection values; unchanged SVG drawing verified."
+    },
+    "fig1_d_current.py": {
+      "sha256": "2b268f3c28d3cac89e908440b82c8c575818d5c521fdba58254e24a934f64307",
+      "origin": "agop/benchmarks/template_alpha_gsea/scripts/plot_cell_line_template_numbers_v2.py",
+      "origin_sha256": "396d890619557fcbb421539a04223fc91f214ca3f6e75524c5b514bc420cb1c6",
+      "contributors": {
+        "agop/benchmarks/template_alpha_gsea/scripts/plot_cell_line_template_numbers_v2.py": "396d890619557fcbb421539a04223fc91f214ca3f6e75524c5b514bc420cb1c6",
+        "agop/benchmarks/template_alpha_gsea/scripts/plot_cell_line_template_only_v1.py": "8c3fda0f4a049042c66411e7ab88e41ea9edc1873c1a2ed7fd3bc9000ca25395",
+        "agop/benchmarks/template_alpha_gsea/scripts/figure1d_template_alpha_matched_v1.py": "32d3428a6a7c951855513cb1ec55dceb0ad636d8dc9781a84d925888b2bc8ea4",
+        "agop/scripts/paper_figures_june/fig1_d.py": "a19e60b0e5d820dae2cd77f0d67d16ca69ec7a573e71a47a7b37a47285bfbdfa"
+      },
+      "extraction": "Saved plotting statements and layout wrappers only; no analysis, scoring or fitting."
+    },
+    "fig4_c_current.py": {
+      "sha256": "a55cf99d6f0a7af5da42a0aa731f973e2f6ac10023f9db8e04f3df3c71911632",
+      "origin": "agop/benchmarks/context_generalization/scripts/plot_figure4c_no_annotations_v1.py",
+      "origin_sha256": "7c6abac43e14e1295703c454d8cfacb1f9b5e708aebd5aa9f2bfb4f3da42e38b",
+      "contributors": {
+        "agop/benchmarks/context_generalization/scripts/plot_figure4c_no_annotations_v1.py": "7c6abac43e14e1295703c454d8cfacb1f9b5e708aebd5aa9f2bfb4f3da42e38b",
+        "agop/benchmarks/context_generalization/scripts/report_figure4c_author_v2.py": "ba57f99c3754f14a8ff814384c28ccd44bd9a8d10fe0a31414132c5bda9814b8"
+      },
+      "extraction": "Saved plotting statements and layout wrappers only; no analysis, scoring or fitting."
+    },
+    "fig4_d_current.py": {
+      "sha256": "7028e371ccef6945fc12eab91bd69b2500861a4d969d844193e4ac4e5f362752",
+      "origin": "agop/benchmarks/context_generalization/scripts/plot_component_matching_gamma_2x2_v1.py",
+      "origin_sha256": "7ae8d159fab330c8d952dc94d294f630399c10edc68b8fb4d17df02462457737",
+      "contributors": {
+        "agop/benchmarks/context_generalization/scripts/plot_component_matching_gamma_2x2_v1.py": "7ae8d159fab330c8d952dc94d294f630399c10edc68b8fb4d17df02462457737",
+        "agop/benchmarks/context_generalization/scripts/plot_component_matching_separate_calibration_v1.py": "c854667341052db5a31525779c876f6d122dcbf4c03990202a99b3fd7cbc589b",
+        "agop/benchmarks/context_generalization/scripts/plot_component_matching_largefont_v1.py": "abc60551150ca9c8a6199d83e556c3064ba78f34b4dcd6790f9492edf322ce9d",
+        "agop/benchmarks/context_generalization/scripts/plot_component_matching_extralargefont_v1.py": "68599c4bd7ccd8c3c60ef30230cd20693ac72fee693dc4692b7117beabea10da",
+        "agop/benchmarks/context_generalization/scripts/plot_component_matching_mediumfont_v1.py": "7a50b93b506f65d940dbc7f2710694380970c8549cc577e8b7c675d203e202ac",
+        "agop/benchmarks/context_generalization/scripts/plot_component_matching_grid_v3.py": "3023cd0ba03a8285d0f14c7d17f88b0d8ccca1e628cbf3883281730a5aef7e38"
+      },
+      "extraction": "Saved plotting statements and layout wrappers only; no analysis, scoring or fitting."
+    },
+    "fig4_a_current.py": {
+      "sha256": "d76602489679d2faf4815f7e4afbd7ab773be4a86089b2d1cd62db5d52054e02",
+      "origin": "agop/scripts/paper_figures_june/fig4a_labels_v1.py",
+      "origin_sha256": "7f52ede1a3f01e4451246203205654a365147650710bc1989c95054214d62f00",
+      "extraction": "Saved plotting statements and existing layout wrappers only; no scoring or fitting."
+    },
+    "fig4_b_current.py": {
+      "sha256": "43f0d78338b1a2cba4340660e1935e37078b8e2d00410de2242133f28a2def48",
+      "origin": "agop/benchmarks/context_generalization/scripts/plot_component_matching_separate_calibration_v1.py",
+      "origin_sha256": "c854667341052db5a31525779c876f6d122dcbf4c03990202a99b3fd7cbc589b",
+      "extraction": "Saved plotting statements and existing layout wrappers only; no scoring or fitting."
+    },
+    "fig4_supplementary.py": {
+      "sha256": "d242dd5e506a36cbf17b0d0ba0d6bb0c44d17028eacb748858c08a7f92ce794d",
+      "origin": "agop/scripts/paper_figures_june/fig4_supplementary.py",
+      "origin_sha256": "5ae6a0c1d95180d1f4a394172b03b472e8aed144f3d34afacad664cef56106de",
+      "plotting_line_ranges": [
+        [
+          312,
+          342
+        ],
+        [
+          388,
+          446
+        ],
+        [
+          504,
+          537
+        ],
+        [
+          597,
+          685
+        ],
+        [
+          750,
+          794
+        ]
+      ],
+      "extraction": "Original plotting statements and constants only; saved results replace analysis and fitting."
+    },
+    "fig3_supp1_heatmaps.py": {
+      "sha256": "f5dfa816d9dbe81267a678f77b0820abf8e1d43d2c6e2d8daf51aa54178b53dc",
+      "origin": "agop/scripts/paper_figures_june/fig3_supp1.py",
+      "origin_sha256": "03f0b56120e2d84d13e837b184a8a33f23122bf8a777cb94cc03f7e80a34af86",
+      "plotting_line_ranges": [
+        [
+          163,
+          200
+        ]
+      ],
+      "extraction": "Original plotting statements and constants only; saved results replace analysis and fitting."
+    },
+    "fig3_supp1_basis.py": {
+      "sha256": "93bdf1e839c8c4eefea7fd53762fa287548d345e14dd8ab978482e9e43b6ad6b",
+      "origin": "agop/scripts/paper_figures_june/fig3_supp1.py",
+      "origin_sha256": "03f0b56120e2d84d13e837b184a8a33f23122bf8a777cb94cc03f7e80a34af86",
+      "plotting_line_ranges": [
+        [
+          462,
+          499
+        ]
+      ],
+      "extraction": "Original plotting statements and constants only; saved results replace analysis and fitting."
+    },
+    "fig3_supp1_baselines.py": {
+      "sha256": "c078aace281799f5acb0ee4eeb80e953de0b96eede4537f987cf3fe4ed7fea8a",
+      "origin": "agop/scripts/paper_figures_june/fig3_supp1.py",
+      "origin_sha256": "03f0b56120e2d84d13e837b184a8a33f23122bf8a777cb94cc03f7e80a34af86",
+      "plotting_line_ranges": [
+        [
+          568,
+          595
+        ]
+      ],
+      "extraction": "Original plotting statements and constants only; saved results replace analysis and fitting."
+    },
+    "fig1_supp_alignment.py": {
+      "sha256": "2ff32ecc2829b9c5e798b1a28de72ea1b2178474bdd32580457d9fdf4c68986c",
+      "origin": "agop/scripts/paper_figures_june/fig1_supplementary_full.py",
+      "origin_sha256": "4c017bc074030aa7a2f13f9eb932620783ff9cb843f810f430148ec41bea85ba",
+      "plotting_line_ranges": [
+        [
+          165,
+          169
+        ],
+        [
+          182,
+          208
+        ]
+      ],
+      "extraction": "Original plotting statements and constants only; saved results replace analysis and fitting."
+    },
+    "fig1_supp_anova.py": {
+      "sha256": "3503b7284cd9e8dc45b3d5dc9847e8a0761c7336447322ca51c6d289492d7856",
+      "origin": "agop/scripts/paper_figures_june/fig1_supplementary_full.py",
+      "origin_sha256": "4c017bc074030aa7a2f13f9eb932620783ff9cb843f810f430148ec41bea85ba",
+      "plotting_line_ranges": [
+        [
+          483,
+          506
+        ],
+        [
+          515,
+          536
+        ]
+      ],
+      "extraction": "Original plotting statements and constants only; saved results replace analysis and fitting."
+    },
+    "fig1_supp_hallmark.py": {
+      "sha256": "f9a958cde4b7a4dd2794d7f8fae2114f39e423a052ddb03cc0431ca8f40fc3ff",
+      "origin": "agop/scripts/paper_figures_june/fig1_supplementary_full.py",
+      "origin_sha256": "4c017bc074030aa7a2f13f9eb932620783ff9cb843f810f430148ec41bea85ba",
+      "extraction": "Original plotting statements and constants; saved variables replace calculations."
+    },
+    "fig1_supp_hallmark_saved.json": {
+      "sha256": "0a709395dde9cf579ea6d513093d2e9067a9fd18b0535c91f7d207b144613e98",
+      "origin": "results/supplementary-inputs-deep-v3/s1d/plot_variables.json",
+      "origin_sha256": "0a709395dde9cf579ea6d513093d2e9067a9fd18b0535c91f7d207b144613e98",
+      "extraction": "Saved numerical plotting variables with original dtypes."
+    },
+    "fig1_supp_noise.py": {
+      "sha256": "23e3112eed13c6adfdfcae3e8d8510f96e06e59c577dee048f44c4aab6133d8b",
+      "origin": "agop/scripts/paper_figures_june/fig1_supplementary_full.py",
+      "origin_sha256": "4c017bc074030aa7a2f13f9eb932620783ff9cb843f810f430148ec41bea85ba",
+      "extraction": "Original plotting statements and constants; saved variables replace calculations."
+    },
+    "fig1_supp_noise_saved.json": {
+      "sha256": "f45c9ef76d4d5095b7c1aceb2d291971f0bb8242c11678547057c94aed55d1dd",
+      "origin": "results/supplementary-inputs-deep-v3/s1e/plot_variables.json",
+      "origin_sha256": "f45c9ef76d4d5095b7c1aceb2d291971f0bb8242c11678547057c94aed55d1dd",
+      "extraction": "Saved numerical plotting variables with original dtypes."
+    },
+    "fig2_supp_deciles.py": {
+      "sha256": "c11abb627bb20fbed9e23168d3b14c721ee6c8ed420ca084f82aa0b4ff958019",
+      "origin": "agop/scripts/paper_figures_june/fig2_supp2_1.py",
+      "origin_sha256": "ad1cf0fb14faa64d5f3fbb63c6fec620728025c0d8789adeb302654a24751e97",
+      "extraction": "Original plotting statements and constants; saved variables replace calculations."
+    },
+    "fig2_supp_deciles_saved.json": {
+      "sha256": "5b2aa15ee0de6d937b1e8339f875ea5b892f001fd2932bb2d3d3f52538f5d958",
+      "origin": "results/supplementary-inputs-deep-v3/s2a/plot_variables.json",
+      "origin_sha256": "5b2aa15ee0de6d937b1e8339f875ea5b892f001fd2932bb2d3d3f52538f5d958",
+      "extraction": "Saved numerical plotting variables with original dtypes."
+    },
+    "fig2_supp_scatter.py": {
+      "sha256": "fbe4a0f91301691c9f210c3b62671058701236cb9c2ce93b1542ec7891512f34",
+      "origin": "agop/scripts/paper_figures_june/fig2_supp2_1.py",
+      "origin_sha256": "ad1cf0fb14faa64d5f3fbb63c6fec620728025c0d8789adeb302654a24751e97",
+      "extraction": "Original plotting statements and constants; saved variables replace calculations."
+    },
+    "fig2_supp_scatter_saved.json.gz": {
+      "sha256": "644cd8e38dfb4f8519be1cde5e95dc71cf2cc2c4d0a682ddda69148d09d72b0d",
+      "origin": "results/supplementary-inputs-deep-v3/s2c/plot_variables.json",
+      "origin_sha256": "94499093e2b5ff836a56d059cf033aaaa21670d9197c2d75e377b859aa864462",
+      "extraction": "Saved numerical plotting variables with original dtypes."
+    },
+    "fig3_supp1_slopes.py": {
+      "sha256": "d75a1467e0c8763f1ae106c676bdb1e4ee2f9851aab827304af5f839f024bc6b",
+      "origin": "agop/scripts/paper_figures_june/fig3_supp1.py",
+      "origin_sha256": "03f0b56120e2d84d13e837b184a8a33f23122bf8a777cb94cc03f7e80a34af86",
+      "extraction": "Original plotting statements and constants; saved variables replace calculations."
+    },
+    "fig3_supp1_slopes_saved.json": {
+      "sha256": "3975bd88c6b59f352802c2cc9b333e12f6599614683194431e8825535d466034",
+      "origin": "results/supplementary-inputs-deep-v3/s3b/plot_variables.json",
+      "origin_sha256": "3975bd88c6b59f352802c2cc9b333e12f6599614683194431e8825535d466034",
+      "extraction": "Saved numerical plotting variables with original dtypes."
+    },
+    "fig3_supp1_calibration.py": {
+      "sha256": "880a4d34107932013f82e28893504cfa25560780ea85061e8b16b8e71816ef08",
+      "origin": "agop/scripts/paper_figures_june/fig3_supp1.py",
+      "origin_sha256": "03f0b56120e2d84d13e837b184a8a33f23122bf8a777cb94cc03f7e80a34af86",
+      "extraction": "Original plotting statements and constants; saved variables replace calculations."
+    },
+    "fig3_supp1_calibration_saved.json": {
+      "sha256": "749a58f3beae9bfbc709b25a54935f373d5c3b161602c4fbd544b8b5c6bf0dc1",
+      "origin": "results/supplementary-inputs-deep-v3/s3c/plot_variables.json",
+      "origin_sha256": "749a58f3beae9bfbc709b25a54935f373d5c3b161602c4fbd544b8b5c6bf0dc1",
+      "extraction": "Saved numerical plotting variables with original dtypes."
+    },
+    "fig3_supp1.py": {
+      "sha256": "5ad3cc5ec52ae6cea9066ceb2c00a18400b524b7df9006bb9f6b62fdbb23f8bd",
+      "origin": "agop/scripts/paper_figures_june/fig3_supp1.py",
+      "origin_sha256": "03f0b56120e2d84d13e837b184a8a33f23122bf8a777cb94cc03f7e80a34af86",
+      "extraction": "Preserved plotting functions for the complete supplementary figure."
+    },
+    "fig3_supp1_saved.json": {
+      "sha256": "9ed5858d531b00d82fcbc8bcbcf67b5a471cc92aac4fa862b44bd2aec13298da",
+      "origin": "agop/scripts/paper_figures_june/fig3_supp1.py",
+      "origin_sha256": "03f0b56120e2d84d13e837b184a8a33f23122bf8a777cb94cc03f7e80a34af86",
+      "extraction": "Saved numerical tables for the five panels."
+    }
+  },
+  "figures": {
+    "fig1_dsup": {
+      "source": "fig1_dsup.py",
+      "input": "paper/figure1/fig1dsup_identity_variance_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig1_e": {
+      "source": "fig1_e.py",
+      "input": "paper/figure1/fig1e_ctrl_space_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig1_f": {
+      "source": "fig1_f.py",
+      "input": "paper/figure1/fig1f_anova_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig2_a": {
+      "source": "fig2_a.py",
+      "input": "paper/figure2/fig2a_within_cl_pref_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig2_b": {
+      "source": "fig2_b.py",
+      "input": "paper/figure2/fig2b_depmap_pairwise_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig2_c": {
+      "source": "fig2_c.py",
+      "input": "paper/figure2/fig2c_ridge_projection_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig2_d2": {
+      "source": "fig2_d2.py",
+      "input": "paper/figure2/fig2d_rank_ablation_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig2_e": {
+      "source": "fig2_e.py",
+      "input": "paper/figure2/fig2e_morph_mechanism_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig3_c": {
+      "source": "fig3_c.py",
+      "input": "paper/figure3/fig3c_double_unseen_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig3_d": {
+      "source": "fig3_d.py",
+      "input": "paper/figure3/fig3d_target_landscape_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig3_e": {
+      "source": "fig3_e.py",
+      "input": "paper/figure3/fig3e_basis_vs_transfer_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig4_a": {
+      "source": "fig4_a_current.py",
+      "input": "paper/figure4/fig4a_within_decomp_results.json",
+      "call": "plot",
+      "dependencies": [
+        "fig4_a.py"
+      ],
+      "source_requested_font": "Arial"
+    },
+    "fig4_crosscl_decomp": {
+      "source": "fig4_crosscl_decomp.py",
+      "input": "paper/figure4/fig4_crosscl_decomp_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig4_d": {
+      "source": "fig4_d_current.py",
+      "input": "final/components/results.json",
+      "call": "plot",
+      "dependencies": [
+        "component_base.py"
+      ],
+      "source_requested_font": "DejaVu Sans",
+      "version": "Paper Figure 4c: target-perturbation calibration of interaction recovery.",
+      "alias_of": "fig4_c"
+    },
+    "fig1_d": {
+      "source": "fig1_d_current.py",
+      "input": "final/hallmark/results.json",
+      "call": "plot",
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig1_suppl_decomp": {
+      "source": "fig1_suppl_decomp.py",
+      "input": "paper/decomp_supplementary/decomp_supp_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig2_supp2_2": {
+      "source": "fig2_supp2_2.py",
+      "input": "paper/supplementary_figure_2_3/s2_3_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig_pathway_crosscl": {
+      "source": "fig_pathway_crosscl.py",
+      "input": "benchmark/pathway/crosscl_pathway_results.json",
+      "call": "main",
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig3_source_vs_depmap": {
+      "source": "fig3_source_vs_depmap.py",
+      "input": "benchmark/source_vs_depmap/source_vs_depmap_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig3_morph_double_unseen_combo": {
+      "source": "fig3_morph_double_unseen_combo.py",
+      "input": null,
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig3_crosscl_transfer": {
+      "source": "fig3_crosscl_transfer.py",
+      "input": "final/figure3/results.json",
+      "call": "plot",
+      "dependencies": [],
+      "source_requested_font": "payload"
+    },
+    "fig4_c": {
+      "source": "fig4_d_current.py",
+      "input": "final/components/results.json",
+      "call": "plot",
+      "dependencies": [
+        "component_base.py"
+      ],
+      "source_requested_font": "DejaVu Sans",
+      "version": "Paper Figure 4c: target-perturbation calibration of interaction recovery."
+    },
+    "fig4_calibration": {
+      "source": "fig4_c_current.py",
+      "input": "final/figure4c/results.json",
+      "call": "plot",
+      "dependencies": [
+        "fig4_c.py"
+      ],
+      "source_requested_font": "DejaVu Sans"
+    },
+    "fig4_b": {
+      "source": "fig4_b_current.py",
+      "input": "final/components/results.json",
+      "call": "plot",
+      "dependencies": [
+        "component_base.py",
+        "fig4_d_current.py"
+      ],
+      "source_requested_font": "DejaVu Sans"
+    },
+    "fig2_d": {
+      "source": "fig2_d2.py",
+      "input": "paper/figure2/fig2d_rank_ablation_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial",
+      "alias_of": "fig2_d2",
+      "version": "The archived paper Figure 2d is the updated multi-model rank-ablation plot."
+    },
+    "fig3_b": {
+      "source": "fig3_b.py",
+      "input": null,
+      "packaged_input": "fig3_b_saved.json",
+      "call": null,
+      "dependencies": [
+        "fig3_b_saved.json"
+      ],
+      "source_requested_font": [
+        "Arial",
+        "DejaVu Sans"
+      ],
+      "font_check_family": "DejaVu Sans",
+      "isolate_font_families": [
+        "DejaVu Sans"
+      ]
+    },
+    "fig_tahoe_b_saturation": {
+      "source": "fig_tahoe_b_saturation.py",
+      "input": null,
+      "packaged_input": "tahoe_testing_battery_saved.json",
+      "call": null,
+      "dependencies": [
+        "tahoe_testing_battery_saved.json"
+      ],
+      "source_requested_font": "Arial"
+    },
+    "fig_tahoe_c_controls": {
+      "source": "fig_tahoe_c_controls.py",
+      "input": null,
+      "packaged_input": "tahoe_testing_battery_saved.json",
+      "call": null,
+      "dependencies": [
+        "tahoe_testing_battery_saved.json"
+      ],
+      "source_requested_font": "Arial"
+    },
+    "fig1_b": {
+      "source": "fig1_b.py",
+      "input": null,
+      "packaged_input": "fig1_b_saved.json",
+      "call": null,
+      "dependencies": [
+        "fig1_b_saved.json"
+      ],
+      "source_requested_font": "Arial"
+    },
+    "fig3_a": {
+      "source": "fig3_crosscl_transfer.py",
+      "input": "final/figure3/results.json",
+      "call": "plot",
+      "dependencies": [],
+      "source_requested_font": "payload",
+      "alias_of": "fig3_crosscl_transfer",
+      "version": "Current full model comparison, including BioLORD and scGen."
+    },
+    "fig4_supplementary": {
+      "source": "fig4_supplementary.py",
+      "input": "paper/figure4_supplementary/fig4_supp_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig3_supp1_heatmaps": {
+      "source": "fig3_supp1_heatmaps.py",
+      "input": "paper/figure3_supplementary/fig3_supp_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig3_supp1_basis": {
+      "source": "fig3_supp1_basis.py",
+      "input": "paper/figure3_supplementary/fig3_supp_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig3_supp1_baselines": {
+      "source": "fig3_supp1_baselines.py",
+      "input": "paper/figure3_supplementary/fig3_supp_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig1_supp_alignment": {
+      "source": "fig1_supp_alignment.py",
+      "input": "paper/figure_1_supplementary/fig1_supp_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig1_supp_anova": {
+      "source": "fig1_supp_anova.py",
+      "input": "paper/figure_1_supplementary/fig1_supp_results.json",
+      "call": null,
+      "dependencies": [],
+      "source_requested_font": "Arial"
+    },
+    "fig1_supp_hallmark": {
+      "source": "fig1_supp_hallmark.py",
+      "input": null,
+      "packaged_input": "fig1_supp_hallmark_saved.json",
+      "call": null,
+      "dependencies": [
+        "fig1_supp_hallmark_saved.json"
+      ],
+      "source_requested_font": "Arial"
+    },
+    "fig1_supp_noise": {
+      "source": "fig1_supp_noise.py",
+      "input": null,
+      "packaged_input": "fig1_supp_noise_saved.json",
+      "call": null,
+      "dependencies": [
+        "fig1_supp_noise_saved.json"
+      ],
+      "source_requested_font": "Arial"
+    },
+    "fig2_supp_deciles": {
+      "source": "fig2_supp_deciles.py",
+      "input": null,
+      "packaged_input": "fig2_supp_deciles_saved.json",
+      "call": null,
+      "dependencies": [
+        "fig2_supp_deciles_saved.json"
+      ],
+      "source_requested_font": "Arial"
+    },
+    "fig2_supp_scatter": {
+      "source": "fig2_supp_scatter.py",
+      "input": null,
+      "packaged_input": "fig2_supp_scatter_saved.json.gz",
+      "call": null,
+      "dependencies": [
+        "fig2_supp_scatter_saved.json.gz"
+      ],
+      "source_requested_font": "Arial"
+    },
+    "fig3_supp1_slopes": {
+      "source": "fig3_supp1_slopes.py",
+      "input": null,
+      "packaged_input": "fig3_supp1_slopes_saved.json",
+      "call": null,
+      "dependencies": [
+        "fig3_supp1_slopes_saved.json"
+      ],
+      "source_requested_font": "Arial"
+    },
+    "fig3_supp1_calibration": {
+      "source": "fig3_supp1_calibration.py",
+      "input": null,
+      "packaged_input": "fig3_supp1_calibration_saved.json",
+      "call": null,
+      "dependencies": [
+        "fig3_supp1_calibration_saved.json"
+      ],
+      "source_requested_font": "Arial"
+    },
+    "fig3_supp1": {
+      "source": "fig3_supp1.py",
+      "input": null,
+      "packaged_input": "fig3_supp1_saved.json",
+      "call": "plot",
+      "dependencies": [
+        "fig3_supp1_heatmaps.py",
+        "fig3_supp1_slopes.py",
+        "fig3_supp1_calibration.py",
+        "fig3_supp1_basis.py",
+        "fig3_supp1_baselines.py",
+        "fig3_supp1_saved.json"
+      ],
+      "source_requested_font": "Arial"
+    }
+  },
+  "rendering_profiles": "rendering_profiles.json"
+}

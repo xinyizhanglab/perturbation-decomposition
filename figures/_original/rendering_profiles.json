@@ -1,0 +1,4153 @@
+{
+  "schema_version": 1,
+  "normalization": {
+    "version": 1,
+    "coordinate_decimals": 4,
+    "ignored": [
+      "SVG export metadata",
+      "generated element IDs",
+      "PNG compression"
+    ]
+  },
+  "figures": {
+    "fig1_b": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure1/fig1b_template_variance.pdf": {
+          "sha256": "86ac1cd16f303b1eadc68bfde3f0e5cdac98de9e644ebdf98afc66c5b571c5fa",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 223.0694 208.3919"
+          ]
+        },
+        "paper/figure1/fig1b_template_variance.svg": {
+          "sha256": "772e4510aa335dd482c4a810b9efa5fc32e2ded4eac8ec2ed5fd7dd6c343b197",
+          "drawing_sha256": "36757ae0170f978625cfb76ece148694fba44316161199afa6d072fd8e1c8432",
+          "width": "223.080938pt",
+          "height": "208.398125pt",
+          "viewBox": "0 0 223.080938 208.398125",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 13,
+            "format": 1,
+            "g": 82,
+            "metadata": 1,
+            "path": 53,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 77
+          },
+          "styles_sha256": "d0dfff1efdead88908efefbb31513655fa744c611771a113fe151731338926bb"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "packaged_input": "fig1_b_saved.json",
+      "packaged_input_sha256": "a9da4972acbdad8d2241d314d9cdc35e34c29a33e3e0c75f46d0f5bc5e671693"
+    },
+    "fig1_c": {
+      "status": "reference_only",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure1/fig1_erank_slope.pdf": {
+          "sha256": "c95f137daa788e1c0745209afcce1ddb962588c628d481cbee3a7f035f99269b",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 244.9023 222.7919"
+          ]
+        },
+        "paper/figure1/fig1c_erank_slope.svg": {
+          "sha256": "b0f3c8b80d685f685aefea18b0123def775a58ff1826bc5e7c42055e9d22f1b0",
+          "drawing_sha256": "b21f9b0ebb1bb06af60c20e69f22fc89467d344ae88a1e5fbf447f705ed6b011",
+          "width": "244.916218pt",
+          "height": "222.798125pt",
+          "viewBox": "0 0 244.916218 222.798125",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 16,
+            "format": 1,
+            "g": 101,
+            "metadata": 1,
+            "path": 54,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 107
+          },
+          "styles_sha256": "3e5a1020865d1dc160e00807e3f1080119ecbaa4487d2da3f8c908018253ad20"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "not_applicable"
+    },
+    "fig1_d": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "Arial"
+        ],
+        "font.sans-serif": [
+          "Arial"
+        ],
+        "svg.fonttype": "none",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "final/hallmark/fig1d_cell_line_template_mu_plus_alpha_numbers_v2.pdf": {
+          "sha256": "4fb5c72fb3e63c3deee50d334c9f4630a31f79bdb91de88b0d91013511db7f2c",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 450.0129 202.5412"
+          ]
+        },
+        "final/hallmark/fig1d_cell_line_template_mu_plus_alpha_numbers_v2.svg": {
+          "sha256": "4eea7eae1dedd11a997579cd52a47b5cf8236ef8e68ae7326e90d5513603fefc",
+          "drawing_sha256": "d62494cda47cac7df96246ec368512dc0e73d19475eed69d23daa8c7be3a37da",
+          "width": "450.016444pt",
+          "height": "201.556359pt",
+          "viewBox": "0 0 450.016444 201.556359",
+          "font_families": [
+            "Arial"
+          ],
+          "glyph_fonts": [],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.9"
+          ],
+          "svg_fonttype": "none",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 4,
+            "format": 1,
+            "g": 129,
+            "image": 2,
+            "metadata": 1,
+            "path": 6,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "text": 46,
+            "title": 1,
+            "type": 1,
+            "use": 23
+          },
+          "styles_sha256": "64d6f83e58db0e4d5397b24b2b0f487b54421a4cf3af45c574c5a23ac1993d68"
+        }
+      },
+      "output_aliases": {},
+      "input": "final/hallmark/results.json",
+      "input_sha256": "d0ea737d0ce999a06e3b5eca07ff7308ea724485bcd5cf8840cb119cc5c77c64",
+      "compatibility": "matched"
+    },
+    "fig1_dsup": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure1/fig1dsup_identity_variance.pdf": {
+          "sha256": "203116c718aaa775165da5249ff27b56f4a200173e32f9ee027968a1c1856d4d",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 208.905 164.3104"
+          ]
+        },
+        "paper/figure1/fig1dsup_identity_variance.svg": {
+          "sha256": "d938dc860cc4c97c1535fc9410f4fbc2e90d72a2b55a16dbe63a8244023df0c9",
+          "drawing_sha256": "b4d6f8b3b7152eb25458c609b7b72133572cbc8478eb930bfa0ed5ccb69a3512",
+          "width": "208.912813pt",
+          "height": "164.330062pt",
+          "viewBox": "0 0 208.912813 164.330062",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 16,
+            "format": 1,
+            "g": 73,
+            "metadata": 1,
+            "path": 54,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 107
+          },
+          "styles_sha256": "47f1280a46adb77c12cd768924649ab78b88c19a201440fe00a4207c45135845"
+        }
+      },
+      "output_aliases": {
+        "fig1_identity_variance.svg": "fig1dsup_identity_variance.svg"
+      },
+      "input": "paper/figure1/fig1dsup_identity_variance_results.json",
+      "input_sha256": "ad4e078bce30d59841e93c25855a4fdb2cb70a55548154b3e1eed9ea8a042c86",
+      "compatibility": "matched"
+    },
+    "fig1_e": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure1/fig1e_ctrl_space.pdf": {
+          "sha256": "32699d496657d8f5cb244db20edea4bbd5b0a48a3697e63d638ca6721e64894d",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 442.3 208.0406"
+          ]
+        },
+        "paper/figure1/fig1e_ctrl_space.svg": {
+          "sha256": "936bcb77c319e55843c67cbbb6f898d7c99dd3a119af9ba5c61339b07ddfb888",
+          "drawing_sha256": "456837e5135522374983570f5b6dee687aaf6af2b9f9774ab9977a49830fd043",
+          "width": "442.315625pt",
+          "height": "208.039921pt",
+          "viewBox": "0 0 442.315625 208.039921",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 14,
+            "format": 1,
+            "g": 145,
+            "metadata": 1,
+            "path": 78,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 147
+          },
+          "styles_sha256": "e3883638008372e46ec74a1deaab92b2ea91030ad8198ae97b01e0219db095b4"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure1/fig1e_ctrl_space_results.json",
+      "input_sha256": "e3c85ddfa2ea68465f8c73909b2590cb0405f81fcf3098db8b77c2512921d8ef",
+      "compatibility": "matched"
+    },
+    "fig1_f": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure1/fig1f_anova_stacked.pdf": {
+          "sha256": "b70e727b937a39fcaa03db563e2cf761a5ae4c5081e274342eae8f046eeb311d",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 353.6464 181.76"
+          ]
+        },
+        "paper/figure1/fig1f_anova_stacked.svg": {
+          "sha256": "3fb1afbad2101a14e563f108a33bad6f9a1129141238ca11de312423e1b839f6",
+          "drawing_sha256": "dccb19bc02801fe0916e8a7b63409bb7c0c6c41ee1881f507ae8c71876f25f05",
+          "width": "353.691753pt",
+          "height": "181.76pt",
+          "viewBox": "0 0 353.691753 181.76",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans",
+            "DejaVuSans-Oblique"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 20,
+            "format": 1,
+            "g": 85,
+            "metadata": 1,
+            "path": 60,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 174
+          },
+          "styles_sha256": "075874edda4c291c2c900eec82a4611c4ed654f1be53735320fa91d5afe509fc"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure1/fig1f_anova_results.json",
+      "input_sha256": "0fbaf810a18ee00507ab125c9f123c92f3c556fb80452e65dec974e7c90f4f48",
+      "compatibility": "matched"
+    },
+    "fig1_suppl_decomp": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/decomp_supplementary/decomp_supp_a_stacked.pdf": {
+          "sha256": "e89eac5dbd9d38a9b23552bb72a53e3d431f5caa2dd3e8ac80b86097016b27e7",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 388.9548 193.136"
+          ]
+        },
+        "paper/decomp_supplementary/decomp_supp_a_stacked.svg": {
+          "sha256": "6fbba72e8102a284d55baada36c3cc338ca4428c4cd84bb8dacf0fa4e5ccea11",
+          "drawing_sha256": "8ab7dcc934d49777c0e199e929e3e8cf813d6c8cf57ecc0d1956340af5d142d4",
+          "width": "388.983269pt",
+          "height": "193.136pt",
+          "viewBox": "0 0 388.983269 193.136",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans",
+            "DejaVuSans-Oblique"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 21,
+            "format": 1,
+            "g": 95,
+            "metadata": 1,
+            "path": 58,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 176
+          },
+          "styles_sha256": "0b43e6db5218effabd5a8c10337c108bac079ca1b8c0cb55889c06e5b7320120"
+        },
+        "paper/decomp_supplementary/decomp_supp_b_geometry.pdf": {
+          "sha256": "220d45194b1f41db9527d210e28caf32c9fc56fddcbb0420d08bb211d7ca2734",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 387.9472 208.448"
+          ]
+        },
+        "paper/decomp_supplementary/decomp_supp_b_geometry.svg": {
+          "sha256": "c7235337a2b7ce49d000366fa00d9f4d8ec286104d692a39116fc794a5ad9584",
+          "drawing_sha256": "2b05cf2242762add5f0ff3979c077b4ee0e4bee6afdd10ee98840fc293de66ed",
+          "width": "387.966938pt",
+          "height": "208.457922pt",
+          "viewBox": "0 0 387.966938 208.457922",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 16,
+            "format": 1,
+            "g": 97,
+            "metadata": 1,
+            "path": 71,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 168
+          },
+          "styles_sha256": "441846077228b46b36d320b1696e99767b440b06f398c63997d17fe35282fe04"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/decomp_supplementary/decomp_supp_results.json",
+      "input_sha256": "899657adc829488d8134313b77851bc0ba131d7523e22a1fe7dd6ce040645a09",
+      "compatibility": "matched"
+    },
+    "fig1_supplementary_full": {
+      "status": "reference_only",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure_1_supplementary/s1a_pc_variance_curves.pdf": {
+          "sha256": "adff3f1ec2da8b651a917594113aeac932d53ff00047c60d9cc9eb540314f058",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 496.5394 207.7031"
+          ]
+        },
+        "paper/figure_1_supplementary/s1a_pc_variance_curves.svg": {
+          "sha256": "26ab121b9971699200ec17c6390491d9cd01140ee6a7969e02e46277640a0727",
+          "drawing_sha256": "9fee9b401159f77cdf5a95e8775e39c0aa1190711e55de9abc230f79c34a4a8e",
+          "width": "496.558125pt",
+          "height": "207.714531pt",
+          "viewBox": "0 0 496.558125 207.714531",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 19,
+            "format": 1,
+            "g": 159,
+            "metadata": 1,
+            "path": 75,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 169
+          },
+          "styles_sha256": "543f59dff57d5f13fed6173be959735bd92faad732e0ab2bd9bd4a5d997597ee"
+        },
+        "paper/figure_1_supplementary/s1b_template_pc1_alignment.pdf": {
+          "sha256": "8c0f4901a66c2ebbde3bcc5ac645607494d9a757761c101d7ea427781e108dd7",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 225.8483 194.1857"
+          ]
+        },
+        "paper/figure_1_supplementary/s1b_template_pc1_alignment.svg": {
+          "sha256": "31bdc432c9adbb53c122a85785c0f3f7a09bc8c98f93687e1e4ba28e5b415b64",
+          "drawing_sha256": "501bfa185236a38dba87b5e5a1e3a33ab5240162a415bab5e69816c1305969e5",
+          "width": "225.825845pt",
+          "height": "194.195602pt",
+          "viewBox": "0 0 225.825845 194.195602",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 13,
+            "format": 1,
+            "g": 81,
+            "metadata": 1,
+            "path": 56,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 90
+          },
+          "styles_sha256": "bf1c54e598b3f2372e5f19ce1b092e2e70630a9eaf75a16b865e61ba05b6cd29"
+        },
+        "paper/figure_1_supplementary/s1c_ctrl_vs_resid_pcs.pdf": {
+          "sha256": "f9ff6167be1c8f3e986116501472dac3b053dc7209f937f4f1e1f71675b29109",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 459.9472 387.7031"
+          ]
+        },
+        "paper/figure_1_supplementary/s1c_ctrl_vs_resid_pcs.svg": {
+          "sha256": "2bf2dc974cbea2e4670fd2fcca503504da2f5c1bdacd1f2015f50d81d7a5959d",
+          "drawing_sha256": "86d2a4939d361d9048e4fbc28cdf4361688d6dcd37242de2bbc6510fb0321691",
+          "width": "459.966937pt",
+          "height": "387.714531pt",
+          "viewBox": "0 0 459.966937 387.714531",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 4,
+            "creator": 1,
+            "date": 1,
+            "defs": 22,
+            "format": 1,
+            "g": 263,
+            "metadata": 1,
+            "path": 88,
+            "rect": 4,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 214
+          },
+          "styles_sha256": "f93d012cbf7e72c1af9e4f9f15492ac88fed966cdaaae207e8c275e4c5d3bdc8"
+        },
+        "paper/figure_1_supplementary/s1d_full_hallmark_gsea.pdf": {
+          "sha256": "24c2c8cacb6b80bb422f77326d257f254215d0a04e8581bbee987b91aa9e2261",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 893.1911 207.9137"
+          ]
+        },
+        "paper/figure_1_supplementary/s1d_full_hallmark_gsea.svg": {
+          "sha256": "c1de4f64b754b2f923ef3dbc7e342f73380b1ae89d34f27091321daa38e73fe6",
+          "drawing_sha256": "69e0c22d76f8460ec9af573edc95a905ffac1ec799433ac81651ab6f1f889eea",
+          "width": "893.197456pt",
+          "height": "207.920625pt",
+          "viewBox": "0 0 893.197456 207.920625",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 30,
+            "format": 1,
+            "g": 369,
+            "image": 2,
+            "metadata": 1,
+            "path": 63,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 940
+          },
+          "styles_sha256": "07ff20c0bdedced1df818e39648d8d876e7e0640b7d3350b92c5f2f79575d0ba"
+        },
+        "paper/figure_1_supplementary/s1e_split_half_noise.pdf": {
+          "sha256": "0d8f1b5f09420a5f4a553ba075f6f163e2b2b014520b9fcff37e643a4ce813b6",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 568.1281 171.026"
+          ]
+        },
+        "paper/figure_1_supplementary/s1e_split_half_noise.svg": {
+          "sha256": "327f1c50cc871c5e73277887545f1b8b4e93ee91eff7da1cd3e74a286ef1072b",
+          "drawing_sha256": "3cb421e399bd9c260a5320537e5098eb58c074d45b55c520955f545de083c495",
+          "width": "568.122812pt",
+          "height": "171.035688pt",
+          "viewBox": "0 0 568.122812 171.035688",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 3,
+            "creator": 1,
+            "date": 1,
+            "defs": 19,
+            "format": 1,
+            "g": 229,
+            "metadata": 1,
+            "path": 117,
+            "rect": 3,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 209
+          },
+          "styles_sha256": "2ac1a1b168a57fa2a71a2bb4ac4d84386ced2104ba1440ea936c1d6a248591d9"
+        },
+        "paper/figure_1_supplementary/s1f_anova_diagnostics.pdf": {
+          "sha256": "a271a09ee6f44c0b9563e18a98b6f607a9abf2f0ae34a5062345f4b32d794ab1",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 533.0269 206.7575"
+          ]
+        },
+        "paper/figure_1_supplementary/s1f_anova_diagnostics.svg": {
+          "sha256": "f5a8bad34df05c662303b321eafcba43748787a84d98f6a0dcb8c4666f19241f",
+          "drawing_sha256": "ee487f9bbf08843396cb8eea89d984bfd74fa3358a2d9853462b9f7e6648027e",
+          "width": "532.987813pt",
+          "height": "206.74475pt",
+          "viewBox": "0 0 532.987813 206.74475",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 23,
+            "format": 1,
+            "g": 151,
+            "metadata": 1,
+            "path": 83,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 191
+          },
+          "styles_sha256": "f09d21c7ab3dfe051dc850fa58294d4bbc2c473321014821c8460d75922b2932"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "not_applicable"
+    },
+    "fig2_a": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure2/fig2a_within_cl_pref.pdf": {
+          "sha256": "784547b012b84395809327c828c3c670de243fbf21640acc0c4aa2cd7ab6fb2d",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 241.799 222.5775"
+          ]
+        },
+        "paper/figure2/fig2a_within_cl_pref.svg": {
+          "sha256": "8311e0f04e990bedbec104dba786497740ca62ac4fb2063da9a449395103c67d",
+          "drawing_sha256": "bbbbe1a3b670527f6b8f316057a2da9e9c845d4f37b657d3c4588488ba37dee1",
+          "width": "241.79026pt",
+          "height": "222.593727pt",
+          "viewBox": "0 0 241.79026 222.593727",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 25,
+            "format": 1,
+            "g": 198,
+            "metadata": 1,
+            "path": 79,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 171
+          },
+          "styles_sha256": "e6af276b734aa9400fbad421b9aa40b97d573f6e999d71eb105695f3eb82a35e"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure2/fig2a_within_cl_pref_results.json",
+      "input_sha256": "8687ee54cde3336c85e9bf72762d611c61d2acf879018c4d2c1a8fead1a34b85",
+      "compatibility": "matched"
+    },
+    "fig2_b": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure2/fig2b_depmap_pairwise.pdf": {
+          "sha256": "82b5c3119367be2c630e1f463d165321ff2cf6e42e6e172a8c324121c6bd0057",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 424.012 287.8009"
+          ]
+        },
+        "paper/figure2/fig2b_depmap_pairwise.svg": {
+          "sha256": "d0bb5329c7d9ec9dc6309f065f8eb3f92184f6b6c868338182879ed1b36750b8",
+          "drawing_sha256": "0e5c557344c7d00632ead3c2188a2d2c7acf2f833f888d304e31ab08cd43faa7",
+          "width": "423.886737pt",
+          "height": "287.817136pt",
+          "viewBox": "0 0 423.886737 287.817136",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 14,
+            "format": 1,
+            "g": 102,
+            "metadata": 1,
+            "path": 66,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 151
+          },
+          "styles_sha256": "20547a84ab126bd1c3ef0282ce85bfa708091a0435ef0f2fe398d518b62c9ced"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure2/fig2b_depmap_pairwise_results.json",
+      "input_sha256": "0b6170114ff4a009d75211a2eddbcb1ebec0e6d7d72b0617c9c2412796269837",
+      "compatibility": "matched"
+    },
+    "fig2_c": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure2/fig2c_ridge_projection.pdf": {
+          "sha256": "3862ef97e4ca85f174379e395238ca58982ee4c3984aebd19cc7760c7214993f",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 428.1683 244.5614"
+          ]
+        },
+        "paper/figure2/fig2c_ridge_projection.svg": {
+          "sha256": "1d317a71166190cb9ab5c7a7574a7af150f0d84b2521962852d86acd5662982a",
+          "drawing_sha256": "9d69db007f700b3c0db2ea059621c6a1d91ec6bc5ef4c0937a314a33aaf3d87e",
+          "width": "428.102987pt",
+          "height": "244.579895pt",
+          "viewBox": "0 0 428.102987 244.579895",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 15,
+            "format": 1,
+            "g": 92,
+            "metadata": 1,
+            "path": 61,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 150
+          },
+          "styles_sha256": "6348ca5dd61ddbc9fddfbcd735b56263f837d8acd82d2ef9df71acedd43db53d"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure2/fig2c_ridge_projection_results.json",
+      "input_sha256": "4c5da70217deeb92d2d2403a5c6697e4eb3a60f10469ce86c0c1213c15fd26d1",
+      "compatibility": "matched"
+    },
+    "fig2_d": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "paper/figure2/fig2d_rank_ablation.pdf": {
+          "sha256": "1b02bea9c527e9d992e590578f99c557a2e25857d4e622eb17dd9f42c3b13fad",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 249.3482 223.8356"
+          ]
+        },
+        "paper/figure2/fig2d_rank_ablation.svg": {
+          "sha256": "ccf6f6b4566ce9c4b69bf1a004d27346700f5e0a0c5c82b75d160ac5a6a631c9",
+          "drawing_sha256": "476c4f4762ade5a4f1c29a781b683fc526990f8cbe13b2434799a67e81b89d24",
+          "width": "248.69891pt",
+          "height": "222.970787pt",
+          "viewBox": "0 0 248.69891 222.970787",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 43,
+            "format": 1,
+            "g": 168,
+            "metadata": 1,
+            "path": 93,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 240
+          },
+          "styles_sha256": "4b985204b700048629821283b7c9efdebe599d32cdd31e2cc333d747c419abc4"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure2/fig2d_rank_ablation_results.json",
+      "input_sha256": "0f1007433c7eae5884dbb6e2a22bf0194553571c5b2e308a74d09bdf3fbfd816",
+      "compatibility": "matched",
+      "alias_of": "fig2_d2"
+    },
+    "fig2_d2": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "paper/figure2/fig2d_rank_ablation.pdf": {
+          "sha256": "1b02bea9c527e9d992e590578f99c557a2e25857d4e622eb17dd9f42c3b13fad",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 249.3482 223.8356"
+          ]
+        },
+        "paper/figure2/fig2d_rank_ablation.svg": {
+          "sha256": "ccf6f6b4566ce9c4b69bf1a004d27346700f5e0a0c5c82b75d160ac5a6a631c9",
+          "drawing_sha256": "476c4f4762ade5a4f1c29a781b683fc526990f8cbe13b2434799a67e81b89d24",
+          "width": "248.69891pt",
+          "height": "222.970787pt",
+          "viewBox": "0 0 248.69891 222.970787",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 43,
+            "format": 1,
+            "g": 168,
+            "metadata": 1,
+            "path": 93,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 240
+          },
+          "styles_sha256": "4b985204b700048629821283b7c9efdebe599d32cdd31e2cc333d747c419abc4"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure2/fig2d_rank_ablation_results.json",
+      "input_sha256": "0f1007433c7eae5884dbb6e2a22bf0194553571c5b2e308a74d09bdf3fbfd816",
+      "compatibility": "matched"
+    },
+    "fig2_e": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure2/fig2e_morph_mechanism.pdf": {
+          "sha256": "aa0156085268a09a09edb28e7d0779511a22194f0e8ff37b64aaed85c7eafa00",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 306.9123 294.3309"
+          ]
+        },
+        "paper/figure2/fig2e_morph_mechanism.svg": {
+          "sha256": "5138475d561c8a81f3284f59a584b927632eecbaada93e1c559da756520b5e45",
+          "drawing_sha256": "dc4b8e17afc0e423fabdd51565c38265caf6826ffa059c9cab44ce13534a2855",
+          "width": "306.90914pt",
+          "height": "294.368558pt",
+          "viewBox": "0 0 306.90914 294.368558",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 23,
+            "format": 1,
+            "g": 88,
+            "metadata": 1,
+            "path": 61,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 165
+          },
+          "styles_sha256": "0a6b42728ed9e4d1f247a21e176fb4914cd26d993cfe8100f6febdead9ccbec2"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure2/fig2e_morph_mechanism_results.json",
+      "input_sha256": "954418874e9718c21c667af0d4b5d269fe1be34235dfa913263b7e48fe6de282",
+      "compatibility": "matched"
+    },
+    "fig2_supp2_1": {
+      "status": "reference_only",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/supplemetary_figure_2_2/s2a_decile_plots.pdf": {
+          "sha256": "87d9304faf865d175df6db94896087f07c8d10731d69281895e7f4954e590d22",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 498.7089 423.7031"
+          ]
+        },
+        "paper/supplemetary_figure_2_2/s2a_decile_plots.svg": {
+          "sha256": "f7d74c6fc0760138d36d1f82d12d7c358ffaadf047d21d8e342ed2b9520f6361",
+          "drawing_sha256": "4db3b8a79530cf62fb5246816c7b72997518fab74a8475b64e0f6634838435cc",
+          "width": "498.719246pt",
+          "height": "423.714531pt",
+          "viewBox": "0 0 498.719246 423.714531",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 4,
+            "creator": 1,
+            "date": 1,
+            "defs": 24,
+            "format": 1,
+            "g": 309,
+            "metadata": 1,
+            "path": 96,
+            "rect": 4,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 360
+          },
+          "styles_sha256": "f6c22e85c333c3b565e37c0ccf523da478554b66e110d47edbaba416ddeccf4f"
+        },
+        "paper/supplemetary_figure_2_2/s2b_cluster_coherence.pdf": {
+          "sha256": "3e5017370a60d6fc962467f8a600642512d64732a2e9b0e03081f072a61a750b",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 495.6737 423.47"
+          ]
+        },
+        "paper/supplemetary_figure_2_2/s2b_cluster_coherence.svg": {
+          "sha256": "254a2735488c1d3bf6ad35d472eab64993771f99db05e1ca76146bfd9dc5c417",
+          "drawing_sha256": "0cb16f4e41ad319570d75837013402c4e73bda0b41d57fc2fcd3e21133cad5ca",
+          "width": "495.694998pt",
+          "height": "423.466719pt",
+          "viewBox": "0 0 495.694998 423.466719",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 4,
+            "creator": 1,
+            "date": 1,
+            "defs": 18,
+            "format": 1,
+            "g": 293,
+            "metadata": 1,
+            "path": 99,
+            "rect": 4,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 330
+          },
+          "styles_sha256": "1babcb7418cfdf95d325b35def2d810c16081d49a76459356a2905ccb1cb9744"
+        },
+        "paper/supplemetary_figure_2_2/s2c_pairwise_scatter.pdf": {
+          "sha256": "173a06d344d42333bf763523a08d354c2677088626c62974c7d167fb094d2c2e",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 857.953 387.3944"
+          ]
+        },
+        "paper/supplemetary_figure_2_2/s2c_pairwise_scatter.svg": {
+          "sha256": "09ec79d6d8da6eb66ee07a7b66b34795c3824f1ac83841e20d1c608da34889f9",
+          "drawing_sha256": "9c63f9eadc457ee8043a8ac19957fed4d5cdbcb40bbe09afaf0e695bbb8a64b5",
+          "width": "857.93824pt",
+          "height": "387.387031pt",
+          "viewBox": "0 0 857.93824 387.387031",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 8,
+            "creator": 1,
+            "date": 1,
+            "defs": 19,
+            "format": 1,
+            "g": 501,
+            "image": 8,
+            "metadata": 1,
+            "path": 86,
+            "rect": 8,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 579
+          },
+          "styles_sha256": "932ca758d2bb4c38b4fdf89e707d0c2c8a2faaf56a347e1efce8380c19822cf8"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "not_applicable"
+    },
+    "fig2_supp2_2": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/supplementary_figure_2_3/s2_3a_feature_ablation.pdf": {
+          "sha256": "f1bfc207fc10aaa07689c20f96fb0787e0b6966bcb2f8b3c1ac2ec679fa4a508",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 299.234 244.1775"
+          ]
+        },
+        "paper/supplementary_figure_2_3/s2_3a_feature_ablation.svg": {
+          "sha256": "b9a4fe21b228151f0bb0eaa3b7cf821f886750abffd00e204ec7e8e4ee4f9e19",
+          "drawing_sha256": "a1cd8c56ea77585c8815a4dc0ea1055d03d8406ff1898e48554f9845549a5034",
+          "width": "299.256192pt",
+          "height": "244.193727pt",
+          "viewBox": "0 0 299.256192 244.193727",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 18,
+            "format": 1,
+            "g": 106,
+            "metadata": 1,
+            "path": 83,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 163
+          },
+          "styles_sha256": "adb46bf094bb0d2a9cf3f2befb8fa25c51b3c84bd9a1bc963d10e0982e7d616c"
+        },
+        "paper/supplementary_figure_2_3/s2_3b_pls_comparison.pdf": {
+          "sha256": "21f8ba8ad7f0371dcea9c12705060c251c86aaf76057289ce373f26cc3994e90",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 270.5593 222.1506"
+          ]
+        },
+        "paper/supplementary_figure_2_3/s2_3b_pls_comparison.svg": {
+          "sha256": "5c0de42c52f4e7fb7101d96865f48dd7ec8349366326de8b93c0d8eeeba24999",
+          "drawing_sha256": "4d1d86faa5c39c7719090608c4f2f5b1d4fa28e13f2a7e6841d5124482450c26",
+          "width": "270.565159pt",
+          "height": "222.148437pt",
+          "viewBox": "0 0 270.565159 222.148437",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 21,
+            "format": 1,
+            "g": 89,
+            "metadata": 1,
+            "path": 65,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 125
+          },
+          "styles_sha256": "11400c63051300718c8960f185670214968ce8047436cbdfada3402aab57e788"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/supplementary_figure_2_3/s2_3_results.json",
+      "input_sha256": "5bae04b27aef8f1662e556751c6e7f7e380938c08a75ee965471523a647d56b0",
+      "compatibility": "matched"
+    },
+    "fig3_a": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "none",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "final/figure3/fig3_crosscl_biolord_cellline_go_author_v1.pdf": {
+          "sha256": "ac86aba273683223a3c8942b3b6461954dfe26f154357ced0c553da910ce2fc2",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 505.3621 288.8891"
+          ]
+        },
+        "final/figure3/fig3_crosscl_biolord_cellline_go_author_v1.svg": {
+          "sha256": "2361945fde7751ed59bc558bb4410f6ebe9494251a1b200c4df5796bc90ac34b",
+          "drawing_sha256": "2b7f64b1086a2b6ffa36b76ff32af299eff89bd88450c7e9f4f54f2a3d97d797",
+          "width": "505.3633pt",
+          "height": "288.899011pt",
+          "viewBox": "0 0 505.3633 288.899011",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.9"
+          ],
+          "svg_fonttype": "none",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 24,
+            "format": 1,
+            "g": 255,
+            "metadata": 1,
+            "path": 55,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "text": 21,
+            "title": 1,
+            "type": 1,
+            "use": 92
+          },
+          "styles_sha256": "3a8235a9fa69bb0c3bacbda7866c7811c5dc0610bc43db51e6915eae74228574"
+        }
+      },
+      "output_aliases": {},
+      "input": "final/figure3/results.json",
+      "input_sha256": "cb50a6b98635203d514d15a3ca944311a567ff7524cdd90dc86040ad0ab31900",
+      "compatibility": "matched",
+      "alias_of": "fig3_crosscl_transfer"
+    },
+    "fig3_c": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3/fig3c_double_unseen.pdf": {
+          "sha256": "4aa20602e70f31209c5ac7a7a6f39b7c54da97b57106792a13f40d285f72f511",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 247.8469 222.2969"
+          ]
+        },
+        "paper/figure3/fig3c_double_unseen.svg": {
+          "sha256": "643a62ff839757f64b4bb27c9f2176989683e2bf3d26c3f61f1af007bf35ec26",
+          "drawing_sha256": "64a34865ca8ff171a30fc88dc622e6027c50f595f181d3b996a7420fd46b6e4d",
+          "width": "247.786363pt",
+          "height": "222.312008pt",
+          "viewBox": "0 0 247.786363 222.312008",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 18,
+            "format": 1,
+            "g": 104,
+            "metadata": 1,
+            "path": 59,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 161
+          },
+          "styles_sha256": "1df81f844d17799765ed65a0f2b50f8814bc15d499a286248adb8bae79faab40"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure3/fig3c_double_unseen_results.json",
+      "input_sha256": "d73a57ef82765f5f633c99f35041d4db4be01fde5f967c1317f5ef31a2585bf6",
+      "compatibility": "matched"
+    },
+    "fig3_crosscl_transfer": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "none",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "final/figure3/fig3_crosscl_biolord_cellline_go_author_v1.pdf": {
+          "sha256": "ac86aba273683223a3c8942b3b6461954dfe26f154357ced0c553da910ce2fc2",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 505.3621 288.8891"
+          ]
+        },
+        "final/figure3/fig3_crosscl_biolord_cellline_go_author_v1.svg": {
+          "sha256": "2361945fde7751ed59bc558bb4410f6ebe9494251a1b200c4df5796bc90ac34b",
+          "drawing_sha256": "2b7f64b1086a2b6ffa36b76ff32af299eff89bd88450c7e9f4f54f2a3d97d797",
+          "width": "505.3633pt",
+          "height": "288.899011pt",
+          "viewBox": "0 0 505.3633 288.899011",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.9"
+          ],
+          "svg_fonttype": "none",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 24,
+            "format": 1,
+            "g": 255,
+            "metadata": 1,
+            "path": 55,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "text": 21,
+            "title": 1,
+            "type": 1,
+            "use": 92
+          },
+          "styles_sha256": "3a8235a9fa69bb0c3bacbda7866c7811c5dc0610bc43db51e6915eae74228574"
+        }
+      },
+      "output_aliases": {},
+      "input": "final/figure3/results.json",
+      "input_sha256": "cb50a6b98635203d514d15a3ca944311a567ff7524cdd90dc86040ad0ab31900",
+      "compatibility": "matched"
+    },
+    "fig3_d": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3/fig3d_target_landscape.pdf": {
+          "sha256": "005fe2ee69ae08887acb785527f822d559ba4aa7e2c053d46a36bc3490be1565",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 281.5899 244.451"
+          ]
+        },
+        "paper/figure3/fig3d_target_landscape.svg": {
+          "sha256": "74b08bab4ac9bcb954cefb5add2be4f44b10ca3ff9afb8635429b8a00c626276",
+          "drawing_sha256": "df1aea96159da1bc0513ba1e8e8fddb35a6625486c0972b7d967c412249f2d23",
+          "width": "281.579866pt",
+          "height": "244.456023pt",
+          "viewBox": "0 0 281.579866 244.456023",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 27,
+            "format": 1,
+            "g": 115,
+            "metadata": 1,
+            "path": 75,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 166
+          },
+          "styles_sha256": "7e8f4c254482996423893e9f8da778387d493b125664f0cef1748c654dc5d284"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure3/fig3d_target_landscape_results.json",
+      "input_sha256": "625e9a9d940ae73f547a5eaddc08b800dfa0ecaa660bdd42e2456cac0c6509ec",
+      "compatibility": "matched"
+    },
+    "fig3_e": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3/fig3e_basis_vs_transfer.pdf": {
+          "sha256": "014e005c1bdc71c09899024244b2df28e43e7a17454446241be5ec191d4c38e1",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 523.0519 233.2904"
+          ]
+        },
+        "paper/figure3/fig3e_basis_vs_transfer.svg": {
+          "sha256": "c3a204647e92b883511c6ee0aa6b088b7a302d92a3af7ac5dbdd549f6b4eeb76",
+          "drawing_sha256": "dac4b368cb89dad117232fbf24c84c6e3ad495f25ffffa3f3b7014ed59fb3871",
+          "width": "523.060188pt",
+          "height": "233.286pt",
+          "viewBox": "0 0 523.060188 233.286",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 20,
+            "format": 1,
+            "g": 239,
+            "image": 4,
+            "metadata": 1,
+            "path": 64,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 333
+          },
+          "styles_sha256": "99de6572051b2e92f8474d333acfc7ea38af2ae1915ca3cf2f8624501ea62741"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure3/fig3e_basis_vs_transfer_results.json",
+      "input_sha256": "7b6ec6914090f95c0e6d621a1133905c7d9f25a09660151d6b72e474f04b5b95",
+      "compatibility": "matched"
+    },
+    "fig3_enrichment_barplot": {
+      "status": "no_saved_reference",
+      "rc_overrides": {},
+      "assets": {},
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "not_applicable"
+    },
+    "fig3_morph_double_unseen_combo": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "paper/figure3/fig3_morph_double_unseen_clean.pdf": {
+          "sha256": "5f72beb010e2497a585e39e07370c660b89b5d9cdce69d074a411e5a837ae902",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 298.8331 205.9442"
+          ]
+        },
+        "paper/figure3/fig3_morph_double_unseen_clean.svg": {
+          "sha256": "edfce483b0a9c3022de4f145426fe59cef35dd52bbb7d31c0437e8bb4b9832f1",
+          "drawing_sha256": "7166c40c86c5e9dc9d1055bf5dd116c0d666b251648907cd562add090458c7ed",
+          "width": "298.812813pt",
+          "height": "205.891683pt",
+          "viewBox": "0 0 298.812813 205.891683",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 23,
+            "format": 1,
+            "g": 91,
+            "metadata": 1,
+            "path": 64,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 164
+          },
+          "styles_sha256": "680f58b8dec3871064fb2891f214c80d93862892fd5d4dcf9989cbe86c438c67"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched"
+    },
+    "fig3_source_vs_depmap": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3/fig3_source_vs_depmap.pdf": {
+          "sha256": "736615221b88d1988966bf17c08c277fe4b6abba007971557f55c9d32e358581",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 1000.5531 260.86"
+          ]
+        },
+        "paper/figure3/fig3_source_vs_depmap.svg": {
+          "sha256": "8d6a8c1615ddfc37de6e165f386105c8b9242408437afb5300996a904e318d10",
+          "drawing_sha256": "3c6b0c817e12f3af253fa865cbc57ff20046d321ca8e5c5a6c9186a5474272a6",
+          "width": "1000.560938pt",
+          "height": "260.856719pt",
+          "viewBox": "0 0 1000.560938 260.856719",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans",
+            "DejaVuSans-Bold"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 4,
+            "creator": 1,
+            "date": 1,
+            "defs": 17,
+            "format": 1,
+            "g": 376,
+            "image": 4,
+            "metadata": 1,
+            "path": 127,
+            "rect": 4,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 412
+          },
+          "styles_sha256": "1c5eac792396cfee6b968241160cc13952039b7b1df6c4081106b6267ea6fb2a"
+        }
+      },
+      "output_aliases": {},
+      "input": "benchmark/source_vs_depmap/source_vs_depmap_results.json",
+      "input_sha256": "ebca8b5dc2f0c62e938788065e37e28f34249e7a52fc35eebfb59e804768098e",
+      "compatibility": "matched"
+    },
+    "fig3_supp1": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3_supplementary/s3a_1to1_heatmaps.pdf": {
+          "sha256": "3889fac05e9f1b6e2da5b83033d0225ed1eb5dbe452f5b9ee7726ce6b38fb2df",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 568.4206 222.0781"
+          ]
+        },
+        "paper/figure3_supplementary/s3a_1to1_heatmaps.svg": {
+          "sha256": "ed4bb6d54aa1b8f06c12b985c949899d013aea4c09cc4173c34305a9726cf3da",
+          "drawing_sha256": "da85f71a43807fe4b929292d9f512719f41de454227e264a8c618d244f752c0e",
+          "width": "568.427656pt",
+          "height": "222.07789pt",
+          "viewBox": "0 0 568.427656 222.07789",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 18,
+            "format": 1,
+            "g": 203,
+            "image": 3,
+            "metadata": 1,
+            "path": 56,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 324
+          },
+          "styles_sha256": "99de6572051b2e92f8474d333acfc7ea38af2ae1915ca3cf2f8624501ea62741"
+        },
+        "paper/figure3_supplementary/s3b_slope_plots.pdf": {
+          "sha256": "78016bd04322f1fdbc33b46dc943eef81274ca07d0fbecb052ee5bc0bd3af540",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 568.0289 243.1656"
+          ]
+        },
+        "paper/figure3_supplementary/s3b_slope_plots.svg": {
+          "sha256": "ce50843fb855ef56113d5210358e9297db546c7b13b4d9f8cc901ea532d8642b",
+          "drawing_sha256": "5f3cc4daf22b87b88072caf29919177089037e8edef1f510f5e5837f325b443b",
+          "width": "568.02841pt",
+          "height": "243.146625pt",
+          "viewBox": "0 0 568.02841 243.146625",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 31,
+            "format": 1,
+            "g": 215,
+            "metadata": 1,
+            "path": 88,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 286
+          },
+          "styles_sha256": "84a7f2b83982585a53aaa5c02456e0b388d48cc6b057cd1692b4a92892d15afe"
+        },
+        "paper/figure3_supplementary/s3c_saturation_curves.pdf": {
+          "sha256": "5865fe4af4930fc5321f33da775e6cdd36979ba6967b9ad508295d88bf227f87",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 568.1863 243.7031"
+          ]
+        },
+        "paper/figure3_supplementary/s3c_saturation_curves.svg": {
+          "sha256": "1790439cd1c4a8d7f0eeb9b5a129c65d751d9ec744a97a55d3d6a9c990b2da6c",
+          "drawing_sha256": "ea211504c1c07afac9eb4f0e2db66ee04ff60755f96f572cf0d6f2ac16d34501",
+          "width": "568.18939pt",
+          "height": "243.714531pt",
+          "viewBox": "0 0 568.18939 243.714531",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 32,
+            "format": 1,
+            "g": 203,
+            "metadata": 1,
+            "path": 92,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 280
+          },
+          "styles_sha256": "675dafbeb6a3fa7288ea012a688b200a7ef3a6838bd3214e1e8126682c0dfb73"
+        },
+        "paper/figure3_supplementary/s3d_basis_gap_heatmap.pdf": {
+          "sha256": "a54b9ade1b0aa8e26da75d9b4a76651cb48f6b83b976ad67f9fed2edbd44c537",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 568.4206 233.2904"
+          ]
+        },
+        "paper/figure3_supplementary/s3d_basis_gap_heatmap.svg": {
+          "sha256": "dddb3f72e8dfc8849fa823d8f42905b09fe1c372eec51a1d7cb35c3986278b4d",
+          "drawing_sha256": "776855669b7ae09ab812c16238939a81401359ae7597b656976889ad351f526a",
+          "width": "568.427656pt",
+          "height": "233.286pt",
+          "viewBox": "0 0 568.427656 233.286",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 18,
+            "format": 1,
+            "g": 162,
+            "image": 2,
+            "metadata": 1,
+            "path": 60,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 294
+          },
+          "styles_sha256": "970228d786a35bbdce8d92868bbface7faab9a38cc1b116197892abe1767d93f"
+        },
+        "paper/figure3_supplementary/s3e_reference_baselines.pdf": {
+          "sha256": "6dc9f0661bc413536d340947d34da990c6fdb9a30b9f2a0e5f8cad306836d078",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 532.4581 244.8062"
+          ]
+        },
+        "paper/figure3_supplementary/s3e_reference_baselines.svg": {
+          "sha256": "1bfab42078d47553ecacc141a65e796409e72364bb73eac738c52ceafae90d83",
+          "drawing_sha256": "e38044c70e5d74f43ac5fecdd9bed5285e2fdf84999aa0cfea255e5dfe52e1fe",
+          "width": "532.46125pt",
+          "height": "244.815266pt",
+          "viewBox": "0 0 532.46125 244.815266",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 20,
+            "format": 1,
+            "g": 135,
+            "metadata": 1,
+            "path": 84,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 215
+          },
+          "styles_sha256": "0a6b42728ed9e4d1f247a21e176fb4914cd26d993cfe8100f6febdead9ccbec2"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "packaged_input": "fig3_supp1_saved.json",
+      "packaged_input_sha256": "9ed5858d531b00d82fcbc8bcbcf67b5a471cc92aac4fa862b44bd2aec13298da"
+    },
+    "fig4_a": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "Arial"
+        ],
+        "font.sans-serif": [
+          "Arial"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "final/figure4a/fig4a_within_decomp_labels_v1.pdf": {
+          "sha256": "d85a5879b9e41dcae58e73a3f67c2ba1d7ecc155e621e987e8c6dad9d98fd9cc",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 296.4952 243.3537"
+          ]
+        },
+        "final/figure4a/fig4a_within_decomp_labels_v1.svg": {
+          "sha256": "083cce3faf913eb8fdb10c950968e94fdd5e621926bc011599ea24bcc54d25e2",
+          "drawing_sha256": "4e7b2c6f27d8d6ab0b2b5438b5acc42eec1f9ffb2a38d19bfe043c7ec6ea0330",
+          "width": "296.401324pt",
+          "height": "243.356196pt",
+          "viewBox": "0 0 296.401324 243.356196",
+          "font_families": [
+            "Arial"
+          ],
+          "glyph_fonts": [
+            "ArialMT"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.9"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 24,
+            "format": 1,
+            "g": 210,
+            "metadata": 1,
+            "path": 74,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 255
+          },
+          "styles_sha256": "fc296fa708bf352cf6db65cb62270161833426144133f0b5b785dff133b2cf35"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure4/fig4a_within_decomp_results.json",
+      "input_sha256": "1b64b6c48f7d8907fd805b5be3c4afeb9361b02aba73fd4b0861714597c485fc",
+      "compatibility": "matched"
+    },
+    "fig4_b": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "none",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "final/figure4b/component_matching_no_target30_largefont_v8_grid.pdf": {
+          "sha256": "95a3c71a1cbf43bf82e92c854e126f3e3937a3be238dc752ef701f87ed4a1eee",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 926.4594 971.0616"
+          ]
+        },
+        "final/figure4b/component_matching_no_target30_largefont_v8_grid.svg": {
+          "sha256": "2d40922a725679e72277148081be701380fb3ee5c6f837f369bcd56fcb904d9d",
+          "drawing_sha256": "9c03c56486b942d6219bfc9509ff368e5c32c696b8090fb9933ffacd8144fa2d",
+          "width": "926.741391pt",
+          "height": "970.485237pt",
+          "viewBox": "0 0 926.741391 970.485237",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.9"
+          ],
+          "svg_fonttype": "none",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 12,
+            "creator": 1,
+            "date": 1,
+            "defs": 10,
+            "format": 1,
+            "g": 1381,
+            "metadata": 1,
+            "path": 213,
+            "rect": 12,
+            "style": 1,
+            "svg": 1,
+            "text": 55,
+            "title": 1,
+            "type": 1,
+            "use": 470
+          },
+          "styles_sha256": "991aec4cf7b3946b27ae54bc419aca301e909bc4522ba48b00d040af4301e20c"
+        }
+      },
+      "output_aliases": {},
+      "input": "final/components/results.json",
+      "input_sha256": "cc781716715ac2b378177c3ee000efb635acdf416b9966beaa893614c4f2e69e",
+      "compatibility": "matched"
+    },
+    "fig4_c": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "none",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "final/figure4d/component_matching_gamma_target30_comparison_2x2_largefont_v8_grid.pdf": {
+          "sha256": "974c3b83bd201fb3723bea37b2c7e34df067ec9e1d111149578372e60721c844",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 693.1276 574.38"
+          ]
+        },
+        "final/figure4d/component_matching_gamma_target30_comparison_2x2_largefont_v8_grid.svg": {
+          "sha256": "a8339505f2ae94e075edf8ed9e23af7bede74f9fee68c4485db77f77eb5355a0",
+          "drawing_sha256": "1edfcf065f0411f171d9b95eb3cd6a9cbf2a0317fc8a6e3e09672fb49b484783",
+          "width": "693.450797pt",
+          "height": "574.38pt",
+          "viewBox": "0 0 693.450797 574.38",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.9"
+          ],
+          "svg_fonttype": "none",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 4,
+            "creator": 1,
+            "date": 1,
+            "defs": 10,
+            "format": 1,
+            "g": 657,
+            "metadata": 1,
+            "path": 125,
+            "rect": 4,
+            "style": 1,
+            "svg": 1,
+            "text": 30,
+            "title": 1,
+            "type": 1,
+            "use": 226
+          },
+          "styles_sha256": "b07f242fb34cf36ad70075a0eaa0d2233e9b8ed3f31abb666b594866e5554010"
+        }
+      },
+      "output_aliases": {},
+      "input": "final/components/results.json",
+      "input_sha256": "cc781716715ac2b378177c3ee000efb635acdf416b9966beaa893614c4f2e69e",
+      "compatibility": "matched"
+    },
+    "fig4_calibration": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "none",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "final/figure4c_clean/fig4c_calibration_author_aligned_v2.pdf": {
+          "sha256": "4218bed6946b546e473627f82f04c0e27ff8232192ac49caa89d73d92f9caa33",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 634.3518 612.8098"
+          ]
+        },
+        "final/figure4c_clean/fig4c_calibration_author_aligned_v2.svg": {
+          "sha256": "920fdaf7fb7010e0ff32c8bc4af74fc1bb0a3743419e30e0da5b22ce01a3504c",
+          "drawing_sha256": "ce5df9b9b2ce78c1bbfbf452bcab0e4049e81552641858af7881b4c97e3f8e98",
+          "width": "634.347577pt",
+          "height": "612.814437pt",
+          "viewBox": "0 0 634.347577 612.814437",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.9"
+          ],
+          "svg_fonttype": "none",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 13,
+            "format": 1,
+            "g": 642,
+            "metadata": 1,
+            "path": 124,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "text": 37,
+            "title": 1,
+            "type": 1,
+            "use": 221
+          },
+          "styles_sha256": "b74546ddd69cbf514dad91eed880fec950d4d2e79fcf8add16dbcd3d44a29744"
+        }
+      },
+      "output_aliases": {},
+      "input": "final/figure4c/results.json",
+      "input_sha256": "ce6117dce16479e74ab64ec8e8935e9cf1626a18657390ae832f9a4936e9f1ef",
+      "compatibility": "matched"
+    },
+    "fig4_crosscl_decomp": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "paper/figure4/fig4_crosscl_decomp.pdf": {
+          "sha256": "ee6085ad0c29bec37bda7793e156d70ea0ab83b5933b8632cfa0cecc685a9d33",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 392.8634 244.2723"
+          ]
+        },
+        "paper/figure4/fig4_crosscl_decomp.svg": {
+          "sha256": "5bacb0b5e4586af81bc5c3758447b91aa0132d962dc6713ea1043530c9e80377",
+          "drawing_sha256": "dd09255ff76f69358800fb61317e0392e58c0609aa036b6f01d0b7eb97ab071c",
+          "width": "392.905597pt",
+          "height": "243.936939pt",
+          "viewBox": "0 0 392.905597 243.936939",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 35,
+            "format": 1,
+            "g": 332,
+            "metadata": 1,
+            "path": 107,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 270
+          },
+          "styles_sha256": "a4f9b4469d06155781e823d450a808f11193abce6c2637ba8b539caa73a91338"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure4/fig4_crosscl_decomp_results.json",
+      "input_sha256": "4224ebf62c4d8430b3389ffaa3f97fbf472b83a904679004c21068773b07c036",
+      "compatibility": "matched"
+    },
+    "fig4_d": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "none",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "final/figure4d/component_matching_gamma_target30_comparison_2x2_largefont_v8_grid.pdf": {
+          "sha256": "974c3b83bd201fb3723bea37b2c7e34df067ec9e1d111149578372e60721c844",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 693.1276 574.38"
+          ]
+        },
+        "final/figure4d/component_matching_gamma_target30_comparison_2x2_largefont_v8_grid.svg": {
+          "sha256": "a8339505f2ae94e075edf8ed9e23af7bede74f9fee68c4485db77f77eb5355a0",
+          "drawing_sha256": "1edfcf065f0411f171d9b95eb3cd6a9cbf2a0317fc8a6e3e09672fb49b484783",
+          "width": "693.450797pt",
+          "height": "574.38pt",
+          "viewBox": "0 0 693.450797 574.38",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.9"
+          ],
+          "svg_fonttype": "none",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 4,
+            "creator": 1,
+            "date": 1,
+            "defs": 10,
+            "format": 1,
+            "g": 657,
+            "metadata": 1,
+            "path": 125,
+            "rect": 4,
+            "style": 1,
+            "svg": 1,
+            "text": 30,
+            "title": 1,
+            "type": 1,
+            "use": 226
+          },
+          "styles_sha256": "b07f242fb34cf36ad70075a0eaa0d2233e9b8ed3f31abb666b594866e5554010"
+        }
+      },
+      "output_aliases": {},
+      "input": "final/components/results.json",
+      "input_sha256": "cc781716715ac2b378177c3ee000efb635acdf416b9966beaa893614c4f2e69e",
+      "compatibility": "matched",
+      "alias_of": "fig4_c"
+    },
+    "fig4_supplementary": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure4_supplementary/s4a_feature_ablation.pdf": {
+          "sha256": "d062918738e8453a9ecb601a703bd30abdf9c2c855f4024dc4d336cafb0c738f",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 712.8288 194.5591"
+          ]
+        },
+        "paper/figure4_supplementary/s4a_feature_ablation.svg": {
+          "sha256": "9dafe4ab0a4e7e480f519b31120704c99bab73c54c206797f3a94109f99a11fe",
+          "drawing_sha256": "686e92ba88470029e68375827e4f154422171f127647a9e3d4d4f20e80786fe0",
+          "width": "712.829531pt",
+          "height": "194.20446pt",
+          "viewBox": "0 0 712.829531 194.20446",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 19,
+            "format": 1,
+            "g": 168,
+            "image": 2,
+            "metadata": 1,
+            "path": 50,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 401
+          },
+          "styles_sha256": "3d71ff77adb5a3cfa461a74f8801118c056314577dc346ac8bd6aae80b03fa49"
+        },
+        "paper/figure4_supplementary/s4b_within_decomp.pdf": {
+          "sha256": "d8fe10f6bf9412b04f3e4407228b80f7b0b814191134c239d080a58f1fb9cdfa",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 640.4581 193.6406"
+          ]
+        },
+        "paper/figure4_supplementary/s4b_within_decomp.svg": {
+          "sha256": "5f1829dd2a72f79c34516bb28a17d282b0ac918194a6a51d1d9f5fa0d3b1502b",
+          "drawing_sha256": "5d26749a37e23f56aea15cc6bde835a2612c1fe5375900f8ca449f37945967da",
+          "width": "640.46125pt",
+          "height": "193.639921pt",
+          "viewBox": "0 0 640.46125 193.639921",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 3,
+            "creator": 1,
+            "date": 1,
+            "defs": 18,
+            "format": 1,
+            "g": 246,
+            "metadata": 1,
+            "path": 106,
+            "rect": 3,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 277
+          },
+          "styles_sha256": "1b49a53663e47bbc70fdd329357f077d829154a1c5182ab571f0dc37622f4390"
+        },
+        "paper/figure4_supplementary/s4c_crosscl_decomp.pdf": {
+          "sha256": "f273d498e3f75a22948897f6242de187d57c2cbc67d3a269c6403986ad849a37",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 388.8288 351.8788"
+          ]
+        },
+        "paper/figure4_supplementary/s4c_crosscl_decomp.svg": {
+          "sha256": "2cc0df7b96b8119e3e5ebc0567349493d60a388289565a2998f9899ebd0c6b6e",
+          "drawing_sha256": "85afe3e7af0b63eeb9a329a596102b20da7bc1d6bf96b12d81dcab81c64b8884",
+          "width": "388.829531pt",
+          "height": "351.86875pt",
+          "viewBox": "0 0 388.829531 351.86875",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 4,
+            "creator": 1,
+            "date": 1,
+            "defs": 17,
+            "format": 1,
+            "g": 190,
+            "image": 4,
+            "metadata": 1,
+            "path": 47,
+            "rect": 4,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 316
+          },
+          "styles_sha256": "3d71ff77adb5a3cfa461a74f8801118c056314577dc346ac8bd6aae80b03fa49"
+        },
+        "paper/figure4_supplementary/s4d_morph_components.pdf": {
+          "sha256": "a9fe635ba4cae5ebe8afbb9a1be89be959689570cc9ff152f98f4e5bc0d1fc51",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 712.6025 186.7656"
+          ]
+        },
+        "paper/figure4_supplementary/s4d_morph_components.svg": {
+          "sha256": "32b6406aa5484796fe6c92ca6e57937045797349c53d9d09de1b2cdd7017dfba",
+          "drawing_sha256": "dc3e083445a8fbdaa9e8d5c83917a8a6aeea10494d2ea2b65ea91a854184fa44",
+          "width": "712.55pt",
+          "height": "186.774687pt",
+          "viewBox": "0 0 712.55 186.774687",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 4,
+            "creator": 1,
+            "date": 1,
+            "defs": 17,
+            "format": 1,
+            "g": 216,
+            "image": 4,
+            "metadata": 1,
+            "path": 53,
+            "rect": 4,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 413
+          },
+          "styles_sha256": "3d71ff77adb5a3cfa461a74f8801118c056314577dc346ac8bd6aae80b03fa49"
+        },
+        "paper/figure4_supplementary/s4d_state_components.pdf": {
+          "sha256": "36639bdd76f42ec1b25f6952e8c0a9775d231b5286f06d3c03d6a1b7e80e1473",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 712.8288 186.2417"
+          ]
+        },
+        "paper/figure4_supplementary/s4d_state_components.svg": {
+          "sha256": "3ddc94f8d115596db1d827c7c1737f043c652d8aeed545b448cf8d9f33ffdba7",
+          "drawing_sha256": "83226536c23dd99edc3b20c3b662171dc395d305d05412d1f76c8d7b20df4098",
+          "width": "712.829531pt",
+          "height": "186.261156pt",
+          "viewBox": "0 0 712.829531 186.261156",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 4,
+            "creator": 1,
+            "date": 1,
+            "defs": 19,
+            "format": 1,
+            "g": 176,
+            "image": 4,
+            "metadata": 1,
+            "path": 53,
+            "rect": 4,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 319
+          },
+          "styles_sha256": "3d71ff77adb5a3cfa461a74f8801118c056314577dc346ac8bd6aae80b03fa49"
+        },
+        "paper/figure4_supplementary/s4e_pooled_calibration.pdf": {
+          "sha256": "25f27bb343d0bb8e98a37274e94601c5ee04e4ceefcf3c885718af8f5ffd5a44",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 502.8819 222.7219"
+          ]
+        },
+        "paper/figure4_supplementary/s4e_pooled_calibration.svg": {
+          "sha256": "64311af43bc8cd10a1af0291fd5053cf0c4eb96cf77d616d34c884973c1c9c21",
+          "drawing_sha256": "9274289e41d37c651cac4d52b50c94e52b28bb48e409be48114a0199d66a44f0",
+          "width": "502.895937pt",
+          "height": "222.736539pt",
+          "viewBox": "0 0 502.895937 222.736539",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 19,
+            "format": 1,
+            "g": 191,
+            "metadata": 1,
+            "path": 82,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 220
+          },
+          "styles_sha256": "7423081d9104868cc3f4e16bef1755dfa70933606e4dd77414c0d8e449f778af"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure4_supplementary/fig4_supp_results.json",
+      "input_sha256": "460ffa6ef421ae9f9f75829ebab8732ef2ea3771da159c9ab996211711d506a2",
+      "compatibility": "matched"
+    },
+    "fig_pathway_crosscl": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "paper/figure_pathway/crosscl_pathway_absolute_main.pdf": {
+          "sha256": "7d167477b53f0366a57a8d97c584b63b0330efadb8a7e85594f3bdcf74e59a03",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 401.6219 708.5594"
+          ]
+        },
+        "paper/figure_pathway/crosscl_pathway_absolute_main.svg": {
+          "sha256": "130921529a187d16fcc671058ea9166efa46e971235bcde8c485418a4dd6a6b9",
+          "drawing_sha256": "9665ac84f4f4029d8c003d2d2a1a6c0048f65cebdb1801d2a33286ae1ad882d1",
+          "width": "401.488749pt",
+          "height": "708.542237pt",
+          "viewBox": "0 0 401.488749 708.542237",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 27,
+            "format": 1,
+            "g": 386,
+            "image": 2,
+            "metadata": 1,
+            "path": 66,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 936
+          },
+          "styles_sha256": "47247b41321cb8d085535f8b290b916a2b16d3cae3c8278ab10451827d2277fb"
+        },
+        "paper/figure_pathway/crosscl_pathway_absolute_supplement.pdf": {
+          "sha256": "01cbca5377e5a8ea6bffdbf6a5b106272c9d8c243b66e690a0334e947c6c538c",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 404.9084 1075.7594"
+          ]
+        },
+        "paper/figure_pathway/crosscl_pathway_absolute_supplement.svg": {
+          "sha256": "75aa44e2dcf53727adabd95526b4827b1905d06256d3b9ecc185503ad71fb3c7",
+          "drawing_sha256": "07576a350b0107e983f7d471983ad99a071a7175e9075f8740bf7701e7dc1353",
+          "width": "404.997033pt",
+          "height": "1075.742237pt",
+          "viewBox": "0 0 404.997033 1075.742237",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 32,
+            "format": 1,
+            "g": 575,
+            "image": 2,
+            "metadata": 1,
+            "path": 69,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 1462
+          },
+          "styles_sha256": "47247b41321cb8d085535f8b290b916a2b16d3cae3c8278ab10451827d2277fb"
+        },
+        "paper/figure_pathway/crosscl_pathway_diff_main.pdf": {
+          "sha256": "980b78df5d9b0038bb8f95215d50877f1f6c409ae3bdf90991a10d1f6a1004ff",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 368.5144 708.9933"
+          ]
+        },
+        "paper/figure_pathway/crosscl_pathway_diff_main.svg": {
+          "sha256": "d57cfeb59c0f46bb7afdb520432b0504fc96ea2a8055d318323026c0d44cbda0",
+          "drawing_sha256": "b7fb636e92d6cf749d46c26805f01550750186b9675eb5929ab837588fe694fb",
+          "width": "368.376074pt",
+          "height": "708.97092pt",
+          "viewBox": "0 0 368.376074 708.97092",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 29,
+            "format": 1,
+            "g": 347,
+            "image": 2,
+            "metadata": 1,
+            "path": 69,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 959
+          },
+          "styles_sha256": "47247b41321cb8d085535f8b290b916a2b16d3cae3c8278ab10451827d2277fb"
+        },
+        "paper/figure_pathway/crosscl_pathway_diff_supplement.pdf": {
+          "sha256": "0854b2fb9e4f25a80f9a03aaa9f51d5b5ac914f866cd26377c6a87b2cd533834",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 371.8009 1076.1933"
+          ]
+        },
+        "paper/figure_pathway/crosscl_pathway_diff_supplement.svg": {
+          "sha256": "8221c67cb1409e0ade22ba0b0e7680883b79db930ccee96668bf4be60bfd7689",
+          "drawing_sha256": "65c56b3e5dfe1b1b47a7442365f2f50c1e68cc7aca5e29734f253a334ac2bd83",
+          "width": "371.884358pt",
+          "height": "1076.17092pt",
+          "viewBox": "0 0 371.884358 1076.17092",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 34,
+            "format": 1,
+            "g": 512,
+            "image": 2,
+            "metadata": 1,
+            "path": 73,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 1477
+          },
+          "styles_sha256": "47247b41321cb8d085535f8b290b916a2b16d3cae3c8278ab10451827d2277fb"
+        }
+      },
+      "output_aliases": {},
+      "input": "benchmark/pathway/crosscl_pathway_results.json",
+      "input_sha256": "5e159daf9107d5924a41a091ac1c22ede9dcb48ada1d70bccd8e0b290375bfe4",
+      "compatibility": "matched"
+    },
+    "fig_tahoe_panels": {
+      "status": "reference_only",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "paper/figure_tahoe/fig_tahoe_a_ladder.pdf": {
+          "sha256": "e3adc2764323b06a8966998498ea65c3039c1a867de253afde03d46971b06f90",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 387.3521 245.9106"
+          ]
+        },
+        "paper/figure_tahoe/fig_tahoe_a_ladder.svg": {
+          "sha256": "a8771e63f5781e567251d272ba71bd80a329cc9e26206f87256da804d14daa96",
+          "drawing_sha256": "ffd3f2abf9e28bbab16c0b700cc233a938cd81238a827b4fdf5aa7be9bd3a580",
+          "width": "387.189303pt",
+          "height": "245.908437pt",
+          "viewBox": "0 0 387.189303 245.908437",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 18,
+            "format": 1,
+            "g": 86,
+            "metadata": 1,
+            "path": 62,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 174
+          },
+          "styles_sha256": "bc90372a54761be787beb4c9f57368d8949c40ed9a9c4df0952a3e8c6420055c"
+        },
+        "paper/figure_tahoe/fig_tahoe_b_saturation.pdf": {
+          "sha256": "cbfef9dc19525ddb63eeb43595f7195c359f16a6493e3b1350a20f5cae7283cc",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 317.3376 225.301"
+          ]
+        },
+        "paper/figure_tahoe/fig_tahoe_b_saturation.svg": {
+          "sha256": "ef9f61f1234894010a7ba0e126b7fbed9b6367e61f69bd3d2bf69464cf3e4d49",
+          "drawing_sha256": "3cc8c43aa57581351acb6fdc6ff734a3aa8a197c0917e9544ef0774344b09d8c",
+          "width": "317.319147pt",
+          "height": "225.297186pt",
+          "viewBox": "0 0 317.319147 225.297186",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 31,
+            "format": 1,
+            "g": 161,
+            "metadata": 1,
+            "path": 76,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 172
+          },
+          "styles_sha256": "f5f82e46381fda49a4bbcc4f129af900e80291449053162f36fbec9daca2c85a"
+        },
+        "paper/figure_tahoe/fig_tahoe_c_controls.pdf": {
+          "sha256": "1ab35ef5fd03f1b266791f505a5fab3d3ef6731ea7f2157c4eac7c5da1771367",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 245.0359 226.1448"
+          ]
+        },
+        "paper/figure_tahoe/fig_tahoe_c_controls.svg": {
+          "sha256": "866486733feb5fef31f7e79509d096ba9441ffe105d11043a96f079b1e500b6d",
+          "drawing_sha256": "9830c9b3c9de56404254afbe61af0610c6af473ea1ef817b23eedc01950eb13e",
+          "width": "245.017467pt",
+          "height": "226.119256pt",
+          "viewBox": "0 0 245.017467 226.119256",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 30,
+            "format": 1,
+            "g": 91,
+            "metadata": 1,
+            "path": 67,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 126
+          },
+          "styles_sha256": "1d5f2904d8ca4dfb9e671f58e9c654c12057730b32e9cf1e902d1489dcd89325"
+        },
+        "paper/figure_tahoe/fig_tahoe_panels.pdf": {
+          "sha256": "3d9935abc0a44a2addf7854259c1dad20abf28ecb287e6a07d7d41e472daafa7",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 1002.5931 231.5391"
+          ]
+        },
+        "paper/figure_tahoe/fig_tahoe_panels.svg": {
+          "sha256": "3f723996febe3782426301fdd90ef2ab2d21d284d8c9b75dd10ed5d2c92174be",
+          "drawing_sha256": "99741227b623882678584c29d326d048affa0549ba412cfa7edcbd4a8a308582",
+          "width": "1002.614062pt",
+          "height": "231.515377pt",
+          "viewBox": "0 0 1002.614062 231.515377",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans",
+            "DejaVuSans-Bold"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 3,
+            "creator": 1,
+            "date": 1,
+            "defs": 51,
+            "format": 1,
+            "g": 339,
+            "metadata": 1,
+            "path": 132,
+            "rect": 3,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 407
+          },
+          "styles_sha256": "3141fa1e0d12004966186a934ccbdc23e89eb1fe261ae77e391d8b004ee27703"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "not_applicable"
+    },
+    "fig3_b": {
+      "status": "profiled",
+      "rc_overrides": {
+        "svg.fonttype": "none",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3/fig3b_3to1_transfer.pdf": {
+          "sha256": "51fc7958ffa730ce42c5937d326e8f5eaa0b22d9b9754c958d8697bc418714ce",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 437.5852 244.1457"
+          ]
+        },
+        "paper/figure3/fig3b_3to1_transfer.svg": {
+          "sha256": "0c70f91a02f8b16477c63a309023f9f86d6dae9b6bf7e241a7f5955492cc092b",
+          "drawing_sha256": "b9fb14a4d8ec16ba629f1d98262d61fda3967e508866584e4ccc700b32ef781d",
+          "width": "437.578629pt",
+          "height": "244.159821pt",
+          "viewBox": "0 0 437.578629 244.159821",
+          "font_families": [
+            "Arial",
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.9"
+          ],
+          "svg_fonttype": "none",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 12,
+            "format": 1,
+            "g": 184,
+            "metadata": 1,
+            "path": 35,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "text": 20,
+            "title": 1,
+            "type": 1,
+            "use": 61
+          },
+          "styles_sha256": "b0842910d9396f8741debbebe07a39887171c46be1e9160366045507d410627a"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "font_check_family": "DejaVu Sans",
+      "isolate_font_families": [
+        "DejaVu Sans"
+      ],
+      "packaged_input": "fig3_b_saved.json",
+      "packaged_input_sha256": "fc301e6d9e3e3c1fd386f73f6cde6009b8b61f2c1c1f770dcc1aefe43ad776ea",
+      "font_evidence": "The archived PDF embeds BMQQDV+DejaVuSans; SVG CSS retains the original Arial/DejaVu fallback list."
+    },
+    "fig_tahoe_b_saturation": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "paper/figure_tahoe/fig_tahoe_b_saturation.pdf": {
+          "sha256": "cbfef9dc19525ddb63eeb43595f7195c359f16a6493e3b1350a20f5cae7283cc",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 317.3376 225.301"
+          ]
+        },
+        "paper/figure_tahoe/fig_tahoe_b_saturation.svg": {
+          "sha256": "ef9f61f1234894010a7ba0e126b7fbed9b6367e61f69bd3d2bf69464cf3e4d49",
+          "drawing_sha256": "3cc8c43aa57581351acb6fdc6ff734a3aa8a197c0917e9544ef0774344b09d8c",
+          "width": "317.319147pt",
+          "height": "225.297186pt",
+          "viewBox": "0 0 317.319147 225.297186",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 31,
+            "format": 1,
+            "g": 161,
+            "metadata": 1,
+            "path": 76,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 172
+          },
+          "styles_sha256": "f5f82e46381fda49a4bbcc4f129af900e80291449053162f36fbec9daca2c85a"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "packaged_input": "tahoe_testing_battery_saved.json",
+      "packaged_input_sha256": "9189c1746cfc307e10671a282daaec2c07459de021dbd872046ae34e1a95395e"
+    },
+    "fig_tahoe_c_controls": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 42
+      },
+      "assets": {
+        "paper/figure_tahoe/fig_tahoe_c_controls.pdf": {
+          "sha256": "1ab35ef5fd03f1b266791f505a5fab3d3ef6731ea7f2157c4eac7c5da1771367",
+          "pdf_fonttype": 42,
+          "media_boxes": [
+            "0 0 245.0359 226.1448"
+          ]
+        },
+        "paper/figure_tahoe/fig_tahoe_c_controls.svg": {
+          "sha256": "866486733feb5fef31f7e79509d096ba9441ffe105d11043a96f079b1e500b6d",
+          "drawing_sha256": "9830c9b3c9de56404254afbe61af0610c6af473ea1ef817b23eedc01950eb13e",
+          "width": "245.017467pt",
+          "height": "226.119256pt",
+          "viewBox": "0 0 245.017467 226.119256",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 30,
+            "format": 1,
+            "g": 91,
+            "metadata": 1,
+            "path": 67,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 126
+          },
+          "styles_sha256": "1d5f2904d8ca4dfb9e671f58e9c654c12057730b32e9cf1e902d1489dcd89325"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "packaged_input": "tahoe_testing_battery_saved.json",
+      "packaged_input_sha256": "9189c1746cfc307e10671a282daaec2c07459de021dbd872046ae34e1a95395e"
+    },
+    "fig3_supp1_heatmaps": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3_supplementary/s3a_1to1_heatmaps.pdf": {
+          "sha256": "3889fac05e9f1b6e2da5b83033d0225ed1eb5dbe452f5b9ee7726ce6b38fb2df",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 568.4206 222.0781"
+          ]
+        },
+        "paper/figure3_supplementary/s3a_1to1_heatmaps.svg": {
+          "sha256": "ed4bb6d54aa1b8f06c12b985c949899d013aea4c09cc4173c34305a9726cf3da",
+          "drawing_sha256": "da85f71a43807fe4b929292d9f512719f41de454227e264a8c618d244f752c0e",
+          "width": "568.427656pt",
+          "height": "222.07789pt",
+          "viewBox": "0 0 568.427656 222.07789",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 18,
+            "format": 1,
+            "g": 203,
+            "image": 3,
+            "metadata": 1,
+            "path": 56,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 324
+          },
+          "styles_sha256": "99de6572051b2e92f8474d333acfc7ea38af2ae1915ca3cf2f8624501ea62741"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure3_supplementary/fig3_supp_results.json",
+      "input_sha256": "cd39bf9a079e72c977090f4700c7da95c4ffad5cbc33a916d89e74aaedc93383",
+      "compatibility": "matched"
+    },
+    "fig3_supp1_basis": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3_supplementary/s3d_basis_gap_heatmap.pdf": {
+          "sha256": "a54b9ade1b0aa8e26da75d9b4a76651cb48f6b83b976ad67f9fed2edbd44c537",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 568.4206 233.2904"
+          ]
+        },
+        "paper/figure3_supplementary/s3d_basis_gap_heatmap.svg": {
+          "sha256": "dddb3f72e8dfc8849fa823d8f42905b09fe1c372eec51a1d7cb35c3986278b4d",
+          "drawing_sha256": "776855669b7ae09ab812c16238939a81401359ae7597b656976889ad351f526a",
+          "width": "568.427656pt",
+          "height": "233.286pt",
+          "viewBox": "0 0 568.427656 233.286",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 18,
+            "format": 1,
+            "g": 162,
+            "image": 2,
+            "metadata": 1,
+            "path": 60,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 294
+          },
+          "styles_sha256": "970228d786a35bbdce8d92868bbface7faab9a38cc1b116197892abe1767d93f"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure3_supplementary/fig3_supp_results.json",
+      "input_sha256": "cd39bf9a079e72c977090f4700c7da95c4ffad5cbc33a916d89e74aaedc93383",
+      "compatibility": "matched"
+    },
+    "fig3_supp1_baselines": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3_supplementary/s3e_reference_baselines.pdf": {
+          "sha256": "6dc9f0661bc413536d340947d34da990c6fdb9a30b9f2a0e5f8cad306836d078",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 532.4581 244.8062"
+          ]
+        },
+        "paper/figure3_supplementary/s3e_reference_baselines.svg": {
+          "sha256": "1bfab42078d47553ecacc141a65e796409e72364bb73eac738c52ceafae90d83",
+          "drawing_sha256": "e38044c70e5d74f43ac5fecdd9bed5285e2fdf84999aa0cfea255e5dfe52e1fe",
+          "width": "532.46125pt",
+          "height": "244.815266pt",
+          "viewBox": "0 0 532.46125 244.815266",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 20,
+            "format": 1,
+            "g": 135,
+            "metadata": 1,
+            "path": 84,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 215
+          },
+          "styles_sha256": "0a6b42728ed9e4d1f247a21e176fb4914cd26d993cfe8100f6febdead9ccbec2"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure3_supplementary/fig3_supp_results.json",
+      "input_sha256": "cd39bf9a079e72c977090f4700c7da95c4ffad5cbc33a916d89e74aaedc93383",
+      "compatibility": "matched"
+    },
+    "fig1_supp_alignment": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure_1_supplementary/s1b_template_pc1_alignment.pdf": {
+          "sha256": "8c0f4901a66c2ebbde3bcc5ac645607494d9a757761c101d7ea427781e108dd7",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 225.8483 194.1857"
+          ]
+        },
+        "paper/figure_1_supplementary/s1b_template_pc1_alignment.svg": {
+          "sha256": "31bdc432c9adbb53c122a85785c0f3f7a09bc8c98f93687e1e4ba28e5b415b64",
+          "drawing_sha256": "501bfa185236a38dba87b5e5a1e3a33ab5240162a415bab5e69816c1305969e5",
+          "width": "225.825845pt",
+          "height": "194.195602pt",
+          "viewBox": "0 0 225.825845 194.195602",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 13,
+            "format": 1,
+            "g": 81,
+            "metadata": 1,
+            "path": 56,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 90
+          },
+          "styles_sha256": "bf1c54e598b3f2372e5f19ce1b092e2e70630a9eaf75a16b865e61ba05b6cd29"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure_1_supplementary/fig1_supp_results.json",
+      "input_sha256": "5ffdc328c074a93507987cf7b517c85e6d4ea81de7f1c6422f4b012bda311886",
+      "compatibility": "matched"
+    },
+    "fig1_supp_anova": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure_1_supplementary/s1f_anova_diagnostics.pdf": {
+          "sha256": "a271a09ee6f44c0b9563e18a98b6f607a9abf2f0ae34a5062345f4b32d794ab1",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 533.0269 206.7575"
+          ]
+        },
+        "paper/figure_1_supplementary/s1f_anova_diagnostics.svg": {
+          "sha256": "f5a8bad34df05c662303b321eafcba43748787a84d98f6a0dcb8c4666f19241f",
+          "drawing_sha256": "ee487f9bbf08843396cb8eea89d984bfd74fa3358a2d9853462b9f7e6648027e",
+          "width": "532.987813pt",
+          "height": "206.74475pt",
+          "viewBox": "0 0 532.987813 206.74475",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 23,
+            "format": 1,
+            "g": 151,
+            "metadata": 1,
+            "path": 83,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 191
+          },
+          "styles_sha256": "f09d21c7ab3dfe051dc850fa58294d4bbc2c473321014821c8460d75922b2932"
+        }
+      },
+      "output_aliases": {},
+      "input": "paper/figure_1_supplementary/fig1_supp_results.json",
+      "input_sha256": "5ffdc328c074a93507987cf7b517c85e6d4ea81de7f1c6422f4b012bda311886",
+      "compatibility": "matched"
+    },
+    "fig1_supp_hallmark": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure_1_supplementary/s1d_full_hallmark_gsea.pdf": {
+          "sha256": "24c2c8cacb6b80bb422f77326d257f254215d0a04e8581bbee987b91aa9e2261",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 893.1911 207.9137"
+          ]
+        },
+        "paper/figure_1_supplementary/s1d_full_hallmark_gsea.svg": {
+          "sha256": "c1de4f64b754b2f923ef3dbc7e342f73380b1ae89d34f27091321daa38e73fe6",
+          "drawing_sha256": "69e0c22d76f8460ec9af573edc95a905ffac1ec799433ac81651ab6f1f889eea",
+          "width": "893.197456pt",
+          "height": "207.920625pt",
+          "viewBox": "0 0 893.197456 207.920625",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 1,
+            "creator": 1,
+            "date": 1,
+            "defs": 30,
+            "format": 1,
+            "g": 369,
+            "image": 2,
+            "metadata": 1,
+            "path": 63,
+            "rect": 1,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 940
+          },
+          "styles_sha256": "07ff20c0bdedced1df818e39648d8d876e7e0640b7d3350b92c5f2f79575d0ba"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "packaged_input": "fig1_supp_hallmark_saved.json",
+      "packaged_input_sha256": "0a709395dde9cf579ea6d513093d2e9067a9fd18b0535c91f7d207b144613e98"
+    },
+    "fig1_supp_noise": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure_1_supplementary/s1e_split_half_noise.pdf": {
+          "sha256": "0d8f1b5f09420a5f4a553ba075f6f163e2b2b014520b9fcff37e643a4ce813b6",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 568.1281 171.026"
+          ]
+        },
+        "paper/figure_1_supplementary/s1e_split_half_noise.svg": {
+          "sha256": "327f1c50cc871c5e73277887545f1b8b4e93ee91eff7da1cd3e74a286ef1072b",
+          "drawing_sha256": "3cb421e399bd9c260a5320537e5098eb58c074d45b55c520955f545de083c495",
+          "width": "568.122812pt",
+          "height": "171.035688pt",
+          "viewBox": "0 0 568.122812 171.035688",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 3,
+            "creator": 1,
+            "date": 1,
+            "defs": 19,
+            "format": 1,
+            "g": 229,
+            "metadata": 1,
+            "path": 117,
+            "rect": 3,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 209
+          },
+          "styles_sha256": "2ac1a1b168a57fa2a71a2bb4ac4d84386ced2104ba1440ea936c1d6a248591d9"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "packaged_input": "fig1_supp_noise_saved.json",
+      "packaged_input_sha256": "f45c9ef76d4d5095b7c1aceb2d291971f0bb8242c11678547057c94aed55d1dd"
+    },
+    "fig2_supp_deciles": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/supplemetary_figure_2_2/s2a_decile_plots.pdf": {
+          "sha256": "87d9304faf865d175df6db94896087f07c8d10731d69281895e7f4954e590d22",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 498.7089 423.7031"
+          ]
+        },
+        "paper/supplemetary_figure_2_2/s2a_decile_plots.svg": {
+          "sha256": "f7d74c6fc0760138d36d1f82d12d7c358ffaadf047d21d8e342ed2b9520f6361",
+          "drawing_sha256": "4db3b8a79530cf62fb5246816c7b72997518fab74a8475b64e0f6634838435cc",
+          "width": "498.719246pt",
+          "height": "423.714531pt",
+          "viewBox": "0 0 498.719246 423.714531",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 4,
+            "creator": 1,
+            "date": 1,
+            "defs": 24,
+            "format": 1,
+            "g": 309,
+            "metadata": 1,
+            "path": 96,
+            "rect": 4,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 360
+          },
+          "styles_sha256": "f6c22e85c333c3b565e37c0ccf523da478554b66e110d47edbaba416ddeccf4f"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "packaged_input": "fig2_supp_deciles_saved.json",
+      "packaged_input_sha256": "5b2aa15ee0de6d937b1e8339f875ea5b892f001fd2932bb2d3d3f52538f5d958"
+    },
+    "fig2_supp_scatter": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/supplemetary_figure_2_2/s2c_pairwise_scatter.pdf": {
+          "sha256": "173a06d344d42333bf763523a08d354c2677088626c62974c7d167fb094d2c2e",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 857.953 387.3944"
+          ]
+        },
+        "paper/supplemetary_figure_2_2/s2c_pairwise_scatter.svg": {
+          "sha256": "09ec79d6d8da6eb66ee07a7b66b34795c3824f1ac83841e20d1c608da34889f9",
+          "drawing_sha256": "9c63f9eadc457ee8043a8ac19957fed4d5cdbcb40bbe09afaf0e695bbb8a64b5",
+          "width": "857.93824pt",
+          "height": "387.387031pt",
+          "viewBox": "0 0 857.93824 387.387031",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 8,
+            "creator": 1,
+            "date": 1,
+            "defs": 19,
+            "format": 1,
+            "g": 501,
+            "image": 8,
+            "metadata": 1,
+            "path": 86,
+            "rect": 8,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 579
+          },
+          "styles_sha256": "932ca758d2bb4c38b4fdf89e707d0c2c8a2faaf56a347e1efce8380c19822cf8"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "packaged_input": "fig2_supp_scatter_saved.json.gz",
+      "packaged_input_sha256": "644cd8e38dfb4f8519be1cde5e95dc71cf2cc2c4d0a682ddda69148d09d72b0d"
+    },
+    "fig3_supp1_slopes": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3_supplementary/s3b_slope_plots.pdf": {
+          "sha256": "78016bd04322f1fdbc33b46dc943eef81274ca07d0fbecb052ee5bc0bd3af540",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 568.0289 243.1656"
+          ]
+        },
+        "paper/figure3_supplementary/s3b_slope_plots.svg": {
+          "sha256": "ce50843fb855ef56113d5210358e9297db546c7b13b4d9f8cc901ea532d8642b",
+          "drawing_sha256": "5f3cc4daf22b87b88072caf29919177089037e8edef1f510f5e5837f325b443b",
+          "width": "568.02841pt",
+          "height": "243.146625pt",
+          "viewBox": "0 0 568.02841 243.146625",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 31,
+            "format": 1,
+            "g": 215,
+            "metadata": 1,
+            "path": 88,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 286
+          },
+          "styles_sha256": "84a7f2b83982585a53aaa5c02456e0b388d48cc6b057cd1692b4a92892d15afe"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "packaged_input": "fig3_supp1_slopes_saved.json",
+      "packaged_input_sha256": "3975bd88c6b59f352802c2cc9b333e12f6599614683194431e8825535d466034"
+    },
+    "fig3_supp1_calibration": {
+      "status": "profiled",
+      "rc_overrides": {
+        "font.family": [
+          "DejaVu Sans"
+        ],
+        "font.sans-serif": [
+          "DejaVu Sans"
+        ],
+        "svg.fonttype": "path",
+        "pdf.fonttype": 3
+      },
+      "assets": {
+        "paper/figure3_supplementary/s3c_saturation_curves.pdf": {
+          "sha256": "5865fe4af4930fc5321f33da775e6cdd36979ba6967b9ad508295d88bf227f87",
+          "pdf_fonttype": 3,
+          "media_boxes": [
+            "0 0 568.1863 243.7031"
+          ]
+        },
+        "paper/figure3_supplementary/s3c_saturation_curves.svg": {
+          "sha256": "1790439cd1c4a8d7f0eeb9b5a129c65d751d9ec744a97a55d3d6a9c990b2da6c",
+          "drawing_sha256": "ea211504c1c07afac9eb4f0e2db66ee04ff60755f96f572cf0d6f2ac16d34501",
+          "width": "568.18939pt",
+          "height": "243.714531pt",
+          "viewBox": "0 0 568.18939 243.714531",
+          "font_families": [
+            "DejaVu Sans"
+          ],
+          "glyph_fonts": [
+            "DejaVuSans"
+          ],
+          "unrecognized_glyph_fonts": [],
+          "matplotlib_versions": [
+            "3.10.8"
+          ],
+          "svg_fonttype": "path",
+          "elements": {
+            "Agent": 1,
+            "RDF": 1,
+            "Work": 1,
+            "clipPath": 2,
+            "creator": 1,
+            "date": 1,
+            "defs": 32,
+            "format": 1,
+            "g": 203,
+            "metadata": 1,
+            "path": 92,
+            "rect": 2,
+            "style": 1,
+            "svg": 1,
+            "title": 1,
+            "type": 1,
+            "use": 280
+          },
+          "styles_sha256": "675dafbeb6a3fa7288ea012a688b200a7ef3a6838bd3214e1e8126682c0dfb73"
+        }
+      },
+      "output_aliases": {},
+      "input": null,
+      "input_sha256": null,
+      "compatibility": "matched",
+      "packaged_input": "fig3_supp1_calibration_saved.json",
+      "packaged_input_sha256": "749a58f3beae9bfbc709b25a54935f373d5c3b161602c4fbd544b8b5c6bf0dc1"
+    }
+  }
+}

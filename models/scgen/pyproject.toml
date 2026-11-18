@@ -1,0 +1,21 @@
+[project]
+name = "scgen-context-benchmark"
+version = "0.1.0"
+description = "Native scGen unseen-cell-line benchmark"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "scgen==2.1.0",
+  "scvi-tools==0.19.0",
+  "setuptools<81",
+  "anndata>=0.8,<0.10",
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "requests>=2.31",
+  "jax<0.5",
+  "jaxlib<0.5",
+  "torchmetrics==0.10.3",
+]
+
+[tool.uv]
+package = false
+override-dependencies = ["scvi-tools==0.19.0"]

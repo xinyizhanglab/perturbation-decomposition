@@ -4,7 +4,7 @@ from sklearn.linear_model import Ridge
 from sklearn.decomposition import PCA
 
 
-def train_ridge(V_train, D_train, alpha=10, n_pca=50):
+def train_ridge(V_train, D_train, alpha=10, n_pca=50, pca_seed=None):
     """Train Ridge regression with PCA preprocessing.
 
     Args:
@@ -18,13 +18,19 @@ def train_ridge(V_train, D_train, alpha=10, n_pca=50):
         train_centroid: mean delta of training perturbations
     """
     n_comp = min(n_pca, V_train.shape[0] - 1, V_train.shape[1])
-    pca = PCA(n_comp).fit(V_train)
+    pca = PCA(n_comp, random_state=pca_seed).fit(V_train)
     ridge = Ridge(alpha=alpha).fit(pca.transform(V_train), D_train)
     train_centroid = D_train.mean(0)
 
     def predict_fn(V_test):
         return ridge.predict(pca.transform(V_test))
 
+    predict_fn.checkpoint_arrays = {
+        "pca_components": pca.components_.copy(), "pca_mean": pca.mean_.copy(),
+        "ridge_coef": ridge.coef_.copy(), "ridge_intercept": np.asarray(ridge.intercept_).copy(),
+    }
+    predict_fn.checkpoint_metadata = {"kind": "ridge", "alpha": alpha, "n_pca": n_comp,
+                                     "pca_seed": pca_seed, "pca_solver": pca._fit_svd_solver}
     return predict_fn, train_centroid
 
 
@@ -51,7 +57,7 @@ try:
 
     def train_mlp(V_train, D_train, seed=0, n_pca=50, hidden_dims=(256, 256),
                   lr=5e-4, weight_decay=1e-5, epochs=400, batch_size=64,
-                  device="cuda:0"):
+                  device="cuda:0", pca_seed=None):
         """Train MLP with PCA preprocessing.
 
         Args:
@@ -74,7 +80,7 @@ try:
         np.random.seed(seed)
 
         n_comp = min(n_pca, V_train.shape[0] - 1, V_train.shape[1])
-        pca = PCA(n_comp).fit(V_train)
+        pca = PCA(n_comp, random_state=pca_seed).fit(V_train)
         V_pca = pca.transform(V_train).astype(np.float32)
 
         model = MLPModel(n_comp, D_train.shape[1], hidden_dims).to(device).float()
@@ -106,6 +112,17 @@ try:
                 pred = model(torch.tensor(V_test_pca, device=device))
             return pred.cpu().numpy()
 
+        arrays = {"pca_components": pca.components_.copy(), "pca_mean": pca.mean_.copy()}
+        linear = [layer for layer in model.net if isinstance(layer, nn.Linear)]
+        for index, layer in enumerate(linear):
+            arrays[f"layer{index}_weight"] = layer.weight.detach().cpu().numpy().copy()
+            arrays[f"layer{index}_bias"] = layer.bias.detach().cpu().numpy().copy()
+        predict_fn.checkpoint_arrays = arrays
+        predict_fn.checkpoint_metadata = {
+            "kind": "mlp", "n_layers": len(linear), "n_pca": n_comp,
+            "seed": seed, "epochs": epochs, "batch_size": batch_size,
+            "hidden_dims": list(hidden_dims), "lr": lr, "weight_decay": weight_decay}
+        predict_fn.checkpoint_metadata.update(pca_seed=pca_seed, pca_solver=pca._fit_svd_solver)
         return predict_fn, train_centroid
 
     HAS_TORCH = True

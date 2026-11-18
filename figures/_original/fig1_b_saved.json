@@ -1,0 +1,43 @@
+{
+  "template_var": {
+    "k562": 23.38360023498535,
+    "rpe1": 64.64873504638672,
+    "hepg2": 48.78093719482422,
+    "jurkat": 28.214252471923828
+  },
+  "source": {
+    "inputs": {
+      "k562": {
+        "sha256": "22cbe21197b3a11e684f1fe345f87c93dae5dd30bed82278eed842f119567434",
+        "n_perturbations": 1383,
+        "n_genes": 2000,
+        "dtype": "float32"
+      },
+      "rpe1": {
+        "sha256": "28911ab42231fd5b179edb59fd4c0601ac8d2a3dc49d29ebc59f97a86c23429a",
+        "n_perturbations": 1499,
+        "n_genes": 2000,
+        "dtype": "float32"
+      },
+      "hepg2": {
+        "sha256": "eb62d3f74923a86aee96ccacbf474bcd31996a8b79b39365d48145888304f422",
+        "n_perturbations": 1340,
+        "n_genes": 2000,
+        "dtype": "float32"
+      },
+      "jurkat": {
+        "sha256": "ea6f50f416a1632d984d4f6d980a4ae805b7f6f95ef847aa398452367e81dce0",
+        "n_perturbations": 1537,
+        "n_genes": 2000,
+        "dtype": "float32"
+      }
+    },
+    "numpy": "2.2.6",
+    "recovery_source_sha256": "616395d7a7c946cfff2d6f878688b4afe0a353c1c37b8cf151d305cd3db67771",
+    "recovered_values_sha256": "681ac4e3da48fef5f2ac1f579659776788e8602f9e824c896de217127b56f5c9",
+    "formula_source": "fig1_b.py: template variance block",
+    "paper_drawing_match_verified": true,
+    "models_trained": false,
+    "prediction_metrics_recomputed": false
+  }
+}

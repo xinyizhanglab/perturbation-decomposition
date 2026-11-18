@@ -1,16 +1,4 @@
-"""STATE training and prediction wrappers.
-
-STATE uses set-based self-attention over single cells with one-hot
-perturbation encodings. Cannot generalize to unseen perturbations
-by design (one-hot).
-
-Prerequisites:
-    Clone STATE repo to external/STATE
-
-Usage:
-    python -m models.state.train --dataset k562 --data_dir data/processed/genetic
-    python -m models.state.predict --pred_dir results/state/k562 --data_dir data/processed/genetic
-"""
+"""state checkpoint inference and saved-prediction access."""
 import argparse, pickle, logging
 from pathlib import Path
 import numpy as np
@@ -33,7 +21,7 @@ def main_train():
 
     log.info(f"=== STATE training for {args.dataset} ===")
     log.info("\nSTATE training requires the original STATE pipeline.")
-    log.info("See models/state/README.md for setup instructions.")
+    log.info("See README.md for setup instructions.")
     log.info(f"\nOnce trained, run evaluation:")
     log.info(f"  python -m models.state.predict \\")
     log.info(f"    --pred_dir {args.out_dir} \\")
@@ -76,7 +64,8 @@ def main_predict():
 
 if __name__ == "__main__":
     import sys
-    if "--pred_dir" in sys.argv or "predict" in sys.argv[0]:
+    if any(arg.split("=", 1)[0] == "--pred_dir" for arg in sys.argv[1:]):
         main_predict()
     else:
-        main_train()
+        from models.predict import main as predict_main
+        predict_main(["--model", "state", *sys.argv[1:]])

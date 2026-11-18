@@ -1,0 +1,782 @@
+{
+  "split_results": {
+    "alpha": [
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.090337220771649
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.087556546134505
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0882686162090986
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0880077038822997
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.087168797703473
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.086992756803422
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0915493920156103
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0859206395935326
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.088455597753122
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.088664188674318
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.091541324111365
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0879954003566374
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.087610516213343
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.087878050995201
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0882921396641287
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.087133168458529
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.084855644030361
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.084749783387878
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0857021060404652
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.086338685047571
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0861152694460703
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0868000795635715
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0869394923238636
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0876311586698777
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0867700343820617
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0866347768709863
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.089340410996155
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.087338420967383
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.085580094515007
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.086651350249632
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0881708782341346
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0892293177887087
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0893921070278862
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.088317227008813
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0885078815688707
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0845251590822524
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0849641551429894
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.085771669431228
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.087680937966084
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0867897327184455
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.090095856036037
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.088787773720699
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0877739590753714
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.086159291226321
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.087018784819722
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.089219260049351
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.087350829109727
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.090476957662193
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.088002806891571
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 2.0876811596685307
+      }
+    ],
+    "beta": [
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.924077210607734
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.926863803497522
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.928308038637016
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.918626952365595
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.92832935101223
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.914443145363764
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.919998469131824
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.917629477030652
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.920495965827355
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.923906213722652
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.911687133468819
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.927692828738324
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.920644487845703
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.919427141886138
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.926277949745816
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.920570987649852
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.921994024160413
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.925236518747683
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.9175739587259475
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.920055901546357
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.920677665976386
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.917484614388707
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.917450974563399
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.918747466812694
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.9156683348735895
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.913269265715528
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.922725523327769
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.913396327776672
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.920574407775507
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.9214349260486125
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.918932022066831
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.924795788114766
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.911935901136509
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.9169965436759675
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.9249535509116855
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.917750420780306
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.920930151680064
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.916827495951188
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.916594427500603
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.922912752338486
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.925469779539835
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.918292261802933
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.9217290239281715
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.924063098674922
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.9220156680251455
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.9217612086456635
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.918634307778705
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.921183398833273
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.92271270658522
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 5.92503800902494
+      }
+    ],
+    "gamma": [
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.736523871317936
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.751738823194142
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.741914237722914
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.734080219038936
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.7461912286671835
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.7290731265676085
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.7427791087488655
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.735041270654522
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.73713261561412
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.73997472069107
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.737931070747959
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.739514374699589
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.739859292429232
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.720234444471799
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.751689724340759
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.736238071819979
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.737300102066789
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.7404893370324634
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.727579733656154
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.724955890310041
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.725991404654433
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.742978120558539
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.738726861283243
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.732710239580057
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.728732620929347
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.724301446176254
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.731045193391489
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.738013562281606
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.742647065490912
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.737381507008122
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.732591560741073
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.738242472826077
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.732857242415919
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.73695658428569
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.751748001611512
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.733641694877228
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.7568175481160955
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.736858513368466
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.7399327309825035
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.739212570391485
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.726764345933416
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.740979726358772
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.744248749203856
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.7326051170022625
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.725686758683168
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.733479750611788
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.733925087208166
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.739059449160938
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.742289547963471
+      },
+      {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 4.734684470482593
+      }
+    ]
+  },
+  "ss_total": {
+    "kind": "scalar",
+    "dtype": "<f8",
+    "value": 20.146989683803504
+  },
+  "uncorrected": {
+    "alpha": {
+      "kind": "scalar",
+      "dtype": "<f8",
+      "value": 2.0922828276046013
+    },
+    "beta": {
+      "kind": "scalar",
+      "dtype": "<f8",
+      "value": 6.889031918959089
+    },
+    "gamma": {
+      "kind": "scalar",
+      "dtype": "<f8",
+      "value": 7.641658074642103
+    }
+  }
+}

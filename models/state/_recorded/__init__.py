@@ -1,0 +1,1 @@
+"""Recorded STATE compatibility source."""

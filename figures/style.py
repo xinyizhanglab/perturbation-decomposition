@@ -17,6 +17,8 @@ COLORS = {
     "MORPH": "#6F5CC4",
     "STATE": "#8A94A6",
     "scGPT": "#D9534F",
+    "BioLORD": "#E8923E",
+    "scGen": "#B34D8F",
     "Direct": "#7AA6C2",
     "Source": "#2F5EAA",
     "SALT": "#C9CED6",
@@ -39,6 +41,7 @@ CL_COLORS = {
 # Model markers
 MARKERS = {
     "Ridge": "s", "MLP": "^", "MORPH": "D", "STATE": "o", "scGPT": "v",
+    "BioLORD": "P", "scGen": "X",
 }
 
 # Decomposition colors
@@ -51,7 +54,7 @@ C_INTERACTION = "#D26A3A"
 def apply_style():
     """Apply the standard figure style."""
     plt.rcParams.update({
-        "font.family": "Arial",
+        "font.family": "DejaVu Sans",
         "font.size": 10,
         "axes.labelsize": 11,
         "axes.linewidth": 0.6,

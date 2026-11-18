@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/uhlerlab/MORPH.git",
+  "commit": "1ad06d4591434cc4ab03c12c461fe0d80b087b11",
+  "files": {
+    "morph/run.py": "6cf5f03a97f742e5481ece5bf5fb0229a90f03897739b4bfdddb82bc111e7da2",
+    "morph/model.py": "762fbf7c8510d4f6de4186ed5795bd77c53bd33902d4d759ae14234d8a828321",
+    "morph/train.py": "1ab9e158ae1b4338c5c1f68d70cce2c9b634ea1a2c844f8f7b3b5f86941c4d9d",
+    "morph/dataset.py": "39e1c78b3ac2c0d46b71493b1c7f8286a0e046e0daec3506bb43dfc9e54fc84c",
+    "morph/utils.py": "d51bae22212886d51c73b62d4a70d812a4e4f1efdc03c5ac97f8bacf9bbfb535"
+  },
+  "recorded_utils_sha256": "5a1a4436e777698269dd6a3f2db8346cd88ffc5a65a6c878f7892818e2d0cb5b",
+  "compatibility": "Use the recorded list conversion for two random.sample calls in staged utils.py. No model, loss, or metric changes."
+}

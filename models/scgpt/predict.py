@@ -1,19 +1,4 @@
-"""scGPT perturbation prediction evaluation.
-
-scGPT uses pretrained gene embeddings + per-gene perturbation flags.
-Our analysis showed the conditioning interface is near-diagonal
-(<1% cross-gene coupling).
-
-Prerequisites:
-    pip install scgpt
-    Download checkpoint: scGPT_human
-
-Usage:
-    python -m models.scgpt.predict \
-        --pred_dir results/scgpt/k562 \
-        --data_dir data/processed/genetic \
-        --dataset k562
-"""
+"""scgpt checkpoint inference and saved-prediction access."""
 import argparse, pickle, logging
 from pathlib import Path
 import numpy as np
@@ -72,4 +57,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if any(arg.split("=", 1)[0] == "--pred_dir" for arg in sys.argv[1:]):
+        main()
+    else:
+        from models.predict import main as predict_main
+        predict_main(["--model", "scgpt", *sys.argv[1:]])

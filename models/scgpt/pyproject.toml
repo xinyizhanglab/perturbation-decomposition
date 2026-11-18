@@ -1,0 +1,47 @@
+[project]
+name = "perturbation-scgpt-inference"
+version = "0.1.0"
+description = "Locked scGPT 0.2.4 and GEARS fine-tuning and checkpoint inference"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "perturbation-decomposition",
+    "scgpt==0.2.4",
+    "cell-gears==0.0.2",
+    "torch==2.10.0+cu128",
+    "torchtext==0.18.0+recorded",
+    "torch-geometric==2.7.0",
+    "torch-scatter==2.1.2+pt210cu128",
+    "torch-sparse==0.6.18+pt210cu128",
+    "numpy==1.26.4",
+    "pandas==2.1.4",
+    "scipy==1.11.4",
+    "anndata==0.9.2",
+    "scanpy==1.9.8",
+    "scikit-learn==1.4.2",
+    "numba==0.59.1",
+    "scvi-tools==0.20.3",
+    "pytorch-lightning==1.9.5",
+    "torchmetrics==0.11.4",
+    "jax==0.4.23",
+    "jaxlib==0.4.23",
+    "flax==0.6.11",
+    "optax==0.1.7",
+    "orbax==0.1.7",
+    "setuptools==70.3.0",
+    "ipython>=8.18,<9",
+    "pyarrow==17.0.0",
+]
+
+[tool.uv]
+package = false
+find-links = ["https://data.pyg.org/whl/torch-2.10.0+cu128.html"]
+
+[tool.uv.sources]
+perturbation-decomposition = { path = "../..", editable = true }
+torch = { index = "pytorch-cu128" }
+torchtext = { path = "_torchtext" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

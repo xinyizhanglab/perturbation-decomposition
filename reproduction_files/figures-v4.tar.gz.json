@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "version": "figures-v4",
+  "archive": "figures-v4.tar.gz",
+  "url": null,
+  "sha256": "c07460667a97e637a66a281df824b0fd7a75d888de5cdcc49be2384a910c5b34",
+  "size": 3818063,
+  "manifest_sha256": "b6e6665cfff89f8603bdc1f8e603b30d8a9b8ea4420f204216ecf5e5e2f0b0a1"
+}

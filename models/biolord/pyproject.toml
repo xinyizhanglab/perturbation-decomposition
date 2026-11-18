@@ -1,0 +1,14 @@
+[project]
+name = "biolord-context-benchmark"
+version = "0.1.0"
+description = "Native BioLORD unseen-cell-line benchmark"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "biolord==0.0.3",
+  "anndata>=0.10",
+  "numpy>=1.26",
+  "pandas>=2.1",
+]
+
+[tool.uv]
+package = false

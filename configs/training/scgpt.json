@@ -1,0 +1,11 @@
+{
+  "arguments": {
+    "dataset": "replogle_k562_essential",
+    "seed": 0,
+    "epochs": 15,
+    "batch_size": 64,
+    "device": "cuda:0",
+    "train_perts_file": "{data_dir}/replogle_k562_essential/train_perts.txt",
+    "test_perts_file": "{data_dir}/replogle_k562_essential/test_perts.txt"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "version": "training-inputs-v1",
+  "bundles": {
+    "processed": {
+      "destination": "processed",
+      "models": [
+        "ridge",
+        "mlp"
+      ],
+      "requires": [],
+      "index": "inputs-processed-v2.tar.gz.json",
+      "index_sha256": "56c1e51459efbc49e8d01f70d1287839e666b1712760374e8e88fa86717b888b",
+      "schema_version": 1,
+      "version": "inputs-processed-v2",
+      "archive": "inputs-processed-v2.tar.gz",
+      "url": null,
+      "sha256": "d655c72f8817282fb693cf6cbbb82bff5835b1ae9ef70b4a39f1efca4fabf821",
+      "size": 79788854,
+      "manifest_sha256": "fbfef6b45dc35e69800cc86ddd09059d35f7c2ab6574a2aa45cfbfa373a7a350"
+    },
+    "genetic": {
+      "destination": "inputs/genetic",
+      "models": [
+        "state",
+        "scgen"
+      ],
+      "requires": [],
+      "index": "inputs-genetic-v1.tar.gz.json",
+      "index_sha256": "6860d3f6a35a391ae5dc99647067966b374b88831b463cf3b9a1699867bf9bf9",
+      "schema_version": 1,
+      "version": "inputs-genetic-v1",
+      "archive": "inputs-genetic-v1.tar.gz",
+      "url": null,
+      "sha256": "058aad54a73e02cdbb2ff14c11ccb73f2527abd509657be56695bb1e0a2bd10f",
+      "size": 3072573293,
+      "manifest_sha256": "0d9412012501afbf222f531c32f4ae9b0b2d6fa418d598d67dd317d7a6928a2d"
+    },
+    "morph": {
+      "destination": "inputs/morph",
+      "models": [
+        "morph"
+      ],
+      "requires": [],
+      "index": "inputs-morph-v1.tar.gz.json",
+      "index_sha256": "9a57fd1c706684e505ba4144f781ab62b63b5af2d5cfd6037e77a302b0e364fd",
+      "schema_version": 1,
+      "version": "inputs-morph-v1",
+      "archive": "inputs-morph-v1.tar.gz",
+      "url": null,
+      "sha256": "1fbd5f76b8fc6f517f2738d0ee83c0ea3e6b601314f9bf901e2631d4b829cd05",
+      "size": 941230944,
+      "manifest_sha256": "61ef5d221be97614244e9610ecc6755990d1c43bfe9eed91fababca32e8aa438"
+    },
+    "scgpt-k562": {
+      "destination": "inputs/scgpt/replogle_k562_essential",
+      "models": [
+        "scgpt"
+      ],
+      "requires": [
+        "scgpt-pretrained"
+      ],
+      "index": "inputs-scgpt-k562-v1.tar.gz.json",
+      "index_sha256": "46096e8d9ff03f82caa3660798bf1a940454b739f76303f8cccfb63df8e877d2",
+      "schema_version": 1,
+      "version": "inputs-scgpt-k562-v1",
+      "archive": "inputs-scgpt-k562-v1.tar.gz",
+      "url": null,
+      "sha256": "bd1b4310aad6194ac04b800924aea1d9b791c561efebbb55755f69b95d045e2b",
+      "size": 2449530302,
+      "manifest_sha256": "2c2e5604123549922894bf01aea386ad438d11d749a99cf7e469f0bcec5791a4"
+    },
+    "scgpt-rpe1": {
+      "destination": "inputs/scgpt/replogle_rpe1_essential",
+      "models": [
+        "scgpt"
+      ],
+      "requires": [
+        "scgpt-pretrained"
+      ],
+      "index": "inputs-scgpt-rpe1-v1.tar.gz.json",
+      "index_sha256": "bad237bca66e3c788eebeed94fb60d7ff1acd4b001c695a90d16957f4eee21bf",
+      "schema_version": 1,
+      "version": "inputs-scgpt-rpe1-v1",
+      "archive": "inputs-scgpt-rpe1-v1.tar.gz",
+      "url": null,
+      "sha256": "0da700180b84666862a224388349c2f7c6d98c552515490cb7434f9bb99e3a7e",
+      "size": 2192827656,
+      "manifest_sha256": "cf4329a9a60beaa6133f3daba00af830ce134703540ed94032bc9b353f304808"
+    },
+    "scgpt-hepg2": {
+      "destination": "inputs/scgpt/nadig_hepg2",
+      "models": [
+        "scgpt"
+      ],
+      "requires": [
+        "scgpt-pretrained"
+      ],
+      "index": "inputs-scgpt-hepg2-v1.tar.gz.json",
+      "index_sha256": "fd1a693f1628aed73e1eb89ed4e1f5e3d3e0f0fed4bf574c3b3df0bb6cb8e1c0",
+      "schema_version": 1,
+      "version": "inputs-scgpt-hepg2-v1",
+      "archive": "inputs-scgpt-hepg2-v1.tar.gz",
+      "url": null,
+      "sha256": "471a94482c53ecd2b914842bfdffae15c2bb88a3c7821e2d3dec9c7d6b567132",
+      "size": 1343164381,
+      "manifest_sha256": "4c3fa9e82831bb65d200c85bd91708391dcb31fedb4b3b025ebd16b1a7f656b2"
+    },
+    "scgpt-jurkat": {
+      "destination": "inputs/scgpt/nadig_jurkat",
+      "models": [
+        "scgpt"
+      ],
+      "requires": [
+        "scgpt-pretrained"
+      ],
+      "index": "inputs-scgpt-jurkat-v1.tar.gz.json",
+      "index_sha256": "7997df18a4fe63af978b7e35d65bd9c0ad61da115cf68b0a6dc0ff511f30726a",
+      "schema_version": 1,
+      "version": "inputs-scgpt-jurkat-v1",
+      "archive": "inputs-scgpt-jurkat-v1.tar.gz",
+      "url": null,
+      "sha256": "422d288c0ea591fa405354ad2bb26242a4421b023c84f4cf4766cb65c9844455",
+      "size": 2283430482,
+      "manifest_sha256": "59f35c3a34c86efd324f7c26d93131b9a564416f9b800efa06e9c7de3b18e39e"
+    },
+    "scgpt-pretrained": {
+      "destination": "inputs/scgpt-pretrained",
+      "models": [
+        "scgpt"
+      ],
+      "requires": [],
+      "index": "inputs-scgpt-pretrained-v1.tar.gz.json",
+      "index_sha256": "048dfdb2d7892c5481c16a0ff3cb09dbaaacd8fff29ab9c7c50257ff4ab49d77",
+      "schema_version": 1,
+      "version": "inputs-scgpt-pretrained-v1",
+      "archive": "inputs-scgpt-pretrained-v1.tar.gz",
+      "url": null,
+      "sha256": "759a97b033a3c04ddd794aa28a97964e1fc124759706390687a04e33bd72358a",
+      "size": 190488770,
+      "manifest_sha256": "cdbcfac4391054daab411edf65b950c5df38d59f29ffb1f07c1bcf190f4c49d5"
+    },
+    "biolord": {
+      "destination": "inputs/biolord",
+      "models": [
+        "biolord"
+      ],
+      "requires": [
+        "references"
+      ],
+      "index": "inputs-biolord-v1.tar.gz.json",
+      "index_sha256": "33e9499b3c4ae3635121fee068653616b3a61a533aff1cdc461e5c00ca9bf3c9",
+      "schema_version": 1,
+      "version": "inputs-biolord-v1",
+      "archive": "inputs-biolord-v1.tar.gz",
+      "url": null,
+      "sha256": "e35ff2f1b0257d00112e5dff180525322889175f31debad0977beb27b8e404b2",
+      "size": 137213827,
+      "manifest_sha256": "688be747eea7e832bf0c44803dbb7167906d4eeec0dd1d479447be6edb042305"
+    },
+    "references": {
+      "destination": "inputs/references",
+      "models": [
+        "biolord",
+        "scgen"
+      ],
+      "requires": [],
+      "index": "inputs-references-v1.tar.gz.json",
+      "index_sha256": "4b11e81dccc9ac1911e101750de7edb4b2ab29103946f253fb095284061619df",
+      "schema_version": 1,
+      "version": "inputs-references-v1",
+      "archive": "inputs-references-v1.tar.gz",
+      "url": null,
+      "sha256": "f01297ee3a4bdcf8c9f64eaaa2d9a2d84b3632c09700d9599b30629a34e4d46e",
+      "size": 2423672307,
+      "manifest_sha256": "44c3e429e74bbf09c0083e659847f971d60bd0856d20813f515a7bc24fb0429b"
+    },
+    "calibration": {
+      "destination": "inputs/calibration",
+      "models": [
+        "biolord"
+      ],
+      "requires": [
+        "references"
+      ],
+      "index": "inputs-calibration-v1.tar.gz.json",
+      "index_sha256": "910eb67d70f03058e6e804bcee296cae2af4a000acc4d7aa2c677e7901e0ad10",
+      "schema_version": 1,
+      "version": "inputs-calibration-v1",
+      "archive": "inputs-calibration-v1.tar.gz",
+      "url": null,
+      "sha256": "6daddbfb4681e3c2f36651f22d6ce298894bb836b3529a31f2a5c9c3a1681d8c",
+      "size": 1088134128,
+      "manifest_sha256": "e1344e083c71fdd35eff7b58c226b6819c2993f525812ec9a8c54c2d511f7a6a"
+    }
+  },
+  "arrays_transformed": false,
+  "training_performed": false,
+  "scores_recalculated": false
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "version": "figures-v3",
+  "required_inputs": {
+    "final/figure4c/results.json": "ce6117dce16479e74ab64ec8e8935e9cf1626a18657390ae832f9a4936e9f1ef",
+    "final/components/results.json": "cc781716715ac2b378177c3ee000efb635acdf416b9966beaa893614c4f2e69e",
+    "paper/figure4/fig4a_within_decomp_results.json": "1b64b6c48f7d8907fd805b5be3c4afeb9361b02aba73fd4b0861714597c485fc"
+  },
+  "files": {
+    "results/paper_figures/figure1d_cell_line_template_numbers_v2/fig1d_cell_line_template_mu_plus_alpha_numbers_v2.pdf": {
+      "path": "final/hallmark/fig1d_cell_line_template_mu_plus_alpha_numbers_v2.pdf",
+      "sha256": "4fb5c72fb3e63c3deee50d334c9f4630a31f79bdb91de88b0d91013511db7f2c"
+    },
+    "results/paper_figures/figure1d_cell_line_template_numbers_v2/fig1d_cell_line_template_mu_plus_alpha_numbers_v2.svg": {
+      "path": "final/hallmark/fig1d_cell_line_template_mu_plus_alpha_numbers_v2.svg",
+      "sha256": "4eea7eae1dedd11a997579cd52a47b5cf8236ef8e68ae7326e90d5513603fefc"
+    },
+    "benchmarks/context_generalization/results/figure4c_author_aligned_v2_retry1/report_no_annotations/fig4c_calibration_author_aligned_v2.pdf": {
+      "path": "final/figure4c_clean/fig4c_calibration_author_aligned_v2.pdf",
+      "sha256": "4218bed6946b546e473627f82f04c0e27ff8232192ac49caa89d73d92f9caa33"
+    },
+    "benchmarks/context_generalization/results/figure4c_author_aligned_v2_retry1/report_no_annotations/fig4c_calibration_author_aligned_v2.svg": {
+      "path": "final/figure4c_clean/fig4c_calibration_author_aligned_v2.svg",
+      "sha256": "920fdaf7fb7010e0ff32c8bc4af74fc1bb0a3743419e30e0da5b22ce01a3504c"
+    },
+    "benchmarks/context_generalization/results/component_matching_assembled_v1/largefont_v8_grid/component_matching_gamma_target30_comparison_2x2_largefont_v8_grid.pdf": {
+      "path": "final/figure4d/component_matching_gamma_target30_comparison_2x2_largefont_v8_grid.pdf",
+      "sha256": "974c3b83bd201fb3723bea37b2c7e34df067ec9e1d111149578372e60721c844"
+    },
+    "benchmarks/context_generalization/results/component_matching_assembled_v1/largefont_v8_grid/component_matching_gamma_target30_comparison_2x2_largefont_v8_grid.svg": {
+      "path": "final/figure4d/component_matching_gamma_target30_comparison_2x2_largefont_v8_grid.svg",
+      "sha256": "a8339505f2ae94e075edf8ed9e23af7bede74f9fee68c4485db77f77eb5355a0"
+    },
+    "results/paper_figures/figure1d_template_alpha_matched_v1/results.json": {
+      "path": "final/hallmark/results.json",
+      "sha256": "d0ea737d0ce999a06e3b5eca07ff7308ea724485bcd5cf8840cb119cc5c77c64"
+    },
+    "results/paper_figures/figure1d_cell_line_template_numbers_v2/results.json": {
+      "path": "final/hallmark/standalone_results.json",
+      "sha256": "adff0f9700e8eddbdb978ad4e676fa2e98b5bb89859700dcd76c5db00e94efff"
+    },
+    "results/paper_figures/figure1d_cell_line_template_numbers_v2/provenance.json": {
+      "path": "final/hallmark/source_provenance.json",
+      "sha256": "549a434ab5fc6390efe090487eb4ec48ddaff8f0dd28044bcdfd87874ab39230"
+    },
+    "benchmarks/context_generalization/results/figure4c_author_aligned_v2_retry1/report_no_annotations/provenance.json": {
+      "path": "final/figure4c_clean/source_provenance.json",
+      "sha256": "3834a90a7d0716f1179e3c2c2618a7be45232979045635d86792a8108b493696"
+    },
+    "benchmarks/context_generalization/results/component_matching_assembled_v1/largefont_v8_grid/provenance.json": {
+      "path": "final/figure4d/source_provenance.json",
+      "sha256": "1b8900d230ba99ba8340788aded955c5726cad2c6c3934a193649abac3a70b74"
+    },
+    "results/paper_figures/figure4a_labels_v1/fig4a_within_decomp_labels_v1.pdf": {
+      "path": "final/figure4a/fig4a_within_decomp_labels_v1.pdf",
+      "sha256": "d85a5879b9e41dcae58e73a3f67c2ba1d7ecc155e621e987e8c6dad9d98fd9cc"
+    },
+    "results/paper_figures/figure4a_labels_v1/fig4a_within_decomp_labels_v1.svg": {
+      "path": "final/figure4a/fig4a_within_decomp_labels_v1.svg",
+      "sha256": "083cce3faf913eb8fdb10c950968e94fdd5e621926bc011599ea24bcc54d25e2"
+    },
+    "results/paper_figures/figure4a_labels_v1/provenance.json": {
+      "path": "final/figure4a/source_provenance.json",
+      "sha256": "8d128e13cb9e6543638f6de38a0fa58774293fb713fda3500eb164a309ba73e6"
+    },
+    "benchmarks/context_generalization/results/component_matching_assembled_v1/largefont_v8_grid/component_matching_no_target30_largefont_v8_grid.pdf": {
+      "path": "final/figure4b/component_matching_no_target30_largefont_v8_grid.pdf",
+      "sha256": "95a3c71a1cbf43bf82e92c854e126f3e3937a3be238dc752ef701f87ed4a1eee"
+    },
+    "benchmarks/context_generalization/results/component_matching_assembled_v1/largefont_v8_grid/component_matching_no_target30_largefont_v8_grid.svg": {
+      "path": "final/figure4b/component_matching_no_target30_largefont_v8_grid.svg",
+      "sha256": "2d40922a725679e72277148081be701380fb3ee5c6f837f369bcd56fcb904d9d"
+    }
+  }
+}

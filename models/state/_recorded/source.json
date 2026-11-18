@@ -1,0 +1,8 @@
+{
+  "arc_state": "0.10.2",
+  "stock_utils_sha256": "30dc320813e326516d22fc47162d5ec571511a25345af3f0e0fc1cef94ffd715",
+  "recorded_utils_sha256": "d65844c634e76a982af504a960252b64b2af50e8c9f59e52899e801b80c27799",
+  "snapshot_sha256": "03ec0efa7927854d50c97a9b56b767a140396c39171e49bbdeac00f41d9ebb15",
+  "class": "GPT2BidirectionalModel",
+  "compatibility": "Preserve the two recorded absent-attention-bias guards; model parameters and architecture are unchanged."
+}

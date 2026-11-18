@@ -12,13 +12,11 @@ import argparse, json, pickle, logging
 from pathlib import Path
 from collections import defaultdict
 import numpy as np
-from sklearn.linear_model import Ridge
-from sklearn.decomposition import PCA
+from urllib.parse import quote
 
 from evaluation.metrics import pearson as corr, pref
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
-log = logging.getLogger()
+log = logging.getLogger(__name__)
 
 N_FOLDS = 5
 CLS_TAHOE = ["C32", "HOP62", "HepG2/C3A", "Hs 766T", "PANC-1"]
@@ -48,14 +46,30 @@ def load_tahoe(data_dir):
     return pdata, cl_responses, feats
 
 
-def run_compound_cv(cl_responses, feats, out_dir):
+def _export_fit(options, group, pca, ridge, labels, predictions, truth, reference, axis_id, metadata):
+    if options is None:
+        return
+    from models.checkpoints import save_estimator, save_predictions_with_axes
+    directory = Path(options["root"]) / "checkpoints" / group
+    save_estimator(pca, ridge, directory, options["genes"], axis_id, metadata)
+    save_predictions_with_axes(directory / "predictions.npz", labels, predictions, truth,
+                               reference, options["genes"])
+
+
+def _condition(drug, dose):
+    return json.dumps([str(drug), str(dose)], separators=(",", ":"))
+
+
+def run_compound_cv(cl_responses, feats, out_dir, checkpoint_options=None):
     """5-fold CV with compound priors (Morgan, CC)."""
+    from sklearn.linear_model import Ridge
+    from sklearn.decomposition import PCA
     log.info("\n=== Compound-prior benchmark (5-fold CV) ===")
     results = {}
 
     for tgt in CLS_TAHOE:
         for feat_name, feat_dict in feats.items():
-            obs = [{"drug": dc[0], "feat": feat_dict[dc[0]], "tgt": cl_responses[tgt][dc]}
+            obs = [{"drug": dc[0], "dose": dc[1], "feat": feat_dict[dc[0]], "tgt": cl_responses[tgt][dc]}
                    for dc in sorted(cl_responses[tgt].keys())
                    if dc[0] in feat_dict]
             if len(obs) < 30: continue
@@ -82,6 +96,12 @@ def run_compound_cv(cl_responses, feats, out_dir):
                 ridge = Ridge(alpha=10).fit(pca.transform(V[tr]), D[tr])
                 yp = ridge.predict(pca.transform(V[te]))
                 fold_prefs.append(pref(D[te], yp, D[tr].mean(0)))
+                _export_fit(checkpoint_options, f"compound/{quote(tgt, safe='')}/{feat_name}/fold{fold}",
+                    pca, ridge, [_condition(o["drug"], o["dose"]) for o, keep in zip(obs, te) if keep],
+                    yp, D[te], D[tr].mean(0),
+                    checkpoint_options["axis_ids"][feat_name] if checkpoint_options else "",
+                    {"experiment": "tahoe_compound_cv", "target": tgt, "fold": fold,
+                     "feature_builder": feat_name, "test_drugs": sorted(test_drugs)})
 
             if fold_prefs:
                 results[f"{tgt}__{feat_name}"] = {
@@ -93,8 +113,10 @@ def run_compound_cv(cl_responses, feats, out_dir):
     return results
 
 
-def run_source_transfer(cl_responses, out_dir, ranks=(10, 50, 100)):
+def run_source_transfer(cl_responses, out_dir, ranks=(10, 50, 100), checkpoint_options=None):
     """Source-response transfer with SVD rank sweep."""
+    from sklearn.linear_model import Ridge
+    from sklearn.decomposition import PCA
     log.info("\n=== Source-response transfer ===")
     results = {}
 
@@ -104,7 +126,7 @@ def run_source_transfer(cl_responses, out_dir, ranks=(10, 50, 100)):
         for dc in sorted(cl_responses[tgt].keys()):
             src_resps = [cl_responses[s][dc] for s in srcs if dc in cl_responses[s]]
             if src_resps:
-                obs.append({"drug": dc[0], "dc": dc,
+                obs.append({"drug": dc[0], "dose": dc[1], "dc": dc,
                             "src": np.mean(src_resps, axis=0).astype(np.float32),
                             "tgt": cl_responses[tgt][dc].astype(np.float32)})
         if len(obs) < 30: continue
@@ -143,6 +165,13 @@ def run_source_transfer(cl_responses, out_dir, ranks=(10, 50, 100)):
                 ridge = Ridge(alpha=10).fit(pca.transform(V_src[tr]), D_tgt[tr])
                 yp = ridge.predict(pca.transform(V_src[te]))
                 fold_prefs.append(pref(D_tgt[te], yp, D_tgt[tr].mean(0)))
+                from models.checkpoints import response_axis_id
+                _export_fit(checkpoint_options, f"source/{quote(tgt, safe='')}/rank{k}/fold{fold}",
+                    pca, ridge, [_condition(o["drug"], o["dose"]) for o, keep in zip(obs, te) if keep],
+                    yp, D_tgt[te], D_tgt[tr].mean(0),
+                    response_axis_id(checkpoint_options["genes"], srcs) if checkpoint_options else "",
+                    {"experiment": "tahoe_source_cv", "target": tgt, "fold": fold, "rank": k,
+                     "feature_builder": "mean_available_source_response", "source_contexts": srcs})
 
             results[f"{tgt}__Source_k{k}"] = {
                 "mean": float(np.mean(fold_prefs)),
@@ -155,8 +184,10 @@ def run_source_transfer(cl_responses, out_dir, ranks=(10, 50, 100)):
     return results
 
 
-def run_moa_holdout(cl_responses, feats, data_dir):
+def run_moa_holdout(cl_responses, feats, data_dir, checkpoint_options=None):
     """Leave-one-MoA-out evaluation."""
+    from sklearn.linear_model import Ridge
+    from sklearn.decomposition import PCA
     log.info("\n=== MoA-held-out ===")
 
     moa_path = Path(data_dir) / "drug_moa.json"
@@ -190,7 +221,7 @@ def run_moa_holdout(cl_responses, feats, data_dir):
             if moa == "unclear": continue
             src_resps = [cl_responses[s][dc] for s in srcs if dc in cl_responses[s]]
             if src_resps:
-                obs.append({"drug": drug, "moa": moa,
+                obs.append({"drug": drug, "dose": dc[1], "moa": moa,
                             "src": np.mean(src_resps, axis=0).astype(np.float32),
                             "tgt": cl_responses[tgt][dc].astype(np.float32)})
 
@@ -215,6 +246,12 @@ def run_moa_holdout(cl_responses, feats, data_dir):
             ridge = Ridge(alpha=10).fit(pca.transform(V_tr), D_tr)
             yp = ridge.predict(pca.transform(V_te))
             moa_prefs_source.append(pref(D_te, yp, T_tr))
+            from models.checkpoints import response_axis_id
+            _export_fit(checkpoint_options, f"moa-source/{quote(tgt, safe='')}/{quote(held_moa, safe='')}",
+                pca, ridge, [_condition(o["drug"], o["dose"]) for o in test], yp, D_te, T_tr,
+                response_axis_id(checkpoint_options["genes"], srcs) if checkpoint_options else "",
+                {"experiment": "tahoe_moa_source", "target": tgt, "held_moa": held_moa,
+                 "feature_builder": "mean_available_source_response", "source_contexts": srcs})
 
             # Morgan MoA-held-out
             if "Morgan" in feats:
@@ -230,6 +267,12 @@ def run_moa_holdout(cl_responses, feats, data_dir):
                     ridge_m = Ridge(alpha=10).fit(pca_m.transform(Vm_tr), Dm_tr)
                     yp_m = ridge_m.predict(pca_m.transform(Vm_te))
                     moa_prefs_morgan.append(pref(Dm_te, yp_m, Dm_tr.mean(0)))
+                    _export_fit(checkpoint_options, f"moa-Morgan/{quote(tgt, safe='')}/{quote(held_moa, safe='')}",
+                        pca_m, ridge_m, [_condition(o["drug"], o["dose"]) for o in test_m],
+                        yp_m, Dm_te, Dm_tr.mean(0),
+                        checkpoint_options["axis_ids"]["Morgan"] if checkpoint_options else "",
+                        {"experiment": "tahoe_moa_compound", "target": tgt, "held_moa": held_moa,
+                         "feature_builder": "Morgan"})
 
         results[f"{tgt}__Source_MoA"] = float(np.mean(moa_prefs_source)) if moa_prefs_source else 0
         results[f"{tgt}__Morgan_MoA"] = float(np.mean(moa_prefs_morgan)) if moa_prefs_morgan else 0
@@ -240,31 +283,59 @@ def run_moa_holdout(cl_responses, feats, data_dir):
 
 
 def main():
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_dir", type=Path, default=Path("data/processed/tahoe"))
     parser.add_argument("--out_dir", type=Path, default=Path("results/tahoe"))
     parser.add_argument("--features", default="all", choices=["morgan", "cc", "source", "all"])
     parser.add_argument("--rank_sweep", action="store_true")
     parser.add_argument("--moa_holdout", action="store_true")
+    parser.add_argument("--dry_run", action="store_true", help="Print inputs/settings without running")
+    parser.add_argument("--save_checkpoints", action="store_true")
+    parser.add_argument("--gene_names", type=Path, help="Verified response-gene ordering JSON")
     args = parser.parse_args()
-
-    args.out_dir.mkdir(parents=True, exist_ok=True)
+    if args.save_checkpoints and not args.gene_names:
+        parser.error("--save_checkpoints requires --gene_names")
+    paths = [args.data_dir / "pseudobulk_deltas.pkl"]
+    if args.features in ("morgan", "all"):
+        paths.append(args.data_dir / "morgan_fingerprints.pkl")
+    if args.features in ("cc", "all"):
+        paths.append(args.data_dir / "cc_features.pkl")
+    if args.moa_holdout:
+        paths.append(args.data_dir / "drug_moa.json")
+    from benchmarks._runtime import prepare_run
+    try:
+        if not prepare_run(args, paths):
+            return
+    except (OSError, RuntimeError) as exc:
+        parser.exit(2, f"ERROR: {exc}\n")
 
     pdata, cl_responses, feats = load_tahoe(args.data_dir)
+    checkpoint_options = None
+    if args.save_checkpoints:
+        from reproduction.io import sha256
+        genes = json.loads(args.gene_names.read_text())
+        width = len(next(iter(pdata["deltas"].values())))
+        if len(genes) != width or len(set(genes)) != len(genes):
+            parser.error("Response-gene ordering does not match Tahoe deltas")
+        checkpoint_options = {"root": args.out_dir, "genes": genes, "axis_ids": {
+            name: "sha256:" + sha256(args.data_dir / filename)
+            for name, filename in (("Morgan", "morgan_fingerprints.pkl"), ("CC", "cc_features.pkl"))
+            if (args.data_dir / filename).is_file()}}
     log.info(f"  Cell lines: {list(cl_responses.keys())}")
     log.info(f"  Total observations: {sum(len(v) for v in cl_responses.values())}")
 
     all_results = {}
 
     if args.features in ("morgan", "cc", "all"):
-        all_results["compound_cv"] = run_compound_cv(cl_responses, feats, args.out_dir)
+        all_results["compound_cv"] = run_compound_cv(cl_responses, feats, args.out_dir, checkpoint_options)
 
     if args.features in ("source", "all"):
         ranks = (1, 2, 5, 10, 20, 50, 100, 150) if args.rank_sweep else (10, 50)
-        all_results["source_transfer"] = run_source_transfer(cl_responses, args.out_dir, ranks)
+        all_results["source_transfer"] = run_source_transfer(cl_responses, args.out_dir, ranks, checkpoint_options)
 
     if args.moa_holdout:
-        all_results["moa_holdout"] = run_moa_holdout(cl_responses, feats, args.data_dir)
+        all_results["moa_holdout"] = run_moa_holdout(cl_responses, feats, args.data_dir, checkpoint_options)
 
     with open(args.out_dir / "tahoe_results.json", "w") as f:
         json.dump(all_results, f, indent=2, default=float)

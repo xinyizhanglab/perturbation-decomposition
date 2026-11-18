@@ -31,3 +31,29 @@ external/
 # System
 .DS_Store
 *.swp
+
+# Local environments and generated files
+.venv/
+.cache/
+.pytest_cache/
+.ruff_cache/
+.local/
+.env
+.env.*
+*.pem
+*.key
+data/inputs/
+artifacts/
+releases/
+checkpoints/
+logs/
+models/**/.venv/
+models/**/logs/
+
+# Source-distributed reproduction files
+reproduction_files/*
+!reproduction_files/figures-v4.tar.gz
+!reproduction_files/figures-v4.tar.gz.json
+!reproduction_files/inputs-processed-v2.tar.gz
+!reproduction_files/inputs-processed-v2.tar.gz.json
+!reproduction_files/inputs.json

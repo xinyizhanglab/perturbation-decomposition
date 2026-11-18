@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "implementation": "recorded_scgpt_vocabulary_helper",
+  "scope": "Python vocabulary interface used by the recorded scGPT installation; not the full torchtext SDK.",
+  "source_files": {
+    "__init__.py": "225c52b0f041a69eca3421c6e8c7536d9f58e85dd8a904a7e2c1f1597fd200bc",
+    "vocab.py": "1909a1b00c163f7712b366adeae266937a9b357328a42bdf6a79d5d26ec0cd2d",
+    "_torchtext.py": "69cc2655c0a02d73d1c829d632d5175d2be2b26e4238c4479265a0b516ea9f43"
+  },
+  "model_classes_modified": false
+}

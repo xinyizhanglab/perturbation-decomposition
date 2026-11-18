@@ -1,5 +1,5 @@
-# Dataset and model configuration for perturbation-benchmark.
-# Override paths via command-line args or environment variables.
+# Dataset metadata and reference model defaults.
+# Benchmark settings are supplied explicitly through their command-line arguments.
 
 datasets:
   replogle_k562:
@@ -19,14 +19,14 @@ datasets:
     gene_col: gene
 
   nadig_hepg2:
-  name: HepG2
-  source: Nadig et al. 2024
-  geo_accession: GSE264667
-  raw_filename: GSE264667_hepg2_raw_singlecell_01.h5ad
-  raw_url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE264nnn/GSE264667/suppl/GSE264667%5Fhepg2%5Fraw%5Fsinglecell%5F01.h5ad
-  n_hvgs: 2000
-  ctrl_label: non-targeting
-  gene_col: gene
+    name: HepG2
+    source: Nadig et al. 2024
+    geo_accession: GSE264667
+    raw_filename: GSE264667_hepg2_raw_singlecell_01.h5ad
+    raw_url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE264nnn/GSE264667/suppl/GSE264667%5Fhepg2%5Fraw%5Fsinglecell%5F01.h5ad
+    n_hvgs: 2000
+    ctrl_label: non-targeting
+    gene_col: gene
 
   nadig_jurkat:
     name: Jurkat
@@ -89,7 +89,7 @@ models:
     tolerance_epochs: 20
 
   state:
-    repo: https://https://github.com/ArcInstitute/state
+    repo: https://github.com/ArcInstitute/state
     n_seeds: 5
 
   scgpt:

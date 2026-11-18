@@ -26,8 +26,10 @@ except ImportError:
     dev = "cpu"
 
 
-class MLP(nn.Module):
+class MLP(nn.Module if HAS_TORCH else object):
     def __init__(self, d_in, G):
+        if not HAS_TORCH:
+            raise ImportError("Install MLP dependencies with uv sync --locked --extra gpu")
         super().__init__()
         self.net = nn.Sequential(nn.Linear(d_in, 256), nn.ReLU(),
                                  nn.Linear(256, 256), nn.ReLU(),
@@ -72,13 +74,24 @@ def main():
     parser.add_argument("--morph_dir", type=Path, default=None)
     parser.add_argument("--n_mlp_seeds", type=int, default=3)
     parser.add_argument("--device", default="auto")
+    parser.add_argument("--dry_run", action="store_true", help="Print inputs/settings without training")
+    parser.add_argument("--save_checkpoints", action="store_true")
+    parser.add_argument("--gene_names", type=Path, help="Verified ordered output-gene JSON for checkpoint export")
     args = parser.parse_args()
+    if args.save_checkpoints and not args.gene_names:
+        parser.error("--save_checkpoints requires --gene_names (the legacy bundle omits this axis)")
 
     if args.device == "auto":
         args.device = "cuda:0" if HAS_TORCH and torch.cuda.is_available() else "cpu"
     global dev; dev = args.device
 
-    args.out_dir.mkdir(parents=True, exist_ok=True)
+    from benchmarks._runtime import prepare_run
+    try:
+        if not prepare_run(args, [args.data_dir / name for name in
+                                 ("norman.pkl", "split_info.json", "depmap_embeddings.pkl")]):
+            return
+    except (OSError, RuntimeError) as exc:
+        parser.exit(2, f"ERROR: {exc}\n")
 
     # Load data
     log.info("=== Loading Norman data ===")
@@ -150,6 +163,13 @@ def main():
     pca = PCA(nc).fit(V_tr)
 
     models = {}
+    checkpoint_genes = json.loads(args.gene_names.read_text()) if args.save_checkpoints else None
+    if checkpoint_genes is not None:
+        if len(checkpoint_genes) != D_tr.shape[1] or len(set(checkpoint_genes)) != len(checkpoint_genes):
+            parser.error("Gene-name axis does not match Norman responses")
+        from models.checkpoints import save_estimator, save_predictions_with_axes
+        from reproduction.io import sha256
+        descriptor_axis_id = "sha256:" + sha256(args.data_dir / "depmap_embeddings.pkl") + ":pair_sum"
 
     # SALT
     salt = {}
@@ -162,19 +182,39 @@ def main():
     # Ridge
     ridge = Ridge(alpha=10).fit(pca.transform(V_tr), D_tr)
     models["Ridge"] = {c: ridge.predict(pca.transform(V_te[i:i+1]))[0] for i, c in enumerate(test_list)}
+    if args.save_checkpoints:
+        save_estimator(pca, ridge, args.out_dir / "checkpoints/ridge", checkpoint_genes,
+                       descriptor_axis_id, {"experiment": "norman_doubles", "feature_builder": "pair_sum",
+                                            "test_perts": test_list})
+        save_predictions_with_axes(args.out_dir / "ridge_predictions.npz", test_list,
+            np.stack([models["Ridge"][c] for c in test_list]), D_te, T_train, checkpoint_genes)
 
     # MLP
     if HAS_TORCH:
         mlp_preds = {c: np.zeros(D_te.shape[1], dtype=np.float32) for c in test_list}
+        checkpoint_members = []
         for seed in range(args.n_mlp_seeds):
             m = train_mlp(pca.transform(V_tr), D_tr, seed=seed)
             with torch.no_grad():
                 yp = m(torch.tensor(pca.transform(V_te), dtype=torch.float32, device=dev)).cpu().numpy()
             for i, c in enumerate(test_list):
                 mlp_preds[c] += yp[i] / args.n_mlp_seeds
+            if args.save_checkpoints:
+                member = args.out_dir / f"checkpoints/mlp/member{seed}"
+                save_estimator(pca, m, member, checkpoint_genes, descriptor_axis_id,
+                               {"experiment": "norman_doubles", "seed": seed, "feature_builder": "pair_sum"})
+                checkpoint_members.append({"path": f"member{seed}", "model_sha256": sha256(member / "model.json")})
             del m
             if "cuda" in dev: torch.cuda.empty_cache()
         models["MLP"] = mlp_preds
+        if args.save_checkpoints:
+            from reproduction.io import write_json
+            write_json(args.out_dir / "checkpoints/mlp/model.json", {
+                "schema_version": 1, "kind": "ensemble", "members": checkpoint_members,
+                "descriptor_axis_id": descriptor_axis_id, "feature_names": checkpoint_genes,
+                "experiment": "norman_doubles", "feature_builder": "pair_sum"})
+            save_predictions_with_axes(args.out_dir / "mlp_predictions.npz", test_list,
+                np.stack([mlp_preds[c] for c in test_list]), D_te, T_train, checkpoint_genes)
 
     # MORPH (load precomputed predictions)
     if args.include_morph and args.morph_dir:

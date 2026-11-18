@@ -1,0 +1,16 @@
+{
+  "arguments": {
+    "dataset_name": "rpe1_hvg",
+    "leave_out_test_set_id": "cross_cl_val",
+    "random_seed": 0,
+    "device": "cuda:0",
+    "model": "MORPH",
+    "label": "DepMap_GeneEffect",
+    "epochs": 100,
+    "batch_size": 32,
+    "MMD_sigma": 1500,
+    "Gamma1": 1.0,
+    "reconstruction_loss": "mse",
+    "tolerance_epochs": 20
+  }
+}

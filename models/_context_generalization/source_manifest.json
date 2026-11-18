@@ -1,0 +1,81 @@
+{
+  "biolord_cellline_go_v1.py": {
+    "original_sha256": "5c0cf94440863a7773971b16389f048b27e5e2c34e5a9f9f1ae852b2bdf6e8dc",
+    "portable_sha256": "e7bf95f7cc72e7f996c337f4f0fd4f095271b32d803aaba42277a75ec162c41f",
+    "changes": "Explicit path bindings; local report style import; biolord_cellline_go_v1 additionally applies documented singleton observation-axis correction."
+  },
+  "calibration_v1.py": {
+    "original_sha256": "de9eca2ccde44c7cc29a8bd1c97ba13f0b2116554fd0b5cb220160f2426f765c",
+    "portable_sha256": "a278f9fd500099c70c5a4334656ef52d1a7c00473ec0cb2b53ebfd58122eefe2",
+    "changes": "Explicit path bindings; local report style import; biolord_cellline_go_v1 additionally applies documented singleton observation-axis correction."
+  },
+  "common.py": {
+    "original_sha256": "82c0ada1cd37c46a09e8607d5452d2ae86faaa7524de8b9870bfa03018b923af",
+    "portable_sha256": "96cfa55d02280bd065701f1236472081c3453f41f390dfa423e2522ef2947e82",
+    "changes": "Move the future import before portable I/O bindings; all function bodies unchanged.",
+    "function_ast_sha256": {
+      "dataset_path": "929ded3f221e69ea4180375a0373d2555edd1db197a0eab925877b27614385ab",
+      "valid_perturbations": "17b40009854aeaea93be4d4558ad3a68dd87ec24b956566a906c45428401409c",
+      "hvg_names": "6c56ee050ff505a0c2465077858293cb7588fa1b29e1f307f2f304cac4822dc5",
+      "sample_groups": "8de485f0916ebce8c27ab65ce809a4ec0d29ab42ca8a5db7aff7751bb3a6ed94",
+      "pearson": "5ece670302e0d28dbb85f7d9077601a07352f7a5012dfaa26e8403db8ad5038f",
+      "std_r": "20064f6ecf959b246157cf4192e920379dce854760c7a5682f72b9e50ec1a982",
+      "pref": "0adf6aa438222eae57bfd7c845db85513abe82bacf3bfa3f1e6bdd162c7580a7"
+    }
+  },
+  "figure4c_author_v2.py": {
+    "original_sha256": "d65e5512362cf14cdc452b2cb3b872347828d671e7eb057a5d64e22c9e1105a7",
+    "portable_sha256": "31b21e58b66f9ddc261928ae973f9e786850f49bcba780580406fc16b8ed5128",
+    "changes": "Allow an explicit packaged scGen reference root; all function bodies unchanged.",
+    "function_ast_sha256": {
+      "task_spec": "2650b34c1f2320f0d851eb4443d54a1469692adb97ece12d275bd45c113bb661",
+      "load_descriptors": "56d5661680171705a853f8f78ba72b3d72b242a933d49e33aebdeb9a0ab53e48",
+      "build_pair": "68ccfb10e7646f1b8bde6d188d05d31ba3c72ccf7d58a113ae5cf3090ddf2988",
+      "assert_training": "53ed60baebfefb5f9ee516915735b6ea35d7e94f6776f43ecd1ad940a69e114b",
+      "verify_inputs": "b3da5c5a1ab411d0dff1ae3921f0537455722a8b706c72e55612cf9d264353ed",
+      "prepare": "3a2439d7912409be176b61e225ccf1c9598fb1622df0ca642d25018522253d64",
+      "fit": "fc67928cdf72969d069186f35e8ac7ecccfb9c6bacd421ea1cb65d6b2a674c1f",
+      "main": "6544c57d87cdf574e24d60a5473423973ecc6e38d3d1bdfbc2792317afd92902"
+    }
+  },
+  "prepare_scgen_author_aligned_v1.py": {
+    "original_sha256": "2d7edc9d37bfc42929565991249269fb30f3a4d6fe26fadc8c780219af88faea",
+    "portable_sha256": "554bd1a7ac3c8ab68032631bbbba180471426dd510413dff41c9bc2225ec27b8",
+    "changes": "Explicit path bindings; local report style import; biolord_cellline_go_v1 additionally applies documented singleton observation-axis correction."
+  },
+  "recover_biolord_cellline_go_export_v2.py": {
+    "original_sha256": "cb3c7754ad5b6c86188c4c25de9177291398cca50c2b6a8f872c964d5c4a478a",
+    "portable_sha256": "0c56e07ee399281f61c3f4967dfd116e6d540bd5691940d33dca7bf0832088b1",
+    "changes": "Explicit path bindings; local report style import; biolord_cellline_go_v1 additionally applies documented singleton observation-axis correction."
+  },
+  "recover_figure4c_batches_v3.py": {
+    "original_sha256": "76425ac68146a3949a62aa7b491bce468799fc582beab6c8fb22f10b1c7dae1b",
+    "portable_sha256": "f0424ac08ea2fcb2330741ff67510e871dcbef59a2fad59bcefa551675247ebf",
+    "changes": "Explicit path bindings; local report style import; biolord_cellline_go_v1 additionally applies documented singleton observation-axis correction."
+  },
+  "report_biolord_cellline_go_v1.py": {
+    "original_sha256": "eaec9c6b9e587e2048d1e1e6230c67241d6f32114570401163bdc10dd2c5f851",
+    "portable_sha256": "bfc6ab6e881ba95a412b389e72d3b0a54f242c8ffbfa9c6c73ec669aacb95d94",
+    "changes": "Explicit path bindings; local report style import; biolord_cellline_go_v1 additionally applies documented singleton observation-axis correction."
+  },
+  "report_figure4c_author_v2.py": {
+    "original_sha256": "ba57f99c3754f14a8ff814384c28ccd44bd9a8d10fe0a31414132c5bda9814b8",
+    "portable_sha256": "9d2a11372eab90352b5de9b79d4dea38c65b45b67234fb0830e7b0d910d8f5ce",
+    "changes": "Explicit path bindings; local report style import; biolord_cellline_go_v1 additionally applies documented singleton observation-axis correction."
+  },
+  "report_scgen_author_aligned_v1.py": {
+    "original_sha256": "5c27216622e3649fc5103a39b6968dd9476c49b18be5eade904660b33325c84f",
+    "portable_sha256": "94d499d662689ac495bdfddaaf59878baee5d5d4fd2bf8d1a92a2416f7d549a2",
+    "changes": "Explicit path bindings; local report style import; biolord_cellline_go_v1 additionally applies documented singleton observation-axis correction."
+  },
+  "run_biolord_corrected_v2.py": {
+    "original_sha256": "d18ff0ea40cd47236370d943240572a496c973cbcd8ff2bf8d356d7f2c40067d",
+    "portable_sha256": "848f8d967f86d791c51abafc2b3e150dadd939bc9b98df7ff0ee5e6d745b0a04",
+    "changes": "Explicit path bindings; local report style import; biolord_cellline_go_v1 additionally applies documented singleton observation-axis correction."
+  },
+  "scgen_author_aligned_v1.py": {
+    "original_sha256": "f1e710fcf48ef526f4788790a21ea38ebea695e0c8649de400b1fe22c1cd4787",
+    "portable_sha256": "b5989266dcd0280d7beb03848ad69f369c6a68e8d7a4b5e6c2e6c4b201d65a6f",
+    "changes": "Explicit input/output paths; optional post-prediction checkpoint export for new fits; training, arithmetic, membership, and scoring unchanged."
+  }
+}

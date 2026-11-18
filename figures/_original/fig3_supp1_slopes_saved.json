@@ -1,0 +1,223 @@
+{
+  "state_data": {
+    "k562": {
+      "source": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.027806223767126423
+        }
+      ],
+      "calibrated": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.14943644415449522
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.1534209103891608
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.13892240447415188
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.12485305269447924
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.1270785350843016
+        }
+      ]
+    },
+    "rpe1": {
+      "source": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.0864782582680645
+        }
+      ],
+      "calibrated": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.44780352053811046
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.35806051065019295
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.4073658098107964
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.35767395285121717
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.29773250377495
+        }
+      ]
+    },
+    "hepg2": {
+      "source": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.07195688312946022
+        }
+      ],
+      "calibrated": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.3045891338330189
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.2672657646190982
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.28192530936918675
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.26312742773815667
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.2976668233783146
+        }
+      ]
+    },
+    "jurkat": {
+      "source": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.040802260808173854
+        }
+      ],
+      "calibrated": [
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.09334188184033299
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": -0.008368021244858552
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.13254247040221506
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.0841424824557026
+        },
+        {
+          "kind": "scalar",
+          "dtype": "<f8",
+          "value": 0.0921202668519472
+        }
+      ]
+    }
+  },
+  "morph_data": {
+    "K562\u2192RPE1": {
+      "Source only": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 0.018114260683579686
+      },
+      "Fine-tune ctrl": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 0.031469892072776694
+      },
+      "+30% target": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 0.4204923438325404
+      }
+    },
+    "RPE1\u2192K562": {
+      "Source only": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": -0.008945401627812823
+      },
+      "Fine-tune ctrl": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": -0.018142398003871848
+      },
+      "+30% target": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 0.37039983273789223
+      }
+    },
+    "HepG2\u2192Jurkat": {
+      "Source only": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 0.009174046245925792
+      },
+      "Fine-tune ctrl": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 0.0031020825489001575
+      },
+      "+30% target": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 0.4128929467647459
+      }
+    },
+    "Jurkat\u2192HepG2": {
+      "Source only": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 0.04846215062195203
+      },
+      "Fine-tune ctrl": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 0.05466188775715605
+      },
+      "+30% target": {
+        "kind": "scalar",
+        "dtype": "<f8",
+        "value": 0.45176426713558426
+      }
+    }
+  },
+  "morph_settings": [
+    "Source only",
+    "Fine-tune ctrl",
+    "+30% target"
+  ]
+}

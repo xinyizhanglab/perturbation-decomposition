@@ -1,0 +1,6 @@
+{
+  "architecture": "benchmark_mean_conditioned",
+  "source": "benchmark/scripts/morph_within_5fold.py",
+  "source_sha256": "5c71a569487cf0d21c5f0baa27be4813b33244c3051a0d33ac6bb25879ded1f4",
+  "class_sha256": "1107f496ab1914005f1499afc654aa42d088aa35a636942ac40b1b280046c4bd"
+}
