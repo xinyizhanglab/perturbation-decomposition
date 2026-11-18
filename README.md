@@ -114,7 +114,6 @@ Or select a panel:
 | 1i — Control-PC capture of template and residual | `uv run python -m figures.fig1_e --mode original --out_dir results/figures/fig1i` |
 
 Panels 1a–b are schematics, not numerical plotting entrypoints.
-Commands with `--mode reference` export saved figures.
 
 Optionally, compute the balanced response ANOVA,
 `delta = mu + alpha_c + beta_p + gamma_{c,p}`, from the processed inputs:
